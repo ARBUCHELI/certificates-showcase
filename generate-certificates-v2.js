@@ -41,7 +41,7 @@ entries.forEach(entry => {
 console.log(`Loaded ${manualMappings.size} manual certificate mappings`);
 
 // Read certificates from images folder
-const imagesDir = './images-certificates';
+const imagesDir = './public/images-certificates';
 const filenames = fs.readdirSync(imagesDir).filter(f => f.endsWith('.jpg'));
 
 console.log(`Found ${filenames.length} certificate images`);
@@ -58,36 +58,55 @@ const parseTitle = (filename) => {
 
 const detectOrganization = (filename) => {
   const name = filename.toLowerCase();
-  if (name.includes('codecademy')) return 'Codecademy';
-  if (name.includes('udemy')) return 'Udemy';
-  if (name.includes('linkedin')) return 'LinkedIn Learning';
-  if (name.includes('datacamp')) return 'DataCamp';
-  if (name.includes('udacity')) return 'Udacity';
-  if (name.includes('coursera')) return 'Coursera';
-  if (name.includes('freecodecamp')) return 'freeCodeCamp';
+  
+  // HackerRank
   if (name.includes('hackerrank')) return 'HackerRank';
-  if (name.includes('meta')) return 'Meta';
-  if (name.includes('ibm')) return 'IBM';
-  if (name.includes('google')) return 'Google';
-  if (name.includes('microsoft')) return 'Microsoft';
-  if (name.includes('aws')) return 'AWS';
+  
+  // Top Universities
+  if (name.includes('harvard')) return 'Harvard University';
   if (name.includes('mit')) return 'MIT';
-  if (name.includes('harvard')) return 'Harvard';
+  if (name.includes('stanford')) return 'Stanford University';
   if (name.includes('berkeley')) return 'UC Berkeley';
   if (name.includes('columbia')) return 'Columbia University';
   if (name.includes('michigan')) return 'University of Michigan';
   if (name.includes('toronto')) return 'University of Toronto';
-  if (name.includes('nutanix')) return 'Nutanix';
+  if (name.includes('maryland')) return 'University of Maryland';
+  if (name.includes('virginia')) return 'University of Virginia';
+  if (name.includes('washington')) return 'University of Washington';
+  if (name.includes('rochester')) return 'University of Rochester';
+  if (name.includes('harvey')) return 'Harvey Mudd College';
+  if (name.includes('politecnico')) return 'Politecnico di Milano';
+  
+  // Big Tech Companies
+  if (name.includes('ibm')) return 'IBM';
+  if (name.includes('microsoft')) return 'Microsoft';
+  if (name.includes('meta')) return 'Meta';
+  if (name.includes('google')) return 'Google';
+  if (name.includes('aws')) return 'AWS';
+  if (name.includes('intel')) return 'Intel';
   if (name.includes('cisco')) return 'Cisco';
+  if (name.includes('nutanix')) return 'Nutanix';
   if (name.includes('docker')) return 'Docker';
   if (name.includes('openai')) return 'OpenAI';
+  
+  // Major Learning Platforms (in priority order)
+  if (name.includes('coursera')) return 'Coursera';
+  if (name.includes('datacamp')) return 'DataCamp';
+  if (name.includes('edx')) return 'edX';
+  if (name.includes('udacity')) return 'Udacity';
+  if (name.includes('codecademy')) return 'Codecademy';
+  if (name.includes('freecodecamp')) return 'freeCodeCamp';
+  if (name.includes('udemy')) return 'Udemy';
+  if (name.includes('linkedin')) return 'LinkedIn Learning';
+  
+  // Other Organizations
   if (name.includes('pmi')) return 'PMI';
   if (name.includes('ieee')) return 'IEEE';
   if (name.includes('packt')) return 'Packt';
-  if (name.includes('politecnico')) return 'Politecnico di Milano';
   if (name.includes('suse')) return 'SUSE';
   if (name.includes('bertelsmann')) return 'Bertelsmann';
-  if (name.includes('intel')) return 'Intel';
+  if (name.includes('mathworks')) return 'MathWorks';
+  
   return 'Professional Training';
 };
 
@@ -189,8 +208,69 @@ const detectTags = (filename) => {
   return tags.length > 0 ? tags : ['Technology', 'Professional Development'];
 };
 
+// Organization priority ranking (1 = highest priority)
+const getOrganizationPriority = (org) => {
+  const priorities = {
+    // Tier 1: HackerRank Assessments
+    'HackerRank': 1,
+    
+    // Tier 2: Top Universities
+    'Harvard University': 2,
+    'MIT': 2,
+    'Stanford University': 2,
+    'UC Berkeley': 2,
+    'Columbia University': 2,
+    'University of Michigan': 2,
+    'University of Toronto': 2,
+    'Harvey Mudd College': 2,
+    'University of Maryland': 2,
+    'University of Virginia': 2,
+    'University of Washington': 2,
+    'University of Rochester': 2,
+    'Politecnico di Milano': 2,
+    
+    // Tier 3: Big Tech Companies
+    'IBM': 3,
+    'Microsoft': 3,
+    'Meta': 3,
+    'Google': 3,
+    'AWS': 3,
+    'Intel': 3,
+    'Cisco': 3,
+    'Nutanix': 3,
+    'Docker': 3,
+    'OpenAI': 3,
+    
+    // Tier 4: Premium Platforms
+    'Coursera': 4,
+    'DataCamp': 5,
+    'edX': 6,
+    'Udacity': 7,
+    
+    // Tier 5: Popular Platforms
+    'Codecademy': 8,
+    'freeCodeCamp': 9,
+    'Udemy': 10,
+    'LinkedIn Learning': 11,
+    
+    // Tier 6: Other Organizations
+    'PMI': 12,
+    'IEEE': 12,
+    'Packt': 12,
+    'SUSE': 12,
+    'Bertelsmann': 12,
+    'MathWorks': 12,
+    'Linux Foundation': 6,
+    
+    // Default
+    'Professional Training': 99
+  };
+  
+  return priorities[org] || 99;
+};
+
 // Generate all certificates
-const certificates = filenames.map((filename, index) => {
+const certificatesUnsorted = filenames.map((filename, index) => {
   const manual = manualMappings.get(filename);
   
   // Use manual data if available, otherwise auto-detect
@@ -202,16 +282,37 @@ const certificates = filenames.map((filename, index) => {
   const category = detectCategory(filename, tags);
   
   return {
-    id: index + 1,
     image: filename,
     title: title,
     organization: organization,
     tags: tags,
     category: category,
     link: link,
-    type: type
+    type: type,
+    priority: getOrganizationPriority(organization)
   };
 });
+
+// Sort by organization priority, then by title
+const certificates = certificatesUnsorted
+  .sort((a, b) => {
+    // First sort by priority (lower number = higher priority)
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+    // Then sort alphabetically by title
+    return a.title.localeCompare(b.title);
+  })
+  .map((cert, index) => ({
+    id: index + 1,
+    image: cert.image,
+    title: cert.title,
+    organization: cert.organization,
+    tags: cert.tags,
+    category: cert.category,
+    link: cert.link,
+    type: cert.type
+  }));
 
 // Create the JavaScript module
 const output = `// AUTO-GENERATED: All ${certificates.length} certificates
