@@ -58,7 +58,7 @@ export const allCertificates = [
   {
     "id": 5,
     "image": "berkeley.jpg",
-    "title": "Berkeley",
+    "title": "College Writing 2.1x: Principles of Written English",
     "organization": "UC Berkeley",
     "tags": [
       "Technology",
@@ -71,7 +71,7 @@ export const allCertificates = [
   {
     "id": 6,
     "image": "berkeley2.jpg",
-    "title": "Berkeley2",
+    "title": "College Writing 2.2x: Principles of Written English",
     "organization": "UC Berkeley",
     "tags": [
       "Technology",

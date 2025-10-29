@@ -73,6 +73,10 @@ const detectTitle = (filename) => {
   if (name === 'transact') return 'DAT201x: Querying with Transact-SQL';
   if (name === 'server') return 'INF201.12x: Introduction to Windows Server';
   
+  // UC Berkeley
+  if (name === 'berkeley') return 'College Writing 2.1x: Principles of Written English';
+  if (name === 'berkeley2') return 'College Writing 2.2x: Principles of Written English';
+  
   // Codecademy Skill Paths
   if (name === 'learn-c-skill-path') return 'Learn C Skill Path';
   if (name === 'codefoundationscodecademy') return 'Code Foundations Skill Path';
@@ -303,26 +307,24 @@ const getOrganizationPriority = (org) => {
     'Docker': 3,
     'OpenAI': 3,
     
-    // Tier 4: Premium Platforms
+    // Tier 4: Learning Platforms (in your specified order)
     'Coursera': 4,
     'DataCamp': 5,
     'edX': 6,
+    'Linux Foundation': 6,
     'Udacity': 7,
-    
-    // Tier 5: Popular Platforms
     'Codecademy': 8,
     'freeCodeCamp': 9,
     'Udemy': 10,
     'LinkedIn Learning': 11,
     
-    // Tier 6: Other Organizations
+    // Tier 5: Other Organizations
     'PMI': 12,
     'IEEE': 12,
     'Packt': 12,
     'SUSE': 12,
     'Bertelsmann': 12,
     'MathWorks': 12,
-    'Linux Foundation': 6,
     
     // Default
     'Professional Training': 99
