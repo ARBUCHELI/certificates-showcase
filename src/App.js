@@ -9,6 +9,7 @@ import FilterChips from './components/FilterChips';
 import PlatformLogos from './components/PlatformLogos';
 import Scholarships from './components/Scholarships';
 import Stats from './components/Stats';
+import FeaturedEducation from './components/FeaturedEducation';
 import './App.css';
 
 function App() {
@@ -79,6 +80,9 @@ function App() {
       <main className="main-content">
         {/* Stats Section */}
         <Stats stats={stats} />
+
+        {/* Featured Education */}
+        <FeaturedEducation />
 
         {/* Platform Logos */}
         <PlatformLogos logos={platformLogos} />
