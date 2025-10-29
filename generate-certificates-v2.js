@@ -226,9 +226,8 @@ const detectCategory = (filename, tags) => {
   // HackerRank assessments
   if (name.includes('hackerrank')) return 'hackerrank';
   
-  // Big Tech (IBM, Google, Microsoft badges)
-  if (combined.match(/\b(ibm|google|microsoft|aws|azure)\b/) && 
-      (combined.includes('badge') || combined.includes('essential') || name.includes('node-and-express'))) {
+  // Big Tech Badge - Only IBM Node and Express Essentials
+  if (name.includes('node-and-express-essentials.png') || name.includes('node-and-express-essentials')) {
     return 'bigTech';
   }
   
@@ -396,9 +395,18 @@ const certificatesUnsorted = filenames.map((filename, index) => {
   const organization = manual?.organization || detectOrganization(filename);
   const tags = manual?.tags?.length > 0 ? manual.tags : detectTags(filename);
   const link = manual?.link || `#certificate-${index + 1}`;
-  const type = manual?.type || 'course';
   const category = detectCategory(filename, tags);
   const featured = isFeatured(filename, title);
+  
+  // Determine type based on category and filename
+  let type = 'certificate';
+  if (filename.toLowerCase().includes('front-end-engineer')) {
+    type = 'professional-cert';
+  } else if (filename.toLowerCase().includes('skill-path') || filename.toLowerCase().includes('career-path')) {
+    type = 'skill-path';
+  } else if (category === 'bigTech') {
+    type = 'badge';
+  }
   
   return {
     image: filename,
