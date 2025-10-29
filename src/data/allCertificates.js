@@ -14,7 +14,8 @@ export const allCertificates = [
     ],
     "category": "hackerrank",
     "link": "https://www.hackerrank.com/certificates/7c650a8b2b8e",
-    "type": "assessment"
+    "type": "assessment",
+    "featured": false
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@ export const allCertificates = [
     ],
     "category": "hackerrank",
     "link": "https://www.hackerrank.com/certificates/8dccbd813b0e",
-    "type": "assessment"
+    "type": "assessment",
+    "featured": false
   },
   {
     "id": 3,
@@ -40,7 +42,8 @@ export const allCertificates = [
     ],
     "category": "hackerrank",
     "link": "https://www.hackerrank.com/certificates/da7e74aff5eb",
-    "type": "assessment"
+    "type": "assessment",
+    "featured": false
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-47",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 5,
@@ -66,7 +70,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://certificates.cs50.io/c01437a4-d4df-42db-87e3-46f5cdc7d19c.pdf",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 6,
@@ -79,7 +84,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://certificates.cs50.io/5567f401-47d6-414b-abb4-e5c369aeaa14.pdf",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 7,
@@ -92,7 +98,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://verify.edx.org/cert/2e8ffab324de4951b05152478a2d5bb3",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 8,
@@ -105,7 +112,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 9,
@@ -118,7 +126,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://courses.edx.org/certificates/ffe9d70c18654869a2601639f6078158",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 10,
@@ -131,7 +140,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-318",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 11,
@@ -144,7 +154,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.coursera.org/account/accomplishments/certificate/35OLSQBPKEJJ",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 12,
@@ -157,7 +168,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-25",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 13,
@@ -170,7 +182,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-26",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 14,
@@ -183,7 +196,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-305",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 15,
@@ -196,7 +210,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-314",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 16,
@@ -209,7 +224,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-392",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 17,
@@ -222,7 +238,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/LEARN%20TO%20PROGRAM%20THE%20FUNDAMENTALS.pdf",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 18,
@@ -235,7 +252,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-443",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 19,
@@ -248,7 +266,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-445",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 20,
@@ -261,7 +280,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-18",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 21,
@@ -274,7 +294,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-19",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 22,
@@ -286,7 +307,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-83",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 23,
@@ -298,7 +320,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-131",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 24,
@@ -311,7 +334,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-39",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 25,
@@ -324,7 +348,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-40",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 26,
@@ -339,7 +364,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-85",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 27,
@@ -352,7 +378,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-88",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 28,
@@ -365,7 +392,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-90",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 29,
@@ -377,7 +405,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-116",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 30,
@@ -389,7 +418,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-117",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 31,
@@ -401,7 +431,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-135",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 32,
@@ -413,7 +444,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-297",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 33,
@@ -425,7 +457,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-296",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 34,
@@ -437,7 +470,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-138",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 35,
@@ -450,7 +484,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-320",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 36,
@@ -464,7 +499,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://coursera.org/share/d0bc1ff36fd23d1279211f409c72439e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 37,
@@ -478,7 +514,8 @@ export const allCertificates = [
     ],
     "category": "bigTech",
     "link": "https://www.coursera.org/account/accomplishments/verify/TKSLFNW93QB3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 38,
@@ -492,7 +529,8 @@ export const allCertificates = [
     ],
     "category": "bigTech",
     "link": "https://www.credly.com/badges/f3b86027-f13c-4157-9fc8-40d77d75f546",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 39,
@@ -505,7 +543,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-176",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 40,
@@ -518,7 +557,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-175",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 41,
@@ -531,7 +571,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-224",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 42,
@@ -545,7 +586,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.coursera.org/account/accomplishments/certificate/6H1R8VB95RDR",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 43,
@@ -559,7 +601,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.coursera.org/account/accomplishments/certificate/8YF9VA5TY2UO",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 44,
@@ -572,7 +615,8 @@ export const allCertificates = [
     ],
     "category": "mobileDevelopment",
     "link": "https://www.coursera.org/account/accomplishments/verify/VSJHXAAR166J",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 45,
@@ -586,7 +630,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://coursera.org/share/e545e94d58e2b4cf0218e9a775f8e7d4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 46,
@@ -599,19 +644,21 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://coursera.org/share/8583a719cc6c13f9d7782caa7f43e2cc",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 47,
     "image": "Career-Essentials-in-Generative-AI-by-Microsoft-and-LinkedIn.jpg",
-    "title": "Career Essentials In Generative AI By Microsoft And LinkedIn",
+    "title": "Career Essentials in Generative AI by Microsoft and LinkedIn",
     "organization": "Microsoft",
     "tags": [
       "AI"
     ],
     "category": "bigTech",
     "link": "#certificate-37",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 48,
@@ -623,7 +670,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-301",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 49,
@@ -636,7 +684,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://courses.edx.org/certificates/6c19c4f9030c46f5b0598365213e8d0b",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 50,
@@ -649,7 +698,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-316",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 51,
@@ -661,7 +711,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-405",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 52,
@@ -674,7 +725,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-331",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 53,
@@ -687,7 +739,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-332",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 54,
@@ -700,7 +753,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-168",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 55,
@@ -713,7 +767,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-291",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 56,
@@ -726,7 +781,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-319",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 57,
@@ -740,7 +796,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-333",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 58,
@@ -754,7 +811,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-334",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 59,
@@ -767,7 +825,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-335",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 60,
@@ -780,7 +839,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-362",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 61,
@@ -793,7 +853,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-448",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 62,
@@ -806,7 +867,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.coursera.org/account/accomplishments/certificate/MH8VWFJHH4FJ",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 63,
@@ -819,7 +881,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.coursera.org/account/accomplishments/verify/DXFJ6OXOSGI5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 64,
@@ -833,7 +896,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.datacamp.com/statement-of-accomplishment/track/ccf7b0b65e7e3c0694387c48a74771c61114ec87",
-    "type": "skill-track"
+    "type": "skill-track",
+    "featured": false
   },
   {
     "id": 65,
@@ -846,7 +910,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-86",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 66,
@@ -858,7 +923,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-87",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 67,
@@ -871,7 +937,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-92",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 68,
@@ -884,7 +951,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-94",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 69,
@@ -897,7 +965,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-95",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 70,
@@ -909,7 +978,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-96",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 71,
@@ -922,7 +992,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-98",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 72,
@@ -934,7 +1005,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-99",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 73,
@@ -947,7 +1019,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-100",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 74,
@@ -960,7 +1033,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-101",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 75,
@@ -973,7 +1047,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.datacamp.com/statement-of-accomplishment/course/7900d57e4722a38e4d34d6828b9d7b45a9c308e8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 76,
@@ -987,7 +1062,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.datacamp.com/statement-of-accomplishment/course/d8c807c302dbf6d0e1f49bcc24dc1901c0ac0a42",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 77,
@@ -1000,7 +1076,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.datacamp.com/statement-of-accomplishment/course/6e3e1e256aab69061610b19fee94c3241488ee4e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 78,
@@ -1013,7 +1090,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.datacamp.com/statement-of-accomplishment/course/0ded7c9a556b47cb4d195d74d8445703aa5cc6fb",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 79,
@@ -1026,7 +1104,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.datacamp.com/statement-of-accomplishment/course/4665fb5006a96583a0cd802e2a0237c84ed9b489",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 80,
@@ -1039,7 +1118,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://verify.edx.org/cert/7dcebc519d644102918e42bb5492647c",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 81,
@@ -1053,7 +1133,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b08b3374d7eec0280c728b0ffeeddfdb",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 82,
@@ -1066,7 +1147,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/90b621d88d884f0fabed4c3fd41e7e7c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 83,
@@ -1080,7 +1162,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5cadfefe5f1de806e9704577",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 84,
@@ -1093,7 +1176,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60be9457b5b5e40021a60fc9",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 85,
@@ -1106,7 +1190,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/36ae898a1d1c8524815305b2d1d2ebab",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 86,
@@ -1119,7 +1204,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b55e668646caa552f8e4d1d",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 87,
@@ -1131,7 +1217,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-43",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 88,
@@ -1144,7 +1231,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/90bd031eced444028114654f3c234e06",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 89,
@@ -1157,7 +1245,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3a71095cc7ab466e9c96d9ff790e78ac",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 90,
@@ -1170,7 +1259,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6551495d618d4156a8436291b5a93020",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 91,
@@ -1183,7 +1273,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/279cc7d4cc4c4ca7b37677ca314f466c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 92,
@@ -1196,7 +1287,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b4a7c00ec9175d141a8b6e611d4812a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 93,
@@ -1210,7 +1302,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5cb678013709022f5b908913",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 94,
@@ -1223,7 +1316,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5c9ce0b45f1de879ebcad4fd",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 95,
@@ -1237,7 +1331,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60198396cd6fb3000e88e8e4",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 96,
@@ -1251,7 +1346,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e4c6705f21846aea9ab451bcbfb38ed",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 97,
@@ -1264,7 +1360,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3ce68e01a39d465ab79defd9ca78eb08",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 98,
@@ -1278,7 +1375,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6156c9bebf9046929b95afa8fa67ffd5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 99,
@@ -1291,7 +1389,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e6d8a05ea97481abd8255324094aaa7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 100,
@@ -1304,7 +1403,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5f64e3b492de0000131ecbe0",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 101,
@@ -1317,7 +1417,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-111",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 102,
@@ -1331,7 +1432,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2682884a0719474f96407efe432fdd87",
-    "type": "professional-cert"
+    "type": "professional-cert",
+    "featured": false
   },
   {
     "id": 103,
@@ -1344,7 +1446,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3571635cd0e42654ab139dd59ceb650f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 104,
@@ -1357,7 +1460,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/358e250fca144526a6b2934ff44fbc01",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 105,
@@ -1370,7 +1474,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/253eb4c952e24f26a72339949eef3d41",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 106,
@@ -1383,7 +1488,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/869e056c92e04b14847ee42beb9f679b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 107,
@@ -1396,7 +1502,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6ae4ea33635547499b1ae9a628406a3d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 108,
@@ -1409,7 +1516,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a4bf0eb6e057427e88f1de8328545166",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 109,
@@ -1422,7 +1530,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/13ffe064f6504262a9e9e3cf76be9bf3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 110,
@@ -1435,7 +1544,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/257c50bca4561663476f2fa8f6ac410c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 111,
@@ -1448,7 +1558,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0595479d03627a8cb816b069000e4d06",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 112,
@@ -1461,7 +1572,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/abe75630eb1ba0fda976c5d1053ecd29",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 113,
@@ -1474,7 +1586,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9dba9d9b6bf64cf58b2b416ef9cd0912",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 114,
@@ -1487,7 +1600,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3f113c8d8c7e411aa67a9ba6ddac31a7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 115,
@@ -1500,7 +1614,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/858c39fcc1bd45399911a5aaca615add",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 116,
@@ -1513,7 +1628,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/162acfabbdb7439fb974c6b26411a5e4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 117,
@@ -1526,7 +1642,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f2ef2f067b374ec785682f7106bb9682",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 118,
@@ -1539,7 +1656,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3c4790154f3548a087a71a7f5b3cea25",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 119,
@@ -1552,7 +1670,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/86db59d467704d41b235e468782cbe1e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 120,
@@ -1565,7 +1684,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6616358d1c964232b8f3af5ed7490ad4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 121,
@@ -1578,7 +1698,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b74a2390dfc4127fa5d43fe147425ad0",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 122,
@@ -1591,7 +1712,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/673043efde0445f3af62466be6544679",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 123,
@@ -1604,7 +1726,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/284f66fe8c5745f886598714a6d9938b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 124,
@@ -1617,7 +1740,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/edc9d8b145f845159ba1a10533c3b074",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 125,
@@ -1630,7 +1754,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3de27fdca0a541318be302cd5f0ab55d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 126,
@@ -1643,7 +1768,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/66b188947bf947bca3a7c811ff9b51b5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 127,
@@ -1656,7 +1782,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/67907c97d4e04faabfb6dc06e6459139",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 128,
@@ -1669,7 +1796,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 129,
@@ -1682,7 +1810,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9a5bb1fc45b4281af1fffec93b0aaf05",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 130,
@@ -1695,7 +1824,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ea60902237fd4c47832dcda930b05b1d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 131,
@@ -1708,7 +1838,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e47f6566939c48bfa6d5fb3b2a0e1fa3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 132,
@@ -1721,7 +1852,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/63b8d1e533874657b4966b3423150c05",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 133,
@@ -1734,7 +1866,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f8173ec10ceb48cba2d26478194178d4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 134,
@@ -1747,7 +1880,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c1da07a0045d4531b3eec36deb0e25f8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 135,
@@ -1761,7 +1895,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/93533d9ae7544926b4943d59201cdeae",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 136,
@@ -1774,7 +1909,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9da84567e8ff414b91f0b23d917fb42f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 137,
@@ -1787,7 +1923,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a365cec2b37e43c583d3862e1d1477e4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 138,
@@ -1800,7 +1937,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f3a0c29e357d4c90b74d8093009ced22",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 139,
@@ -1813,7 +1951,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dc56e877d17e4802bba9354f985c20ea",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 140,
@@ -1826,7 +1965,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/52a1fa1160a49f2b861e7fd58380cc5a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 141,
@@ -1840,7 +1980,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85396dd6e2e850ab34e904243aa464c6",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 142,
@@ -1854,7 +1995,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85396dd6e2e850ab34e904243aa464c6",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 143,
@@ -1868,7 +2010,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d0391bd094f74ff6b770cbc03956b844",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 144,
@@ -1882,7 +2025,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/de1baccbb05c4531a96c52760b7bd110",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 145,
@@ -1895,7 +2039,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a8ab218d5950c29861635cc0bf12fd13",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 146,
@@ -1908,7 +2053,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4c7eae872d9e403983848787b6c9f3a9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 147,
@@ -1921,7 +2067,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/53f1ee480e524cd7b329b5854507c089",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 148,
@@ -1934,7 +2081,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/38d1b4a390d74a37af5cb1177556d047",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 149,
@@ -1947,7 +2095,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/047c980c46ab4dd782820437fedbd42d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 150,
@@ -1960,7 +2109,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60773d2e920679c8e46ff634b9ed2e6e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 151,
@@ -1973,7 +2123,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/70c77bd516794645953a2404ab97c0e9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 152,
@@ -1986,7 +2137,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2d1c47eef06b4aadb68505222dcb7914",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 153,
@@ -1999,7 +2151,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/396dc785cea9417c94160e72e288145a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 154,
@@ -2012,7 +2165,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2ed75f1edc734166966668b0c00ccc86",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 155,
@@ -2025,7 +2179,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c5a07b3444c44fb0b3883075c5af51f4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 156,
@@ -2038,7 +2193,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/55d9398dc257455ba91336713593f733",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 157,
@@ -2051,7 +2207,8 @@ export const allCertificates = [
     ],
     "category": "teaching",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/11a686a7fd57b8c214f7f92749388d42",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 158,
@@ -2064,7 +2221,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 159,
@@ -2077,7 +2235,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/13f68dfe9ab344dc929ddaf58daff3a8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 160,
@@ -2090,7 +2249,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c6f2b55a48f440a6a876686f7487e1a7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 161,
@@ -2103,7 +2263,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b2b97b04c9948bfb45c5e6f17498a7f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 162,
@@ -2116,7 +2277,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9477c6a366f84e96b707fa371d6fcc81",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 163,
@@ -2129,7 +2291,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b3dec49423da50603c25618aee635027",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 164,
@@ -2142,7 +2305,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/512386fdc7f6c934f98b01e6afa8285a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 165,
@@ -2155,7 +2319,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/84f728978e434c02a78abaa0baca0d6c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 166,
@@ -2168,7 +2333,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a7eb2e45e27a4a0ba0d2e98c1087e999",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 167,
@@ -2181,7 +2347,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/8149b07e106bb4b49aad31a6432bf648",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 168,
@@ -2194,7 +2361,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/23a06f0af71448c0a2ed456d6191e11e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 169,
@@ -2207,7 +2375,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/705dcb15de0da4dd9d9fc4f3274b430e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 170,
@@ -2220,7 +2389,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/257c50bca4561663476f2fa8f6ac410c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 171,
@@ -2233,7 +2403,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f4276e8c08a3ba174ef0147deb0c3013",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 172,
@@ -2246,7 +2417,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/17280793466248249edad730f2201783",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 173,
@@ -2259,7 +2431,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4d96abf1a9de46b18e56ec093d3b514e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 174,
@@ -2272,7 +2445,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e31261e2b46eda2d6e37c8d77b70e027",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 175,
@@ -2285,7 +2459,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e6deb4a1eb7e48748dc58e8e85af33fd",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 176,
@@ -2298,7 +2473,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6494a05213df47028c37a0fe6e70a202",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 177,
@@ -2311,7 +2487,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ea60902237fd4c47832dcda930b05b1d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 178,
@@ -2324,7 +2501,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/587418448b3146969227741e62045094",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 179,
@@ -2337,7 +2515,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4d7463ce8a6b44ea99ad248bfb085793",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 180,
@@ -2350,7 +2529,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0becf7c1cd2bd715f24331dddd23425a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 181,
@@ -2363,7 +2543,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f5ced1d9abe94fe39a7416a5b63756cc",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 182,
@@ -2376,7 +2557,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/66796514a1d547b3a2f6b6f18b43a88c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 183,
@@ -2389,7 +2571,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a4cc0b9393e4434ba57db4f8d647f387",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 184,
@@ -2402,7 +2585,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1693a5bc29d246ee88fb14b029333506",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 185,
@@ -2415,7 +2599,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/808a989d563e4e85ba3495d4d14dce5d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 186,
@@ -2428,7 +2613,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/91cf4a1767724a02a20b1eba7eca74ea",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 187,
@@ -2442,7 +2628,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f0257b235b081aca2766010aad2df800",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 188,
@@ -2455,7 +2642,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/240305d50b925c17868f1ac7a21a3261",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 189,
@@ -2468,7 +2656,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a59cd2c3e0244b7081c9c58e0d7692c5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 190,
@@ -2481,7 +2670,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/827011ad71164a86a41365e2262dcb5a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 191,
@@ -2494,7 +2684,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0e832ced60be84063c15cc804795d04c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 192,
@@ -2507,7 +2698,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e5e683b8fb974356a1665628f1c51df2",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 193,
@@ -2520,7 +2712,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2355fee7a96b437eb5fa9204d91b6268",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 194,
@@ -2533,7 +2726,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ccffaf5181f64ea29e988cc73a3e696f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 195,
@@ -2546,7 +2740,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9b7bcc38d0ed49f593228763cbfd51e3",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 196,
@@ -2559,7 +2754,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/798f0287cb44476db8e2a21b635cac92",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 197,
@@ -2572,7 +2768,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/62f12d63d6b44044aab18555ddf3022a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 198,
@@ -2585,7 +2782,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/df254d87a49d4b359764937e065e6fcc",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 199,
@@ -2598,7 +2796,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dc28cb2f4158446e9db7ec820a3dd839",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 200,
@@ -2611,7 +2810,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/167925f179f648e8abbaedbdf5b43091",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 201,
@@ -2624,7 +2824,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/549326eb43224f97af6886080354a5d9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 202,
@@ -2637,7 +2838,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6c152bd262967f8c941c9707ed636bda",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 203,
@@ -2650,7 +2852,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/af00e5032d0a68cc84879983f5d8333b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 204,
@@ -2663,7 +2866,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/458aef4eeb5f5130685423fc15e6493d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 205,
@@ -2676,7 +2880,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/15b32ebcd95f164740d02275674fc5ee",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 206,
@@ -2689,7 +2894,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/15b32ebcd95f164740d02275674fc5ee",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 207,
@@ -2702,7 +2908,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1790781f3857d258b06a24f3c53424cd",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 208,
@@ -2715,7 +2922,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/fa433cfeeb40407f89552ab995d620b1",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 209,
@@ -2728,7 +2936,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4883e581ff91423990a7832d4c35839e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 210,
@@ -2741,7 +2950,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1bf3e70ae92b43c2a3add66cbfaec661",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 211,
@@ -2754,7 +2964,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d2c01edb69ee42179f3ca8e1cd1a47a0",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 212,
@@ -2767,7 +2978,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c060a64e62274b1abe8e9d316100aef9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 213,
@@ -2780,7 +2992,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7bec2ab40c4dcf741cd2ff8d50a35e2d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 214,
@@ -2793,7 +3006,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7ba1b049457e418698e5aaadbb811141",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 215,
@@ -2806,7 +3020,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6fb9654b46774487a1ee055058a207ec",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 216,
@@ -2819,7 +3034,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/cbd71efcec444234a1803009fb501ff9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 217,
@@ -2832,7 +3048,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dcdfe64244be441ba3f316190e8e9fc4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 218,
@@ -2845,7 +3062,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3a62023b0054dc793edc0adecd715fd7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 219,
@@ -2858,7 +3076,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/eb1ffda40f347629dcef6de33d3f9741",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 220,
@@ -2871,7 +3090,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c8e4aa1edf8941369d657b0b8e75ec12",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 221,
@@ -2884,7 +3104,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/72dce5856b26420eab990320789a756b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 222,
@@ -2897,7 +3118,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85a4eb3889e340728fca80af6156330d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 223,
@@ -2910,7 +3132,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c811b7d2a1c74ba39bf01637da5bece8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 224,
@@ -2923,7 +3146,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/042a4e5884e3eb6ea1f2a12be6abb851",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 225,
@@ -2936,7 +3160,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/54d31a5b6a6645aaa0fd30e8e39c7c8c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 226,
@@ -2949,7 +3174,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3458a87aa1c74416ac306a12d6d3fe9e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 227,
@@ -2962,7 +3188,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e1a6e39f2c4643168dd920da027b1691",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 228,
@@ -2975,7 +3202,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9da8e26980d5139405439ee7578b8b69",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 229,
@@ -2988,7 +3216,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c87ba0541f8be78bc2f4ba1128233f6f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 230,
@@ -3000,7 +3229,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/56fb1e71303e37b643bb1905f31c8a09",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 231,
@@ -3013,7 +3243,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/034d7778456644ffb78ed5e774f33603",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 232,
@@ -3026,7 +3257,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4e7826b0c9a343178a5b998322d1616c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 233,
@@ -3039,7 +3271,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d74421b4615249039756ea358748f532",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 234,
@@ -3052,7 +3285,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d7bd7bc8f3b9401a9c6b7e9846cd6175",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 235,
@@ -3065,7 +3299,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/69e8d31add18448aabb29889b394b56b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 236,
@@ -3078,7 +3313,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e6722473680f43cd891253d900b84918",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 237,
@@ -3091,7 +3327,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/db927a84bf4bba96bb285ee6a85466fc",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 238,
@@ -3104,7 +3341,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d0f004b5ab60b2bda59b6e38892b931b",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 239,
@@ -3117,7 +3355,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/79735c9d76222d32368a4e4f1fb2580f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 240,
@@ -3130,7 +3369,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e946e121bc8bd0011e2b932",
-    "type": "skill-path"
+    "type": "skill-path",
+    "featured": false
   },
   {
     "id": 241,
@@ -3143,7 +3383,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/920e83367c1e1b29ef2ce88c8086a0b6",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 242,
@@ -3156,7 +3397,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5d21dc9e5c51390f8f49eb6f2985bab5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 243,
@@ -3169,7 +3411,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e2c7153cea9a41cfbff88793781b8271",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 244,
@@ -3182,7 +3425,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/front-end-development-libraries",
-    "type": "developer-cert"
+    "type": "developer-cert",
+    "featured": false
   },
   {
     "id": 245,
@@ -3195,7 +3439,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/javascript-algorithms-and-data-structures",
-    "type": "developer-cert"
+    "type": "developer-cert",
+    "featured": false
   },
   {
     "id": 246,
@@ -3209,7 +3454,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/responsive-web-design",
-    "type": "developer-cert"
+    "type": "developer-cert",
+    "featured": false
   },
   {
     "id": 247,
@@ -3221,7 +3467,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-15",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 248,
@@ -3234,7 +3481,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-103",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 249,
@@ -3247,7 +3495,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-184",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 250,
@@ -3260,7 +3509,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-461e8b4a-1bdd-4117-943f-4d016ed68e8c/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 251,
@@ -3273,7 +3523,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-e3852f34-1556-4fab-bad7-e0e69b5a0f7f/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 252,
@@ -3286,7 +3537,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-758af6da-33a5-4254-befc-1ff7a9b847a3/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 253,
@@ -3299,7 +3551,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-7EOZHTXC/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 254,
@@ -3312,7 +3565,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-336",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 255,
@@ -3325,7 +3579,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-76c2d964-035b-4383-825b-8c4b5b45c604/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 256,
@@ -3337,7 +3592,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-397",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 257,
@@ -3350,7 +3606,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.udemy.com/certificate/UC-d781fd85-fec8-44d5-adce-c0b649b30d79/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 258,
@@ -3363,7 +3620,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-433",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 259,
@@ -3376,7 +3634,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.udemy.com/certificate/UC-82d0d0b1-36e1-4026-8bab-5625723e4d97/",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 260,
@@ -3388,7 +3647,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-5",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 261,
@@ -3400,7 +3660,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 262,
@@ -3413,7 +3674,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/d7465971120639d473682873606796122598fa175042ecd6c4e23b5ccfec7e1f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 263,
@@ -3427,7 +3689,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/19475208d178e1f856d4c5a6d08aa45004f4ac23a1f5d847f76fc521222e573e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 264,
@@ -3440,7 +3703,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "https://www.linkedin.com/learning/certificates/95df1e915323c771b6d1d13f3c644b5ce155577d2d6f5947455197afd68c0516",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 265,
@@ -3452,7 +3716,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "https://www.linkedin.com/learning/certificates/2ded5188720e76bf5b3aa513472d4de1a0f8fba25368ce42bebc884f893088c8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 266,
@@ -3465,7 +3730,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/6968ae5fcb88445c047308cc16250864b1bbe42df2eb4f1595f21fb22c81f704",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 267,
@@ -3478,7 +3744,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/fcf10e29b56c03f5e971f06cdd50cf8a8e6986a94a05728638963e3ab354c2d8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 268,
@@ -3491,7 +3758,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/b04cd6e84942d5e2946ee6b9e54462dba05f594a6e2829a19ac58746c35ef92a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 269,
@@ -3504,7 +3772,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/38441c126575b1cfe9163cfd16475ddacf080456b345456c01845fd1a135b155",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 270,
@@ -3517,7 +3786,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/e88374640fbe5daf8f260cd9a645a71bf21eadf54ebd4b3e6a749f865a759713",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 271,
@@ -3530,7 +3800,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-202",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 272,
@@ -3543,7 +3814,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-204",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 273,
@@ -3556,7 +3828,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/3afc6dcbd10b1e716af47be0a81f4bf05667f31e1078c787da1f030b03987aa8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 274,
@@ -3569,7 +3842,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-302",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 275,
@@ -3582,7 +3856,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/819b6acace1b45b785a6feca72a3adf40c9e6bb5aad26fdd96273a4c3bfe1ca6",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 276,
@@ -3595,7 +3870,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/44d58bde3409ce4721b2fc300ae2d03a4dbdd7d9602b1e5a58e4cc155790c534",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 277,
@@ -3608,7 +3884,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/b9aad1320568233cd320291369abf3ff132ab5026cb636b89151fac0c885880c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 278,
@@ -3621,7 +3898,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/32db1759f9d9f5444bba5d34eb5bfa4fefc048ef3f7cbc1dec353573ff090497",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 279,
@@ -3634,7 +3912,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "https://www.linkedin.com/learning/certificates/ea3bdab575f87f7daacf2efa38e645dd5608069c0e8e888974da18a1db59ad1c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 280,
@@ -3647,7 +3926,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "https://www.linkedin.com/learning/certificates/406fb9b1205f4001ced6f3c2448e72334cb79fb6ad460827bf363f8baaa4401c",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 281,
@@ -3660,7 +3940,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "https://www.linkedin.com/learning/certificates/0ebed1da0b70c7954dbd9f9a85db448d168d67d2782c892ac28a82bff044e8f4",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 282,
@@ -3673,7 +3954,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.linkedin.com/learning/certificates/368279604c1378ba3399d3f5e11c16e66c5639dc34b9c1900fe76018e0310c91",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 283,
@@ -3686,7 +3968,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/acbf8220ff6a3dc6fad01daf2527a20c0d117953fe082de5912cd867bd872f43",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 284,
@@ -3699,7 +3982,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.linkedin.com/learning/certificates/2198118e70a611de3d352d0317bc26f5fee33c638ba078957f48bd797b3d3527",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 285,
@@ -3712,7 +3996,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/62dd582011af66ecc184c505b14d33d0cbe66ddc6a18d433c2bfcd2edbf54fe9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 286,
@@ -3725,7 +4010,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/665998ae8360f467b3014c40195c56971a50229aaf6faa662ae8c0f78493333e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 287,
@@ -3738,7 +4024,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/2fbe688121f7332a3dc81e8a4adc862c4b0c8d00137ace476fb518420e63d5c3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 288,
@@ -3751,7 +4038,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/f24060204768a8b8a51dacf6f9eee3988ebe489b7f7a5a7fae0fbdcd9855c08d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 289,
@@ -3764,7 +4052,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/e0f97e56f602c37d77a79aa85b94c4bcca1b0b402fdd7e8b6e27dc0ae9b04298",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 290,
@@ -3777,7 +4066,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/4c50fd01bb248fbcaa4a3d2d7f776a23e3cbe57cea3125dc3f8fcad2de044537",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 291,
@@ -3790,7 +4080,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/3afc6dcbd10b1e716af47be0a81f4bf05667f31e1078c787da1f030b03987aa8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 292,
@@ -3803,7 +4094,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/a9022ca31f01966b82cda3b98214bdba7626399c9606a57c92f568eb67c338be",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 293,
@@ -3816,7 +4108,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/da884988c5622e1f2a35eef1d1349ebea288c124623cb1e96c7f6ea88c39b8a0",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 294,
@@ -3829,7 +4122,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/9ea008a6c95c67dd601c5b3bcf35b650b2da84419d4ad492cd0b6f504762ca44",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 295,
@@ -3842,7 +4136,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/0836b0b4f161321447354b07c0deb474d623c655e11210ddc0b5c6f6b14dfe7c",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 296,
@@ -3855,7 +4150,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/3353bd9c8f2eccabcf5ad909194a6ed80c8cc5c93f44e8745f01289444a10511",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 297,
@@ -3868,7 +4164,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/051d97d3ff1dafd2bc9bfd07eff1569e9b961e1303658df1cd73b6f02872e1b5",
-    "type": "certificate"
+    "type": "certificate",
+    "featured": false
   },
   {
     "id": 298,
@@ -3881,7 +4178,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/0eabb6c259add4ed58cb010c68b3bbbd8a084edb19a6a6542dd59531ef396fd8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 299,
@@ -3894,7 +4192,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.linkedin.com/learning/certificates/9aa76bf5f4e9dd65e14ef1de8e16db7749c97ccd5530c15f749ea4e1a65afbd4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 300,
@@ -3907,7 +4206,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/68830012070b79f5054ff1bd21a1d94d0b1275b597efe45a5370f8b0b574a200",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 301,
@@ -3920,7 +4220,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/2223d1f2c26102fb45df6b5f71de592f41da4c77460be00fb3171117e459292e",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 302,
@@ -3933,7 +4234,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.linkedin.com/learning/certificates/163f980fa91acfb86dd661c3577a82cb0f6e0c588cd7276e9ad9aa550f011f2a",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 303,
@@ -3946,7 +4248,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/1556e7ef1f80464ea80793ffa9adee334903bc47183e12350fe49caac5feecd7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 304,
@@ -3959,7 +4262,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "https://www.linkedin.com/learning/certificates/fe06c1f8801c45fd0a088c4c933c5aa6bd7179006ff908fe35ddcfc87d14c599",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 305,
@@ -3972,7 +4276,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/d0a0950385237aed1487bbf0d24012359d79be07c6f273ea58d092e8740450b8",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 306,
@@ -3985,7 +4290,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/7d9f33e10780a1c5f60b9d22734c5bd7569474e918fdb4865e9a2779d5d1d482",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 307,
@@ -3998,7 +4304,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/f09949c651bab6515e80cb427a9dbacfb45f321e563d07fb171c2c9535d7b126",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 308,
@@ -4011,7 +4318,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/9d190a4f29bd5ceb809e9256c4d9166a195dd8be4b24e7d933f31bde0d461906",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 309,
@@ -4024,7 +4332,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/eac34a16fa3585bf42f9d9114e3a6fcaa4ecb03e4d540044dd32ae7535ca468d",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 310,
@@ -4037,7 +4346,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "https://www.linkedin.com/learning/certificates/1cb8601bbfe61d483f265a211c5b6ba5d216d02b15764e4d6a8fe48b6ae1047f",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 311,
@@ -4050,7 +4360,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-149",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 312,
@@ -4063,7 +4374,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-150",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 313,
@@ -4076,7 +4388,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.coursera.org/account/accomplishments/verify/KTTI0FSG4GY1",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 314,
@@ -4089,7 +4402,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "https://www.coursera.org/account/accomplishments/certificate/R7SPTDQ360WF",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 315,
@@ -4101,7 +4415,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-6",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 316,
@@ -4114,7 +4429,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-42",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 317,
@@ -4126,7 +4442,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-121",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 318,
@@ -4139,7 +4456,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-203",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 319,
@@ -4152,7 +4470,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-205",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 320,
@@ -4165,7 +4484,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-304",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 321,
@@ -4177,7 +4497,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-356",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 322,
@@ -4189,7 +4510,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-395",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 323,
@@ -4202,7 +4524,8 @@ export const allCertificates = [
     ],
     "category": "design",
     "link": "#certificate-3",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 324,
@@ -4215,7 +4538,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-4",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 325,
@@ -4227,7 +4551,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-9",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 326,
@@ -4239,7 +4564,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-7",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 327,
@@ -4251,7 +4577,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-10",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 328,
@@ -4263,7 +4590,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-12",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 329,
@@ -4275,7 +4603,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-11",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 330,
@@ -4287,7 +4616,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-13",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 331,
@@ -4299,7 +4629,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-14",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 332,
@@ -4312,7 +4643,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-20",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 333,
@@ -4325,7 +4657,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-21",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 334,
@@ -4338,7 +4671,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-22",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 335,
@@ -4351,7 +4685,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-24",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 336,
@@ -4364,7 +4699,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-28",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 337,
@@ -4376,7 +4712,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-38",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 338,
@@ -4388,7 +4725,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-41",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 339,
@@ -4400,7 +4738,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-54",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 340,
@@ -4412,7 +4751,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-55",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 341,
@@ -4425,7 +4765,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-56",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 342,
@@ -4438,7 +4779,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-59",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 343,
@@ -4451,7 +4793,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-60",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 344,
@@ -4464,7 +4807,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-61",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 345,
@@ -4477,7 +4821,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-62",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 346,
@@ -4490,7 +4835,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-63",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 347,
@@ -4503,7 +4849,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-64",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 348,
@@ -4516,7 +4863,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-76",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 349,
@@ -4528,7 +4876,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-77",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 350,
@@ -4541,7 +4890,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-424",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 351,
@@ -4554,7 +4904,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-367",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 352,
@@ -4566,7 +4917,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-78",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 353,
@@ -4579,7 +4931,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-80",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 354,
@@ -4591,7 +4944,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-81",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 355,
@@ -4603,7 +4957,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-104",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 356,
@@ -4616,7 +4971,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-109",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 357,
@@ -4629,7 +4985,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-114",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 358,
@@ -4641,7 +4998,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-115",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 359,
@@ -4654,7 +5012,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-118",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 360,
@@ -4667,7 +5026,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-119",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 361,
@@ -4680,7 +5040,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-120",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 362,
@@ -4692,7 +5053,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-122",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 363,
@@ -4705,7 +5067,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-123",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 364,
@@ -4717,7 +5080,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-124",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 365,
@@ -4730,7 +5094,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-127",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 366,
@@ -4742,7 +5107,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-132",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 367,
@@ -4755,7 +5121,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-133",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 368,
@@ -4767,7 +5134,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-134",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 369,
@@ -4780,7 +5148,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-136",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 370,
@@ -4793,7 +5162,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-143",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 371,
@@ -4806,7 +5176,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-145",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 372,
@@ -4819,7 +5190,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-151",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 373,
@@ -4832,7 +5204,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-152",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 374,
@@ -4845,7 +5218,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-153",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 375,
@@ -4858,7 +5232,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-398",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 376,
@@ -4870,7 +5245,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-156",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 377,
@@ -4882,7 +5258,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-155",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 378,
@@ -4894,7 +5271,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-158",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 379,
@@ -4906,7 +5284,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-159",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 380,
@@ -4919,7 +5298,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-161",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 381,
@@ -4932,7 +5312,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-160",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 382,
@@ -4944,7 +5325,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-162",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 383,
@@ -4956,7 +5338,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-163",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 384,
@@ -4969,7 +5352,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-164",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 385,
@@ -4982,7 +5366,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-165",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 386,
@@ -4995,7 +5380,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-166",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 387,
@@ -5008,7 +5394,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-167",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 388,
@@ -5021,7 +5408,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-171",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 389,
@@ -5033,7 +5421,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-174",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 390,
@@ -5046,7 +5435,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-178",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 391,
@@ -5059,7 +5449,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-179",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 392,
@@ -5071,7 +5462,8 @@ export const allCertificates = [
     ],
     "category": "dataScience",
     "link": "#certificate-180",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 393,
@@ -5084,7 +5476,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-172",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 394,
@@ -5097,7 +5490,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-139",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 395,
@@ -5109,7 +5503,8 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-173",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 396,
@@ -5122,7 +5517,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-27",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 397,
@@ -5134,7 +5530,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-181",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 398,
@@ -5146,7 +5543,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-182",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 399,
@@ -5158,7 +5556,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-225",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 400,
@@ -5170,7 +5569,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-241",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 401,
@@ -5182,7 +5582,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-240",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 402,
@@ -5195,7 +5596,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-242",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 403,
@@ -5208,7 +5610,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-243",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 404,
@@ -5221,7 +5624,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-275",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 405,
@@ -5233,7 +5637,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-292",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 406,
@@ -5245,7 +5650,8 @@ export const allCertificates = [
     ],
     "category": "webDevelopment",
     "link": "#certificate-293",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 407,
@@ -5258,7 +5664,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-303",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 408,
@@ -5271,7 +5678,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-306",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 409,
@@ -5284,7 +5692,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-307",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 410,
@@ -5297,7 +5706,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-321",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 411,
@@ -5310,7 +5720,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-322",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 412,
@@ -5322,7 +5733,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-323",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 413,
@@ -5335,7 +5747,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-326",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 414,
@@ -5348,7 +5761,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-327",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 415,
@@ -5361,7 +5775,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-337",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 416,
@@ -5374,7 +5789,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-338",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 417,
@@ -5386,7 +5802,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-339",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 418,
@@ -5398,7 +5815,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-340",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 419,
@@ -5411,7 +5829,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-341",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 420,
@@ -5424,7 +5843,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-342",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 421,
@@ -5436,7 +5856,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-343",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 422,
@@ -5449,7 +5870,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-344",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 423,
@@ -5462,7 +5884,8 @@ export const allCertificates = [
     ],
     "category": "cybersecurity",
     "link": "#certificate-345",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 424,
@@ -5474,7 +5897,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-347",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 425,
@@ -5487,7 +5911,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-354",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 426,
@@ -5499,7 +5924,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-357",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 427,
@@ -5511,7 +5937,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-358",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 428,
@@ -5524,7 +5951,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-361",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 429,
@@ -5537,7 +5965,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-363",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 430,
@@ -5550,7 +5979,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-364",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 431,
@@ -5562,7 +5992,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-365",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 432,
@@ -5575,7 +6006,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-366",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 433,
@@ -5587,7 +6019,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-386",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 434,
@@ -5600,7 +6033,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-391",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 435,
@@ -5613,7 +6047,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-393",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 436,
@@ -5625,7 +6060,8 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-396",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 437,
@@ -5638,7 +6074,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-406",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 438,
@@ -5651,7 +6088,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-410",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 439,
@@ -5664,7 +6102,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-411",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 440,
@@ -5677,7 +6116,8 @@ export const allCertificates = [
     ],
     "category": "programming",
     "link": "#certificate-416",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 441,
@@ -5690,7 +6130,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-418",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 442,
@@ -5703,7 +6144,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-420",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 443,
@@ -5716,7 +6158,8 @@ export const allCertificates = [
     ],
     "category": "leadership",
     "link": "#certificate-421",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 444,
@@ -5729,7 +6172,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-422",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 445,
@@ -5742,7 +6186,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-434",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 446,
@@ -5755,7 +6200,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-435",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 447,
@@ -5767,7 +6213,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-436",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 448,
@@ -5779,7 +6226,8 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-446",
-    "type": "course"
+    "type": "course",
+    "featured": false
   },
   {
     "id": 449,
@@ -5792,7 +6240,8 @@ export const allCertificates = [
     ],
     "category": "other",
     "link": "#certificate-449",
-    "type": "course"
+    "type": "course",
+    "featured": false
   }
 ];
 

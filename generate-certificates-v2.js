@@ -115,6 +115,10 @@ const detectTitle = (filename) => {
   // University of Queensland
   if (name === 'ielts') return 'IELTSx: IELTS Academic Test Preparation';
   
+  // LinkedIn/Microsoft Professional Certificates
+  if (name === 'career-essentials-in-generative-ai-by-microsoft-and-linkedin') return 'Career Essentials in Generative AI by Microsoft and LinkedIn';
+  if (name === 'docker-foundations-professional-certificate') return 'Docker Foundations Professional Certificate';
+  
   // Codecademy Skill Paths
   if (name === 'learn-c-skill-path') return 'Learn C Skill Path';
   if (name === 'codefoundationscodecademy') return 'Code Foundations Skill Path';
@@ -371,6 +375,18 @@ const getOrganizationPriority = (org) => {
   return priorities[org] || 99;
 };
 
+// Detect if a certificate is featured/professional
+const isFeatured = (filename, title) => {
+  const name = filename.toLowerCase();
+  
+  // Professional Certifications and Career Paths
+  if (name === 'front-end-engineer') return true; // Codecademy Front-End Engineer
+  if (name === 'docker-foundations-professional-certificate') return true; // LinkedIn Docker Foundations
+  if (name === 'career-essentials-in-generative-ai-by-microsoft-and-linkedin') return true; // Microsoft & LinkedIn AI
+  
+  return false;
+};
+
 // Generate all certificates
 const certificatesUnsorted = filenames.map((filename, index) => {
   const manual = manualMappings.get(filename);
@@ -382,6 +398,7 @@ const certificatesUnsorted = filenames.map((filename, index) => {
   const link = manual?.link || `#certificate-${index + 1}`;
   const type = manual?.type || 'course';
   const category = detectCategory(filename, tags);
+  const featured = isFeatured(filename, title);
   
   return {
     image: filename,
@@ -391,7 +408,8 @@ const certificatesUnsorted = filenames.map((filename, index) => {
     category: category,
     link: link,
     type: type,
-    priority: getOrganizationPriority(organization)
+    priority: getOrganizationPriority(organization),
+    featured: featured
   };
 });
 
@@ -417,7 +435,8 @@ const certificates = certificatesUnsorted
     tags: cert.tags,
     category: cert.category,
     link: cert.link,
-    type: cert.type
+    type: cert.type,
+    featured: cert.featured
   }));
 
 // Create the JavaScript module
