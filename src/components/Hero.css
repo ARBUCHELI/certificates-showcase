@@ -6,6 +6,7 @@
   justify-content: center;
   overflow: hidden;
   background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+  padding-bottom: 120px;
 }
 
 .hero-bg {
@@ -115,6 +116,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .hero-stat {
@@ -141,7 +143,7 @@
 
 .scroll-indicator {
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -149,8 +151,9 @@
   align-items: center;
   gap: 0.5rem;
   color: #a1a1aa;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   animation: bounce 2s ease-in-out infinite;
+  z-index: 10;
 }
 
 .scroll-arrow {

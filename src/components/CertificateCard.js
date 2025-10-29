@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './CertificateCard.css';
 
 const CertificateCard = ({ certificate, index }) => {
-  const imagePath = `/certificates/${certificate.image}`;
+  const imagePath = `/images-certificates/${certificate.image}`;
   
   const cardVariants = {
     hidden: { opacity: 0, y: 20 },

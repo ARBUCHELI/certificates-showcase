@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { certificateData, platformLogos, scholarships } from './data/certificateData';
+import { allCertificates, certificatesByCategory, stats as certStats } from './data/allCertificates';
+import { platformLogos, scholarships } from './data/certificateData';
 import CertificateCard from './components/CertificateCard';
 import Hero from './components/Hero';
 import SearchBar from './components/SearchBar';
@@ -15,27 +16,19 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedOrganization, setSelectedOrganization] = useState('all');
 
-  // Flatten all certificates
-  const allCertificates = useMemo(() => {
-    const flattened = [];
-    Object.keys(certificateData).forEach(category => {
-      certificateData[category].forEach(cert => {
-        flattened.push({ ...cert, category });
-      });
-    });
-    return flattened;
-  }, []);
+  // Use auto-generated certificates
+  const certificates = useMemo(() => allCertificates, []);
 
   // Get unique organizations
   const organizations = useMemo(() => {
     const orgs = new Set();
-    allCertificates.forEach(cert => orgs.add(cert.organization));
+    certificates.forEach(cert => orgs.add(cert.organization));
     return ['all', ...Array.from(orgs).sort()];
-  }, [allCertificates]);
+  }, [certificates]);
 
   // Filter certificates
   const filteredCertificates = useMemo(() => {
-    return allCertificates.filter(cert => {
+    return certificates.filter(cert => {
       const matchesSearch = 
         cert.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         cert.organization.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -46,7 +39,7 @@ function App() {
       
       return matchesSearch && matchesCategory && matchesOrg;
     });
-  }, [allCertificates, searchQuery, selectedCategory, selectedOrganization]);
+  }, [certificates, searchQuery, selectedCategory, selectedOrganization]);
 
   // Category labels
   const categoryLabels = {
@@ -64,11 +57,11 @@ function App() {
 
   // Stats calculation
   const stats = useMemo(() => ({
-    total: allCertificates.length,
-    platforms: new Set(allCertificates.map(c => c.organization)).size,
+    total: certificates.length,
+    platforms: new Set(certificates.map(c => c.organization)).size,
     scholarships: scholarships.length,
-    featured: allCertificates.filter(c => c.featured).length
-  }), [allCertificates]);
+    featured: certificates.filter(c => c.featured).length
+  }), [certificates]);
 
   return (
     <div className="app">

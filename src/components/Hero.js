@@ -24,7 +24,7 @@ const Hero = ({ stats }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Professional <span className="gradient-text">Certifications</span>
+            Andrés R. Bucheli <span className="gradient-text"> Tech Certifications</span>
           </motion.h1>
           
           <motion.p 
@@ -33,7 +33,7 @@ const Hero = ({ stats }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            A comprehensive collection of technology certifications, continuous learning, and professional development
+            A comprehensive collection of my technology certifications, my continuous learning, and my professional development
           </motion.p>
 
           <motion.div 
