@@ -44,15 +44,20 @@ function App() {
   // Category labels
   const categoryLabels = {
     all: 'All Certificates',
-    hackerrank: 'HackerRank',
-    bigTech: 'Big Tech',
-    programming: 'Programming & CS',
-    teaching: 'Teaching',
+    hackerrank: 'HackerRank Assessments',
+    bigTech: 'Big Tech Badges',
+    programming: 'Programming & Computer Science',
+    teaching: 'Computer Science Teaching',
     webDevelopment: 'Web Development',
-    mobileDevelopment: 'Mobile',
-    aiMachineLearning: 'AI & ML',
+    mobileDevelopment: 'Mobile Development',
+    aiMachineLearning: 'AI & Machine Learning',
     cloudDevOps: 'Cloud & DevOps',
-    dataScience: 'Data Science'
+    dataScience: 'Data Science',
+    cybersecurity: 'Cybersecurity',
+    projectManagement: 'Project Management & Agile',
+    leadership: 'Leadership & Soft Skills',
+    design: 'UX/UI Design',
+    other: 'Other Certifications'
   };
 
   // Stats calculation

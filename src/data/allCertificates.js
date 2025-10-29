@@ -1,32 +1,32 @@
 // AUTO-GENERATED: All 449 certificates
-// Generated from images-certificates folder
-// DO NOT EDIT MANUALLY - run generate-certificates.js to regenerate
+// Generated from images-certificates folder + manual mappings
+// To regenerate: node generate-certificates-v2.js
 
 export const allCertificates = [
   {
     "id": 1,
     "image": "2021angelayu.jpg",
-    "title": "2021angelayu",
-    "organization": "Professional Training",
+    "title": "The Complete 2021 Web Development Bootcamp",
+    "organization": "Udemy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Full Stack",
+      "Bootcamp"
     ],
     "category": "other",
-    "link": "#certificate-1",
+    "link": "https://www.udemy.com/certificate/UC-d781fd85-fec8-44d5-adce-c0b649b30d79/",
     "type": "course"
   },
   {
     "id": 2,
     "image": "3projectsudemy.jpg",
-    "title": "3projectsudemy",
+    "title": "JavaScript in Action - Build 3 Examples from Scratch",
     "organization": "Udemy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "JavaScript",
+      "Projects"
     ],
-    "category": "other",
-    "link": "#certificate-2",
+    "category": "webDevelopment",
+    "link": "https://www.udemy.com/certificate/UC-758af6da-33a5-4254-befc-1ff7a9b847a3/",
     "type": "course"
   },
   {
@@ -171,7 +171,7 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-14",
     "type": "course"
   },
@@ -183,33 +183,35 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-15",
     "type": "course"
   },
   {
     "id": 16,
     "image": "api-development-with-swagger-and-openapi-course.jpg",
-    "title": "Api Development With Swagger And Openapi Course",
-    "organization": "Professional Training",
+    "title": "API Development with Swagger and OpenAPI",
+    "organization": "Codecademy",
     "tags": [
-      "API"
+      "API",
+      "Swagger",
+      "OpenAPI"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-16",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b08b3374d7eec0280c728b0ffeeddfdb",
     "type": "course"
   },
   {
     "id": 17,
     "image": "asynccodecademy.jpg",
-    "title": "Asynccodecademy",
+    "title": "Learn Asynchronous JavaScript",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "JavaScript",
+      "Async"
     ],
-    "category": "other",
-    "link": "#certificate-17",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/257c50bca4561663476f2fa8f6ac410c",
     "type": "course"
   },
   {
@@ -280,14 +282,14 @@ export const allCertificates = [
   {
     "id": 23,
     "image": "becoming-a-secure-coder-course.jpg",
-    "title": "Becoming A Secure Coder Course",
-    "organization": "Professional Training",
+    "title": "Becoming a Secure Coder",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Security",
+      "Coding"
     ],
-    "category": "other",
-    "link": "#certificate-23",
+    "category": "cybersecurity",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/90b621d88d884f0fabed4c3fd41e7e7c",
     "type": "course"
   },
   {
@@ -358,107 +360,108 @@ export const allCertificates = [
   {
     "id": 29,
     "image": "bootstrapcodemy.jpg",
-    "title": "Bootstrapcodemy",
-    "organization": "Professional Training",
+    "title": "Learn Bootstrap",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Bootstrap",
+      "CSS Framework"
     ],
-    "category": "other",
-    "link": "#certificate-29",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0595479d03627a8cb816b069000e4d06",
     "type": "course"
   },
   {
     "id": 30,
     "image": "build-a-website-with-github.jpg",
-    "title": "Build A Website With Github",
-    "organization": "Professional Training",
+    "title": "Build a Website with HTML, CSS, and Github Pages",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "HTML",
+      "CSS",
+      "GitHub"
     ],
-    "category": "other",
-    "link": "#certificate-30",
-    "type": "course"
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5cadfefe5f1de806e9704577",
+    "type": "skill-path"
   },
   {
     "id": 31,
     "image": "build-websites-for-your-business.jpg",
-    "title": "Build Websites For Your Business",
-    "organization": "Professional Training",
+    "title": "Build Websites for your Business",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Web Development",
+      "Business"
     ],
-    "category": "other",
-    "link": "#certificate-31",
-    "type": "course"
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60be9457b5b5e40021a60fc9",
+    "type": "skill-path"
   },
   {
     "id": 32,
     "image": "building-a-graphql-project-with-reactjs.jpg",
-    "title": "Building A Graphql Project With Reactjs",
-    "organization": "Professional Training",
+    "title": "Building a GraphQL Project with React.js",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
-      "JavaScript"
+      "GraphQL"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-32",
+    "link": "https://www.linkedin.com/learning/certificates/d7465971120639d473682873606796122598fa175042ecd6c4e23b5ccfec7e1f",
     "type": "course"
   },
   {
     "id": 33,
     "image": "building-restful-apis-with-nodejs-and-express.jpg",
-    "title": "Building Restful Apis With Nodejs And Express",
-    "organization": "Professional Training",
+    "title": "Building RESTful APIs with Node.js and Express",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript",
       "Node.js",
-      "API"
+      "API",
+      "REST"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-33",
+    "link": "https://www.linkedin.com/learning/certificates/19475208d178e1f856d4c5a6d08aa45004f4ac23a1f5d847f76fc521222e573e",
     "type": "course"
   },
   {
     "id": 34,
     "image": "buildinginteractivecodecademy.jpg",
-    "title": "Buildinginteractivecodecademy",
+    "title": "Building Interactive JavaScript Websites",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "JavaScript",
+      "Interactive"
     ],
-    "category": "other",
-    "link": "#certificate-34",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/36ae898a1d1c8524815305b2d1d2ebab",
     "type": "course"
   },
   {
     "id": 35,
     "image": "buildtoolscodecademy.jpg",
-    "title": "Buildtoolscodecademy",
+    "title": "Learn Build Tools",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Build Tools",
+      "Webpack"
     ],
     "category": "other",
-    "link": "#certificate-35",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/abe75630eb1ba0fda976c5d1053ecd29",
     "type": "course"
   },
   {
     "id": 36,
     "image": "c.jpg",
-    "title": "C",
-    "organization": "Professional Training",
+    "title": "DEV210x: Introduction to C++",
+    "organization": "Microsoft",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Programming"
     ],
-    "category": "other",
-    "link": "#certificate-36",
-    "type": "course"
+    "category": "programming",
+    "link": "https://courses.edx.org/certificates/6c19c4f9030c46f5b0598365213e8d0b",
+    "type": "certificate"
   },
   {
     "id": 37,
@@ -468,7 +471,7 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "aiMachineLearning",
+    "category": "bigTech",
     "link": "#certificate-37",
     "type": "course"
   },
@@ -531,7 +534,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "projectManagement",
     "link": "#certificate-42",
     "type": "course"
   },
@@ -550,39 +553,40 @@ export const allCertificates = [
   {
     "id": 44,
     "image": "codecademy-intro-to-nextjs-course.jpg",
-    "title": "Codecademy Intro To Nextjs Course",
+    "title": "Intro to Next.js",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "Next.js",
+      "React"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-44",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/253eb4c952e24f26a72339949eef3d41",
     "type": "course"
   },
   {
     "id": 45,
     "image": "codefoundationscodecademy.jpg",
-    "title": "Codefoundationscodecademy",
+    "title": "Code Foundations Skill Path",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Teaching",
+      "Fundamentals"
     ],
-    "category": "other",
-    "link": "#certificate-45",
-    "type": "course"
+    "category": "teaching",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b55e668646caa552f8e4d1d",
+    "type": "skill-path"
   },
   {
     "id": 46,
     "image": "colordesigncodecademy.jpg",
-    "title": "Colordesigncodecademy",
+    "title": "Learn Color Design",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Design",
+      "Color Theory"
     ],
-    "category": "other",
-    "link": "#certificate-46",
+    "category": "design",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3",
     "type": "course"
   },
   {
@@ -601,79 +605,79 @@ export const allCertificates = [
   {
     "id": 48,
     "image": "commandlinecodecademy.jpg",
-    "title": "Commandlinecodecademy",
+    "title": "Learn the Command Line",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Command Line",
+      "Linux"
     ],
-    "category": "other",
-    "link": "#certificate-48",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c87ba0541f8be78bc2f4ba1128233f6f",
     "type": "course"
   },
   {
     "id": 49,
     "image": "comptia-it-fundamentals-software-development-concepts-course.jpg",
-    "title": "Comptia It Fundamentals Software Development Concepts Course",
-    "organization": "Professional Training",
+    "title": "CompTIA IT Fundamentals: Software Development Concepts",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "CompTIA",
+      "Software Development"
     ],
     "category": "other",
-    "link": "#certificate-49",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/90bd031eced444028114654f3c234e06",
     "type": "course"
   },
   {
     "id": 50,
     "image": "computer-architecture-assembly-language-course.jpg",
-    "title": "Computer Architecture Assembly Language Course",
-    "organization": "Professional Training",
+    "title": "Computer Architecture: Assembly Language",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Assembly",
+      "Computer Architecture"
     ],
     "category": "other",
-    "link": "#certificate-50",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3a71095cc7ab466e9c96d9ff790e78ac",
     "type": "course"
   },
   {
     "id": 51,
     "image": "computer-architecture-instruction-set-architecture-course.jpg",
-    "title": "Computer Architecture Instruction Set Architecture Course",
-    "organization": "Professional Training",
+    "title": "Computer Architecture: Instruction Set Architecture",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "ISA",
+      "Computer Architecture"
     ],
     "category": "other",
-    "link": "#certificate-51",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6551495d618d4156a8436291b5a93020",
     "type": "course"
   },
   {
     "id": 52,
     "image": "computer-architecture-introduction-course.jpg",
-    "title": "Computer Architecture Introduction Course",
-    "organization": "Professional Training",
+    "title": "Computer Architecture: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Computer Architecture",
+      "Hardware"
     ],
     "category": "other",
-    "link": "#certificate-52",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/279cc7d4cc4c4ca7b37677ca314f466c",
     "type": "course"
   },
   {
     "id": 53,
     "image": "connectingfbcodecademy.jpg",
-    "title": "Connectingfbcodecademy",
+    "title": "Connecting Front-End to Back-End",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Full Stack",
+      "Integration"
     ],
     "category": "other",
-    "link": "#certificate-53",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b4a7c00ec9175d141a8b6e611d4812a",
     "type": "course"
   },
   {
@@ -684,7 +688,7 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-54",
     "type": "course"
   },
@@ -716,25 +720,28 @@ export const allCertificates = [
   {
     "id": 57,
     "image": "create-a-back-end-app-with-javascript-skill-path.jpg",
-    "title": "Create A Back End App With Javascript Skill Path",
-    "organization": "Professional Training",
+    "title": "Create a Back-End App with JavaScript",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Backend",
+      "Node.js"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-57",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5cb678013709022f5b908913",
+    "type": "skill-path"
   },
   {
     "id": 58,
     "image": "create-your-first-web-app-with-python-and-flask.jpg",
-    "title": "Create Your First Web App With Python And Flask",
-    "organization": "Professional Training",
+    "title": "Create Your First Web App with Python and Flask",
+    "organization": "Coursera",
     "tags": [
+      "Flask",
       "Python"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-58",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/MH8VWFJHH4FJ",
     "type": "course"
   },
   {
@@ -818,134 +825,145 @@ export const allCertificates = [
   {
     "id": 65,
     "image": "css-accessibility-course-codecademy.jpg",
-    "title": "Css Accessibility Course Codecademy",
+    "title": "Learn CSS: Accessibility",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Accessibility"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-65",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e47f6566939c48bfa6d5fb3b2a0e1fa3",
     "type": "course"
   },
   {
     "id": 66,
     "image": "css-box-model-and-layout-course-codecademy.jpg",
-    "title": "Css Box Model And Layout Course Codecademy",
+    "title": "Learn CSS: Box Model and Layout",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Layout"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-66",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/63b8d1e533874657b4966b3423150c05",
     "type": "course"
   },
   {
     "id": 67,
     "image": "css-browser-compatibility-codecademy.jpg",
-    "title": "Css Browser Compatibility Codecademy",
+    "title": "Learn CSS: Browser Compatibility",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Compatibility"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-67",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f8173ec10ceb48cba2d26478194178d4",
     "type": "course"
   },
   {
     "id": 68,
     "image": "css-colors-codecademy.jpg",
-    "title": "Css Colors Codecademy",
+    "title": "Learn CSS: Colors",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Colors"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-68",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c1da07a0045d4531b3eec36deb0e25f8",
     "type": "course"
   },
   {
     "id": 69,
     "image": "css-flexbox-and-grid-course-codecademy.jpg",
-    "title": "Css Flexbox And Grid Course Codecademy",
+    "title": "Learn CSS: Flexbox and Grid",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Flexbox",
+      "Grid"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-69",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/93533d9ae7544926b4943d59201cdeae",
     "type": "course"
   },
   {
     "id": 70,
     "image": "css-hackerrank.jpg",
-    "title": "Css Hackerrank",
+    "title": "CSS Skill Assessment",
     "organization": "HackerRank",
     "tags": [
-      "CSS"
+      "CSS",
+      "Web Design"
     ],
-    "category": "webDevelopment",
-    "link": "#certificate-70",
-    "type": "course"
+    "category": "hackerrank",
+    "link": "https://www.hackerrank.com/certificates/7c650a8b2b8e",
+    "type": "assessment"
   },
   {
     "id": 71,
     "image": "css-introduction.jpg",
-    "title": "Css Introduction",
-    "organization": "Professional Training",
+    "title": "Learn CSS: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Basics"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-71",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9da84567e8ff414b91f0b23d917fb42f",
     "type": "course"
   },
   {
     "id": 72,
     "image": "css-transitions-and-animations-course-codecademy.jpg",
-    "title": "Css Transitions And Animations Course Codecademy",
+    "title": "Learn CSS: Transitions and Animations",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Animations"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-72",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a365cec2b37e43c583d3862e1d1477e4",
     "type": "course"
   },
   {
     "id": 73,
     "image": "css-typography-and-fonts-codecademy.jpg",
-    "title": "Css Typography And Fonts Codecademy",
+    "title": "Learn CSS: Typography and Fonts",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Typography"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-73",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f3a0c29e357d4c90b74d8093009ced22",
     "type": "course"
   },
   {
     "id": 74,
     "image": "css-variables-and-functions-course-codecademy.jpg",
-    "title": "Css Variables And Functions Course Codecademy",
+    "title": "Learn CSS: Variables and Functions",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Variables"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-74",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dc56e877d17e4802bba9354f985c20ea",
     "type": "course"
   },
   {
     "id": 75,
     "image": "cssinjscodecademy.jpg",
-    "title": "Cssinjscodecademy",
+    "title": "Learn CSS-in-JS",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ],
-    "category": "other",
-    "link": "#certificate-75",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ea60902237fd4c47832dcda930b05b1d",
     "type": "course"
   },
   {
@@ -988,14 +1006,14 @@ export const allCertificates = [
   {
     "id": 79,
     "image": "data-camp-software-engineering-principles-in-python.jpg",
-    "title": "Data Camp Software Engineering Principles In Python",
-    "organization": "Professional Training",
+    "title": "Software Engineering Principles in Python",
+    "organization": "DataCamp",
     "tags": [
       "Python",
-      "Data"
+      "Software Engineering"
     ],
     "category": "programming",
-    "link": "#certificate-79",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/course/4665fb5006a96583a0cd802e2a0237c84ed9b489",
     "type": "course"
   },
   {
@@ -1026,13 +1044,14 @@ export const allCertificates = [
   {
     "id": 82,
     "image": "databaseslinkedin.jpg",
-    "title": "Databaseslinkedin",
+    "title": "Programming Foundations: Databases",
     "organization": "LinkedIn Learning",
     "tags": [
-      "Data"
+      "Databases",
+      "Fundamentals"
     ],
     "category": "other",
-    "link": "#certificate-82",
+    "link": "https://www.linkedin.com/learning/certificates/acbf8220ff6a3dc6fad01daf2527a20c0d117953fe082de5912cd867bd872f43",
     "type": "course"
   },
   {
@@ -1050,16 +1069,16 @@ export const allCertificates = [
   {
     "id": 84,
     "image": "datacamp-building-apis-in-python.jpg",
-    "title": "Datacamp Building Apis In Python",
+    "title": "Building APIs in Python",
     "organization": "DataCamp",
     "tags": [
       "Python",
       "API",
-      "Data"
+      "Backend"
     ],
-    "category": "programming",
-    "link": "#certificate-84",
-    "type": "course"
+    "category": "webDevelopment",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/track/ccf7b0b65e7e3c0694387c48a74771c61114ec87",
+    "type": "skill-track"
   },
   {
     "id": 85,
@@ -1072,7 +1091,7 @@ export const allCertificates = [
       "Kubernetes",
       "Data"
     ],
-    "category": "cloudDevOps",
+    "category": "aiMachineLearning",
     "link": "#certificate-85",
     "type": "course"
   },
@@ -1117,15 +1136,14 @@ export const allCertificates = [
   {
     "id": 89,
     "image": "datacamp-introduction-to-apis-in-python.jpg",
-    "title": "Datacamp Introduction To Apis In Python",
+    "title": "Introduction to APIs in Python",
     "organization": "DataCamp",
     "tags": [
       "Python",
-      "API",
-      "Data"
+      "API"
     ],
-    "category": "programming",
-    "link": "#certificate-89",
+    "category": "webDevelopment",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/course/7900d57e4722a38e4d34d6828b9d7b45a9c308e8",
     "type": "course"
   },
   {
@@ -1144,14 +1162,15 @@ export const allCertificates = [
   {
     "id": 91,
     "image": "datacamp-introduction-to-fastapi.jpg",
-    "title": "Datacamp Introduction To Fastapi",
+    "title": "Introduction to FastAPI",
     "organization": "DataCamp",
     "tags": [
-      "API",
-      "Data"
+      "FastAPI",
+      "Python",
+      "API"
     ],
-    "category": "other",
-    "link": "#certificate-91",
+    "category": "webDevelopment",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/course/d8c807c302dbf6d0e1f49bcc24dc1901c0ac0a42",
     "type": "course"
   },
   {
@@ -1170,14 +1189,14 @@ export const allCertificates = [
   {
     "id": 93,
     "image": "datacamp-introduction-to-mongodb-in-python.jpg",
-    "title": "Datacamp Introduction To Mongodb In Python",
+    "title": "Introduction to MongoDB in Python",
     "organization": "DataCamp",
     "tags": [
-      "Python",
-      "Data"
+      "MongoDB",
+      "Python"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-93",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/course/6e3e1e256aab69061610b19fee94c3241488ee4e",
     "type": "course"
   },
   {
@@ -1202,7 +1221,7 @@ export const allCertificates = [
       "Python",
       "Data"
     ],
-    "category": "programming",
+    "category": "dataScience",
     "link": "#certificate-95",
     "type": "course"
   },
@@ -1221,13 +1240,14 @@ export const allCertificates = [
   {
     "id": 97,
     "image": "datacamp-programming-paradigm-concepts.jpg",
-    "title": "Datacamp Programming Paradigm Concepts",
+    "title": "Programming Paradigm Concepts",
     "organization": "DataCamp",
     "tags": [
-      "Data"
+      "Programming",
+      "Paradigms"
     ],
     "category": "programming",
-    "link": "#certificate-97",
+    "link": "https://www.datacamp.com/statement-of-accomplishment/course/0ded7c9a556b47cb4d195d74d8445703aa5cc6fb",
     "type": "course"
   },
   {
@@ -1284,13 +1304,14 @@ export const allCertificates = [
   {
     "id": 102,
     "image": "debujscodecademy.jpg",
-    "title": "Debujscodecademy",
+    "title": "How to Debug JavaScript Errors",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Debugging"
     ],
-    "category": "other",
-    "link": "#certificate-102",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3571635cd0e42654ab139dd59ceb650f",
     "type": "course"
   },
   {
@@ -1321,54 +1342,55 @@ export const allCertificates = [
   {
     "id": 105,
     "image": "deploying-a-website-with-git-and-github.jpg",
-    "title": "Deploying A Website With Git And Github",
-    "organization": "Professional Training",
+    "title": "Deploying Websites using Git and GitHub",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Deployment",
+      "Git",
+      "GitHub"
     ],
-    "category": "other",
-    "link": "#certificate-105",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e4c6705f21846aea9ab451bcbfb38ed",
     "type": "course"
   },
   {
     "id": 106,
     "image": "deploying-with-heroku-course.jpg",
-    "title": "Deploying With Heroku Course",
-    "organization": "Professional Training",
+    "title": "Deploying with Heroku",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Deployment",
+      "Heroku"
     ],
     "category": "other",
-    "link": "#certificate-106",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3ce68e01a39d465ab79defd9ca78eb08",
     "type": "course"
   },
   {
     "id": 107,
     "image": "deploying-with-render-course.jpg",
-    "title": "Deploying With Render Course",
-    "organization": "Professional Training",
+    "title": "Deploying with Render",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Deployment",
+      "Render"
     ],
     "category": "other",
-    "link": "#certificate-107",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e6d8a05ea97481abd8255324094aaa7",
     "type": "course"
   },
   {
     "id": 108,
     "image": "design-databases-with-postgresql-skill-path.jpg",
-    "title": "Design Databases With Postgresql Skill Path",
-    "organization": "Professional Training",
+    "title": "Design Databases With PostgreSQL",
+    "organization": "Codecademy",
     "tags": [
-      "SQL",
-      "Data"
+      "PostgreSQL",
+      "Database"
     ],
-    "category": "design",
-    "link": "#certificate-108",
-    "type": "course"
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5f64e3b492de0000131ecbe0",
+    "type": "skill-path"
   },
   {
     "id": 109,
@@ -1386,14 +1408,15 @@ export const allCertificates = [
   {
     "id": 110,
     "image": "developing-back-end-apps-with-nodejs-and-express.jpg",
-    "title": "Developing Back End Apps With Nodejs And Express",
-    "organization": "Professional Training",
+    "title": "Developing Back-End Apps with Node.js and Express",
+    "organization": "IBM",
     "tags": [
-      "JavaScript",
-      "Node.js"
+      "Node.js",
+      "Express",
+      "IBM"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-110",
+    "link": "https://coursera.org/share/d0bc1ff36fd23d1279211f409c72439e",
     "type": "course"
   },
   {
@@ -1412,26 +1435,27 @@ export const allCertificates = [
   {
     "id": 112,
     "image": "digital-technologies-case-studies-ai-iot-robotics-blockchain-linkedin-certificate.jpg",
-    "title": "Digital Technologies Case Studies Ai Iot Robotics Blockchain Linkedin Certificate",
+    "title": "Digital Technologies Case Studies: AI, IOT, Robotics, Blockchain",
     "organization": "LinkedIn Learning",
     "tags": [
-      "AI"
+      "Digital Transformation"
     ],
     "category": "aiMachineLearning",
-    "link": "#certificate-112",
+    "link": "https://www.linkedin.com/learning/certificates/2ded5188720e76bf5b3aa513472d4de1a0f8fba25368ce42bebc884f893088c8",
     "type": "course"
   },
   {
     "id": 113,
     "image": "digital-technologies-case-studies-ai-iot-robotics-blockchain-pmi-certificate.jpg",
-    "title": "Digital Technologies Case Studies Ai Iot Robotics Blockchain Pmi Certificate",
-    "organization": "PMI",
+    "title": "Digital Technologies Case Studies (PMI)",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "AI"
+      "Digital Transformation",
+      "PMI"
     ],
     "category": "aiMachineLearning",
-    "link": "#certificate-113",
-    "type": "course"
+    "link": "https://www.linkedin.com/learning/certificates/95df1e915323c771b6d1d13f3c644b5ce155577d2d6f5947455197afd68c0516",
+    "type": "certificate"
   },
   {
     "id": 114,
@@ -1566,35 +1590,36 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-124",
     "type": "course"
   },
   {
     "id": 125,
     "image": "expresscodecademy.jpg",
-    "title": "Expresscodecademy",
+    "title": "Learn Express",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Express",
+      "Backend",
+      "Node.js"
     ],
-    "category": "other",
-    "link": "#certificate-125",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85396dd6e2e850ab34e904243aa464c6",
     "type": "course"
   },
   {
     "id": 126,
     "image": "freecodecamp-front-end-libraries-certification.jpg",
-    "title": "Freecodecamp Front End Libraries Certification",
+    "title": "Front End Development Libraries",
     "organization": "freeCodeCamp",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Front-End",
+      "Libraries"
     ],
     "category": "other",
-    "link": "#certificate-126",
-    "type": "course"
+    "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/front-end-development-libraries",
+    "type": "developer-cert"
   },
   {
     "id": 127,
@@ -1612,39 +1637,41 @@ export const allCertificates = [
   {
     "id": 128,
     "image": "front-end-app-with-react.jpg",
-    "title": "Front End App With React",
-    "organization": "Professional Training",
+    "title": "Create a Front-End App with React",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Front-End"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-128",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5c9ce0b45f1de879ebcad4fd",
+    "type": "skill-path"
   },
   {
     "id": 129,
     "image": "front-end-engineer.jpg",
-    "title": "Front End Engineer",
-    "organization": "Professional Training",
+    "title": "Front-End Engineer Professional Certification",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Front-End",
+      "Professional",
+      "Certification"
     ],
     "category": "other",
-    "link": "#certificate-129",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2682884a0719474f96407efe432fdd87",
+    "type": "professional-cert"
   },
   {
     "id": 130,
     "image": "fullstacklinkedin.jpg",
-    "title": "Fullstacklinkedin",
+    "title": "Succeeding in Web Development: Full Stack and Front End",
     "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Full Stack",
+      "Career"
     ],
     "category": "other",
-    "link": "#certificate-130",
+    "link": "https://www.linkedin.com/learning/certificates/0eabb6c259add4ed58cb010c68b3bbbd8a084edb19a6a6542dd59531ef396fd8",
     "type": "course"
   },
   {
@@ -1724,14 +1751,14 @@ export const allCertificates = [
   {
     "id": 137,
     "image": "gitandgithub.jpg",
-    "title": "Gitandgithub",
-    "organization": "Professional Training",
+    "title": "Learn Git & GitHub",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Git",
+      "GitHub"
     ],
-    "category": "other",
-    "link": "#certificate-137",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a8ab218d5950c29861635cc0bf12fd13",
     "type": "course"
   },
   {
@@ -1742,7 +1769,7 @@ export const allCertificates = [
     "tags": [
       "Data"
     ],
-    "category": "dataScience",
+    "category": "other",
     "link": "#certificate-138",
     "type": "course"
   },
@@ -1762,41 +1789,41 @@ export const allCertificates = [
   {
     "id": 140,
     "image": "harvard-educators.jpg",
-    "title": "Harvard Educators",
-    "organization": "Harvard",
+    "title": "CS50 For Educators",
+    "organization": "Harvard University",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Teaching",
+      "CS50"
     ],
-    "category": "other",
-    "link": "#certificate-140",
-    "type": "course"
+    "category": "teaching",
+    "link": "https://certificates.cs50.io/c01437a4-d4df-42db-87e3-46f5cdc7d19c.pdf",
+    "type": "certificate"
   },
   {
     "id": 141,
     "image": "harvard.jpg",
-    "title": "Harvard",
-    "organization": "Harvard",
+    "title": "CS50 Understanding Technology",
+    "organization": "Harvard University",
     "tags": [
       "Technology",
-      "Professional Development"
+      "CS50"
     ],
-    "category": "other",
-    "link": "#certificate-141",
-    "type": "course"
+    "category": "teaching",
+    "link": "https://certificates.cs50.io/5567f401-47d6-414b-abb4-e5c369aeaa14.pdf",
+    "type": "certificate"
   },
   {
     "id": 142,
     "image": "harvey.jpg",
-    "title": "Harvey",
-    "organization": "Professional Training",
+    "title": "My CS: Computer Science for Beginners",
+    "organization": "Harvey Mudd College",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Teaching",
+      "Beginners"
     ],
-    "category": "other",
-    "link": "#certificate-142",
-    "type": "course"
+    "category": "teaching",
+    "link": "https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754",
+    "type": "certificate"
   },
   {
     "id": 143,
@@ -1814,14 +1841,14 @@ export const allCertificates = [
   {
     "id": 144,
     "image": "how-to-deploy-a-website-course.jpg",
-    "title": "How To Deploy A Website Course",
-    "organization": "Professional Training",
+    "title": "How to Deploy a Website",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Deployment",
+      "Web Hosting"
     ],
-    "category": "other",
-    "link": "#certificate-144",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/358e250fca144526a6b2934ff44fbc01",
     "type": "course"
   },
   {
@@ -1840,39 +1867,41 @@ export const allCertificates = [
   {
     "id": 146,
     "image": "howtocodecodecademy.jpg",
-    "title": "Howtocodecodecademy",
+    "title": "Learn How to Code",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Teaching",
+      "Fundamentals"
     ],
-    "category": "other",
-    "link": "#certificate-146",
+    "category": "teaching",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/11a686a7fd57b8c214f7f92749388d42",
     "type": "course"
   },
   {
     "id": 147,
     "image": "htmlcodecademy.jpg",
-    "title": "Htmlcodecademy",
+    "title": "Learn HTML",
     "organization": "Codecademy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Web Development"
     ],
-    "category": "other",
-    "link": "#certificate-147",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7",
     "type": "course"
   },
   {
     "id": 148,
     "image": "ibm-javascript-programming-essentials.jpg",
-    "title": "Ibm Javascript Programming Essentials",
+    "title": "JavaScript Programming Essentials",
     "organization": "IBM",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "IBM",
+      "2025"
     ],
-    "category": "webDevelopment",
-    "link": "#certificate-148",
+    "category": "bigTech",
+    "link": "https://www.coursera.org/account/accomplishments/verify/TKSLFNW93QB3",
     "type": "course"
   },
   {
@@ -1923,7 +1952,7 @@ export const allCertificates = [
       "AI",
       "Data"
     ],
-    "category": "dataScience",
+    "category": "aiMachineLearning",
     "link": "#certificate-152",
     "type": "course"
   },
@@ -1943,14 +1972,14 @@ export const allCertificates = [
   {
     "id": 154,
     "image": "interaction-design-software-and-web-design-patterns.jpg",
-    "title": "Interaction Design Software And Web Design Patterns",
-    "organization": "Professional Training",
+    "title": "Interaction Design: Software and Web Design Patterns",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Design Patterns",
+      "UX"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-154",
+    "link": "https://www.linkedin.com/learning/certificates/6968ae5fcb88445c047308cc16250864b1bbe42df2eb4f1595f21fb22c81f704",
     "type": "course"
   },
   {
@@ -1980,13 +2009,14 @@ export const allCertificates = [
   {
     "id": 157,
     "image": "intermediatejscodecademy.jpg",
-    "title": "Intermediatejscodecademy",
+    "title": "Learn Intermediate JavaScript",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Intermediate"
     ],
-    "category": "other",
-    "link": "#certificate-157",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/512386fdc7f6c934f98b01e6afa8285a",
     "type": "course"
   },
   {
@@ -2131,26 +2161,27 @@ export const allCertificates = [
   {
     "id": 169,
     "image": "intro-to-quantum-computing-course.jpg",
-    "title": "Intro To Quantum Computing Course",
-    "organization": "Professional Training",
+    "title": "Intro to Quantum Computing",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Quantum Computing",
+      "Advanced"
     ],
     "category": "other",
-    "link": "#certificate-169",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/869e056c92e04b14847ee42beb9f679b",
     "type": "course"
   },
   {
     "id": 170,
     "image": "intro-to-sql-course.jpg",
-    "title": "Intro To Sql Course",
-    "organization": "Professional Training",
+    "title": "Intro to SQL",
+    "organization": "Codecademy",
     "tags": [
-      "SQL"
+      "SQL",
+      "Database"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-170",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6ae4ea33635547499b1ae9a628406a3d",
     "type": "course"
   },
   {
@@ -2220,7 +2251,7 @@ export const allCertificates = [
     "id": 176,
     "image": "introduction-to-artificial-intelligence.jpg",
     "title": "Introduction To Artificial Intelligence",
-    "organization": "Professional Training",
+    "organization": "Intel",
     "tags": [
       "Technology",
       "Professional Development"
@@ -2232,14 +2263,14 @@ export const allCertificates = [
   {
     "id": 177,
     "image": "introduction-to-back-end-programming-course.jpg",
-    "title": "Introduction To Back End Programming Course",
-    "organization": "Professional Training",
+    "title": "Introduction to Back-End Programming",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Backend",
+      "Programming"
     ],
-    "category": "programming",
-    "link": "#certificate-177",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a4bf0eb6e057427e88f1de8328545166",
     "type": "course"
   },
   {
@@ -2307,14 +2338,14 @@ export const allCertificates = [
   {
     "id": 183,
     "image": "introtohtml.jpg",
-    "title": "Introtohtml",
-    "organization": "Professional Training",
+    "title": "Learn HTML Introduction to Creating Your First Website",
+    "organization": "Udemy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Basics"
     ],
-    "category": "other",
-    "link": "#certificate-183",
+    "category": "webDevelopment",
+    "link": "https://www.udemy.com/certificate/UC-7EOZHTXC/",
     "type": "course"
   },
   {
@@ -2333,206 +2364,222 @@ export const allCertificates = [
   {
     "id": 185,
     "image": "javascript-algorithms-and-data-structures.jpg",
-    "title": "Javascript Algorithms And Data Structures",
-    "organization": "Professional Training",
+    "title": "JavaScript Algorithms and Data Structures",
+    "organization": "freeCodeCamp",
     "tags": [
       "JavaScript",
-      "Data"
+      "Algorithms"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-185",
-    "type": "course"
+    "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/javascript-algorithms-and-data-structures",
+    "type": "developer-cert"
   },
   {
     "id": 186,
     "image": "javascript-arrays-and-loops-course.jpg",
-    "title": "Javascript Arrays And Loops Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Arrays and Loops",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Arrays"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-186",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/17280793466248249edad730f2201783",
     "type": "course"
   },
   {
     "id": 187,
     "image": "javascript-classes-and-modules-course.jpg",
-    "title": "Javascript Classes And Modules Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Classes and Modules",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Classes"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-187",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e31261e2b46eda2d6e37c8d77b70e027",
     "type": "course"
   },
   {
     "id": 188,
     "image": "javascript-classes.jpg",
-    "title": "Javascript Classes",
-    "organization": "Professional Training",
+    "title": "JavaScript: Classes",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Classes"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-188",
+    "link": "https://www.linkedin.com/learning/certificates/e88374640fbe5daf8f260cd9a645a71bf21eadf54ebd4b3e6a749f865a759713",
     "type": "course"
   },
   {
     "id": 189,
     "image": "javascript-code-challenges.jpg",
-    "title": "Javascript Code Challenges",
-    "organization": "Professional Training",
+    "title": "JavaScript Code Challenges",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Challenges"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-189",
+    "link": "https://www.linkedin.com/learning/certificates/fcf10e29b56c03f5e971f06cdd50cf8a8e6986a94a05728638963e3ab354c2d8",
     "type": "course"
   },
   {
     "id": 190,
     "image": "javascript-functions-and-scope-course.jpg",
-    "title": "Javascript Functions And Scope Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Functions and Scope",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Functions"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-190",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e6deb4a1eb7e48748dc58e8e85af33fd",
     "type": "course"
   },
   {
     "id": 191,
     "image": "javascript-fundamentals-course.jpg",
-    "title": "Javascript Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Fundamentals"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-191",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6494a05213df47028c37a0fe6e70a202",
     "type": "course"
   },
   {
     "id": 192,
     "image": "javascript-hackerrank.jpg",
-    "title": "Javascript Hackerrank",
+    "title": "JavaScript Skill Assessment",
     "organization": "HackerRank",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Programming"
     ],
-    "category": "webDevelopment",
-    "link": "#certificate-192",
-    "type": "course"
+    "category": "hackerrank",
+    "link": "https://www.hackerrank.com/certificates/8dccbd813b0e",
+    "type": "assessment"
   },
   {
     "id": 193,
     "image": "javascript-iterators-course.jpg",
-    "title": "Javascript Iterators Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Iterators",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Iterators"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-193",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ea60902237fd4c47832dcda930b05b1d",
     "type": "course"
   },
   {
     "id": 194,
     "image": "javascript-objects-course.jpg",
-    "title": "Javascript Objects Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Objects",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Objects"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-194",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/587418448b3146969227741e62045094",
     "type": "course"
   },
   {
     "id": 195,
     "image": "javascript-on-the-go-async.jpg",
-    "title": "Javascript On The Go Async",
-    "organization": "Professional Training",
+    "title": "JavaScript on the Go: Async",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Async"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-195",
+    "link": "https://www.linkedin.com/learning/certificates/b04cd6e84942d5e2946ee6b9e54462dba05f594a6e2829a19ac58746c35ef92a",
     "type": "course"
   },
   {
     "id": 196,
     "image": "javascript-on-the-go-objects.jpg",
-    "title": "Javascript On The Go Objects",
-    "organization": "Professional Training",
+    "title": "JavaScript on the Go: Objects",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Objects"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-196",
+    "link": "https://www.linkedin.com/learning/certificates/38441c126575b1cfe9163cfd16475ddacf080456b345456c01845fd1a135b155",
     "type": "course"
   },
   {
     "id": 197,
     "image": "javascript-requests-course.jpg",
-    "title": "Javascript Requests Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Requests",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "API"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-197",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4d7463ce8a6b44ea99ad248bfb085793",
     "type": "course"
   },
   {
     "id": 198,
     "image": "javascriptudemy.jpg",
-    "title": "Javascriptudemy",
+    "title": "JavaScript How to Create Dynamic and Interactive Web Pages",
     "organization": "Udemy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Interactive"
     ],
-    "category": "other",
-    "link": "#certificate-198",
+    "category": "webDevelopment",
+    "link": "https://www.udemy.com/certificate/UC-e3852f34-1556-4fab-bad7-e0e69b5a0f7f/",
     "type": "course"
   },
   {
     "id": 199,
     "image": "jscoursecodecademy.jpg",
-    "title": "Jscoursecodecademy",
+    "title": "Learn JavaScript",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Basics"
     ],
-    "category": "other",
-    "link": "#certificate-199",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/705dcb15de0da4dd9d9fc4f3274b430e",
     "type": "course"
   },
   {
     "id": 200,
     "image": "jsdomudemy.jpg",
-    "title": "Jsdomudemy",
+    "title": "JavaScript DOM Dynamic Web Interactive Content Boot Camp",
     "organization": "Udemy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "DOM"
     ],
-    "category": "other",
-    "link": "#certificate-200",
+    "category": "webDevelopment",
+    "link": "https://www.udemy.com/certificate/UC-461e8b4a-1bdd-4117-943f-4d016ed68e8c/",
     "type": "course"
   },
   {
     "id": 201,
     "image": "jsunittestingcodecademy.jpg",
-    "title": "Jsunittestingcodecademy",
+    "title": "Learn JavaScript Unit Testing",
     "organization": "Codecademy",
     "tags": [
+      "Testing",
       "JavaScript"
     ],
-    "category": "other",
-    "link": "#certificate-201",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f4276e8c08a3ba174ef0147deb0c3013",
     "type": "course"
   },
   {
@@ -2557,7 +2604,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "projectManagement",
     "link": "#certificate-203",
     "type": "course"
   },
@@ -2583,248 +2630,250 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "projectManagement",
     "link": "#certificate-205",
     "type": "course"
   },
   {
     "id": 206,
     "image": "Learn Node-SQLite Course.jpg",
-    "title": "Learn Node SQLite Course",
-    "organization": "Professional Training",
+    "title": "Learn Node-SQLite",
+    "organization": "Codecademy",
     "tags": [
       "Node.js",
-      "SQL"
+      "SQLite",
+      "Database"
     ],
-    "category": "other",
-    "link": "#certificate-206",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f0257b235b081aca2766010aad2df800",
     "type": "course"
   },
   {
     "id": 207,
     "image": "learn-advanced-react-course.jpg",
-    "title": "Learn Advanced React Course",
-    "organization": "Professional Training",
+    "title": "Learn Advanced React",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Advanced"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-207",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/13ffe064f6504262a9e9e3cf76be9bf3",
     "type": "course"
   },
   {
     "id": 208,
     "image": "learn-c++-classes-and-objects-course.jpg",
-    "title": "Learn C++ Classes And Objects Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: Classes and Objects",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "OOP"
     ],
     "category": "programming",
-    "link": "#certificate-208",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/673043efde0445f3af62466be6544679",
     "type": "course"
   },
   {
     "id": 209,
     "image": "learn-c++-functions-course.jpg",
-    "title": "Learn C++ Functions Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: Functions",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Functions"
     ],
     "category": "programming",
-    "link": "#certificate-209",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/284f66fe8c5745f886598714a6d9938b",
     "type": "course"
   },
   {
     "id": 210,
     "image": "learn-c++-introduction-course.jpg",
-    "title": "Learn C++ Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Basics"
     ],
     "category": "programming",
-    "link": "#certificate-210",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/edc9d8b145f845159ba1a10533c3b074",
     "type": "course"
   },
   {
     "id": 211,
     "image": "learn-c++-loops-course.jpg",
-    "title": "Learn C++ Loops Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: Loops",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Loops"
     ],
     "category": "programming",
-    "link": "#certificate-211",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3de27fdca0a541318be302cd5f0ab55d",
     "type": "course"
   },
   {
     "id": 212,
     "image": "learn-c++-references-and-pointers-course.jpg",
-    "title": "Learn C++ References And Pointers Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: References and Pointers",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Pointers"
     ],
     "category": "programming",
-    "link": "#certificate-212",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/66b188947bf947bca3a7c811ff9b51b5",
     "type": "course"
   },
   {
     "id": 213,
     "image": "learn-c++-vectors-course.jpg",
-    "title": "Learn C++ Vectors Course",
-    "organization": "Professional Training",
+    "title": "Learn C++: Vectors",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Vectors"
     ],
     "category": "programming",
-    "link": "#certificate-213",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/67907c97d4e04faabfb6dc06e6459139",
     "type": "course"
   },
   {
     "id": 214,
     "image": "learn-c++.jpg",
     "title": "Learn C++",
-    "organization": "Professional Training",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C++",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-214",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b74a2390dfc4127fa5d43fe147425ad0",
     "type": "course"
   },
   {
     "id": 215,
     "image": "learn-c-arrays-and-strings-course.jpg",
-    "title": "Learn C Arrays And Strings Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Arrays and Strings",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-215",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3f113c8d8c7e411aa67a9ba6ddac31a7",
     "type": "course"
   },
   {
     "id": 216,
     "image": "learn-c-conditionals-and-loops-course.jpg",
-    "title": "Learn C Conditionals And Loops Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Conditionals and Loops",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-216",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/858c39fcc1bd45399911a5aaca615add",
     "type": "course"
   },
   {
     "id": 217,
     "image": "learn-c-functions-and-structures-course.jpg",
-    "title": "Learn C Functions And Structures Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Functions and Structures",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-217",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/162acfabbdb7439fb974c6b26411a5e4",
     "type": "course"
   },
   {
     "id": 218,
     "image": "learn-c-introduction-course.jpg",
-    "title": "Learn C Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-218",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f2ef2f067b374ec785682f7106bb9682",
     "type": "course"
   },
   {
     "id": 219,
     "image": "learn-c-pointers-and-memory-course.jpg",
-    "title": "Learn C Pointers And Memory Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Pointers and Memory",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-219",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3c4790154f3548a087a71a7f5b3cea25",
     "type": "course"
   },
   {
     "id": 220,
     "image": "learn-c-skill-path.jpg",
     "title": "Learn C Skill Path",
-    "organization": "Professional Training",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-220",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9dba9d9b6bf64cf58b2b416ef9cd0912",
+    "type": "skill-path"
   },
   {
     "id": 221,
     "image": "learn-c-variables-and-operators-course.jpg",
-    "title": "Learn C Variables And Operators Course",
-    "organization": "Professional Training",
+    "title": "Learn C: Variables and Operations",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-221",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/86db59d467704d41b235e468782cbe1e",
     "type": "course"
   },
   {
     "id": 222,
     "image": "learn-csharp-introduction-course.jpg",
-    "title": "Learn Csharp Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn C#: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "C#",
+      "Programming"
     ],
-    "category": "other",
-    "link": "#certificate-222",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6616358d1c964232b8f3af5ed7490ad4",
     "type": "course"
   },
   {
     "id": 223,
     "image": "learn-d3-course.jpg",
-    "title": "Learn D3 Course",
-    "organization": "Professional Training",
+    "title": "Learn D3",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "D3.js",
+      "Visualization"
     ],
-    "category": "other",
-    "link": "#certificate-223",
+    "category": "dataScience",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/52a1fa1160a49f2b861e7fd58380cc5a",
     "type": "course"
   },
   {
     "id": 224,
     "image": "learn-emotional-intelligence-the-key-determine-of-success.jpg",
     "title": "Learn Emotional Intelligence The Key Determine Of Success",
-    "organization": "Professional Training",
+    "organization": "Intel",
     "tags": [
       "Technology",
       "Professional Development"
@@ -2848,183 +2897,186 @@ export const allCertificates = [
   {
     "id": 226,
     "image": "learn-express-course-2025-update.jpg",
-    "title": "Learn Express Course 2025 Update",
-    "organization": "Professional Training",
+    "title": "Learn Express - Updated",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Express",
+      "Node.js",
+      "Updated"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-226",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85396dd6e2e850ab34e904243aa464c6",
     "type": "course"
   },
   {
     "id": 227,
     "image": "learn-flask-fundamentals-course.jpg",
-    "title": "Learn Flask Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn Flask Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Flask",
+      "Python",
+      "Backend"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-227",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d0391bd094f74ff6b770cbc03956b844",
     "type": "course"
   },
   {
     "id": 228,
     "image": "learn-flask-jinja2-templates-and-forms-course.jpg",
-    "title": "Learn Flask Jinja2 Templates And Forms Course",
-    "organization": "Professional Training",
+    "title": "Learn Flask: Jinja2 Templates and Forms",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Flask",
+      "Jinja2",
+      "Forms"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-228",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/de1baccbb05c4531a96c52760b7bd110",
     "type": "course"
   },
   {
     "id": 229,
     "image": "learn-git-branching-and-collaboration-course.jpg",
-    "title": "Learn Git Branching And Collaboration Course",
-    "organization": "Professional Training",
+    "title": "Learn Git: Branching and Collaboration",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Git",
+      "Collaboration"
     ],
-    "category": "other",
-    "link": "#certificate-229",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4c7eae872d9e403983848787b6c9f3a9",
     "type": "course"
   },
   {
     "id": 230,
     "image": "learn-git-introduction-course.jpg",
-    "title": "Learn Git Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn Git: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Git",
+      "Version Control"
     ],
-    "category": "other",
-    "link": "#certificate-230",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/53f1ee480e524cd7b329b5854507c089",
     "type": "course"
   },
   {
     "id": 231,
     "image": "learn-github-best-practices-course.jpg",
-    "title": "Learn Github Best Practices Course",
-    "organization": "Professional Training",
+    "title": "Learn GitHub: Best Practices",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "GitHub",
+      "Best Practices"
     ],
-    "category": "other",
-    "link": "#certificate-231",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/38d1b4a390d74a37af5cb1177556d047",
     "type": "course"
   },
   {
     "id": 232,
     "image": "learn-github-introduction-course.jpg",
-    "title": "Learn Github Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn GitHub: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "GitHub",
+      "Version Control"
     ],
-    "category": "other",
-    "link": "#certificate-232",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/047c980c46ab4dd782820437fedbd42d",
     "type": "course"
   },
   {
     "id": 233,
     "image": "learn-go-conditionals-course.jpg",
-    "title": "Learn Go Conditionals Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Conditionals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Conditionals"
     ],
-    "category": "other",
-    "link": "#certificate-233",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/70c77bd516794645953a2404ab97c0e9",
     "type": "course"
   },
   {
     "id": 234,
     "image": "learn-go-course.jpg",
-    "title": "Learn Go Course",
-    "organization": "Professional Training",
+    "title": "Learn Go",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Programming"
     ],
-    "category": "other",
-    "link": "#certificate-234",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60773d2e920679c8e46ff634b9ed2e6e",
     "type": "course"
   },
   {
     "id": 235,
     "image": "learn-go-functions-course.jpg",
-    "title": "Learn Go Functions Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Functions",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Functions"
     ],
-    "category": "other",
-    "link": "#certificate-235",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2d1c47eef06b4aadb68505222dcb7914",
     "type": "course"
   },
   {
     "id": 236,
     "image": "learn-go-fundamentals-course.jpg",
-    "title": "Learn Go Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Fundamentals"
     ],
-    "category": "other",
-    "link": "#certificate-236",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/396dc785cea9417c94160e72e288145a",
     "type": "course"
   },
   {
     "id": 237,
     "image": "learn-go-loops-and-arrays-course.jpg",
-    "title": "Learn Go Loops And Arrays Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Loops And Arrays",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Arrays"
     ],
-    "category": "other",
-    "link": "#certificate-237",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2ed75f1edc734166966668b0c00ccc86",
     "type": "course"
   },
   {
     "id": 238,
     "image": "learn-go-loops-arrays-maps-and-structs-course.jpg",
-    "title": "Learn Go Loops Arrays Maps And Structs Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Loops, Arrays, Maps, and Structs",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Data Structures"
     ],
-    "category": "other",
-    "link": "#certificate-238",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c5a07b3444c44fb0b3883075c5af51f4",
     "type": "course"
   },
   {
     "id": 239,
     "image": "learn-go-maps-and-structs-course.jpg",
-    "title": "Learn Go Maps And Structs Course",
-    "organization": "Professional Training",
+    "title": "Learn Go: Maps and Structs",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Go",
+      "Structs"
     ],
-    "category": "other",
-    "link": "#certificate-239",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/55d9398dc257455ba91336713593f733",
     "type": "course"
   },
   {
@@ -3080,395 +3132,405 @@ export const allCertificates = [
   {
     "id": 244,
     "image": "learn-html-forms-course.jpg",
-    "title": "Learn Html Forms Course",
-    "organization": "Professional Training",
+    "title": "Learn HTML Forms",
+    "organization": "Codecademy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Forms"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-244",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/13f68dfe9ab344dc929ddaf58daff3a8",
     "type": "course"
   },
   {
     "id": 245,
     "image": "learn-html-fundamentals-course.jpg",
-    "title": "Learn Html Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn HTML Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Fundamentals"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-245",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c6f2b55a48f440a6a876686f7487e1a7",
     "type": "course"
   },
   {
     "id": 246,
     "image": "learn-html-semantic-html-course.jpg",
-    "title": "Learn Html Semantic Html Course",
-    "organization": "Professional Training",
+    "title": "Learn HTML Semantic HTML",
+    "organization": "Codecademy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Semantic"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-246",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b2b97b04c9948bfb45c5e6f17498a7f",
     "type": "course"
   },
   {
     "id": 247,
     "image": "learn-html-tables-course.jpg",
-    "title": "Learn Html Tables Course",
-    "organization": "Professional Training",
+    "title": "Learn HTML Tables",
+    "organization": "Codecademy",
     "tags": [
-      "Machine Learning",
-      "HTML"
+      "HTML",
+      "Tables"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-247",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9477c6a366f84e96b707fa371d6fcc81",
     "type": "course"
   },
   {
     "id": 248,
     "image": "learn-intermediate-css-course.jpg",
-    "title": "Learn Intermediate Css Course",
-    "organization": "Professional Training",
+    "title": "Learn Intermediate CSS",
+    "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Intermediate"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-248",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/b3dec49423da50603c25618aee635027",
     "type": "course"
   },
   {
     "id": 249,
     "image": "learn-intermediate-typescript-configuration-course.jpg",
-    "title": "Learn Intermediate Typescript Configuration Course",
-    "organization": "Professional Training",
+    "title": "Learn Intermediate TypeScript: Configuration",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Configuration"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-249",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a7eb2e45e27a4a0ba0d2e98c1087e999",
     "type": "course"
   },
   {
     "id": 250,
     "image": "learn-intermediate-typescript-course.jpg",
-    "title": "Learn Intermediate Typescript Course",
-    "organization": "Professional Training",
+    "title": "Learn Intermediate TypeScript",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Intermediate"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-250",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/84f728978e434c02a78abaa0baca0d6c",
     "type": "course"
   },
   {
     "id": 251,
     "image": "learn-java-introduction-course.jpg",
-    "title": "Learn Java Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn Java: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Java",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-251",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/8149b07e106bb4b49aad31a6432bf648",
     "type": "course"
   },
   {
     "id": 252,
     "image": "learn-java-object-oriented-programming-course.jpg",
-    "title": "Learn Java Object Oriented Programming Course",
-    "organization": "Professional Training",
+    "title": "Learn Java: Object-Oriented Programming",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Java",
+      "OOP"
     ],
     "category": "programming",
-    "link": "#certificate-252",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/23a06f0af71448c0a2ed456d6191e11e",
     "type": "course"
   },
   {
     "id": 253,
     "image": "learn-javascript-asynchronous-programming-course.jpg",
-    "title": "Learn Javascript Asynchronous Programming Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript Asynchronous Programming",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Async"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-253",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/257c50bca4561663476f2fa8f6ac410c",
     "type": "course"
   },
   {
     "id": 254,
     "image": "learn-javascript-best-practices-course.jpg",
-    "title": "Learn Javascript Best Practices Course",
-    "organization": "Professional Training",
+    "title": "Learn JavaScript: Best Practices",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Best Practices"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-254",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4d96abf1a9de46b18e56ec093d3b514e",
     "type": "course"
   },
   {
     "id": 255,
     "image": "learn-jquery-course.jpg",
-    "title": "Learn Jquery Course",
-    "organization": "Professional Training",
+    "title": "Learn jQuery",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "jQuery",
+      "JavaScript"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-255",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0becf7c1cd2bd715f24331dddd23425a",
     "type": "course"
   },
   {
     "id": 256,
     "image": "learn-jquery-dom-traversing-course.jpg",
-    "title": "Learn Jquery Dom Traversing Course",
-    "organization": "Professional Training",
+    "title": "Learn jQuery: DOM Traversing",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "jQuery",
+      "DOM"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-256",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/f5ced1d9abe94fe39a7416a5b63756cc",
     "type": "course"
   },
   {
     "id": 257,
     "image": "learn-jquery-effects-and-event-handling-course.jpg",
-    "title": "Learn Jquery Effects And Event Handling Course",
-    "organization": "Professional Training",
+    "title": "Learn jQuery: Effects and Event Handling",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "jQuery",
+      "Events"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-257",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/66796514a1d547b3a2f6b6f18b43a88c",
     "type": "course"
   },
   {
     "id": 258,
     "image": "learn-jquery-fundamentals-course.jpg",
-    "title": "Learn Jquery Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn jQuery: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "jQuery",
+      "JavaScript"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-258",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a4cc0b9393e4434ba57db4f8d647f387",
     "type": "course"
   },
   {
     "id": 259,
     "image": "learn-jquery-styles-course.jpg",
-    "title": "Learn Jquery Styles Course",
-    "organization": "Professional Training",
+    "title": "Learn jQuery: Styles",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "jQuery",
+      "Styling"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-259",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1693a5bc29d246ee88fb14b029333506",
     "type": "course"
   },
   {
     "id": 260,
     "image": "learn-mongodb-course.jpg",
-    "title": "Learn Mongodb Course",
-    "organization": "Professional Training",
+    "title": "Learn MongoDB",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "MongoDB",
+      "NoSQL"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-260",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/808a989d563e4e85ba3495d4d14dce5d",
     "type": "course"
   },
   {
     "id": 261,
     "image": "learn-nextjs.jpg",
-    "title": "Learn Nextjs",
-    "organization": "Professional Training",
+    "title": "Learning Next.js",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript"
+      "Next.js",
+      "React"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-261",
+    "link": "https://www.linkedin.com/learning/certificates/3afc6dcbd10b1e716af47be0a81f4bf05667f31e1078c787da1f030b03987aa8",
     "type": "course"
   },
   {
     "id": 262,
     "image": "learn-nodejs-fundamentals-course.jpg",
-    "title": "Learn Nodejs Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn Node.js: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript",
-      "Node.js"
+      "Node.js",
+      "Fundamentals"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-262",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/a59cd2c3e0244b7081c9c58e0d7692c5",
     "type": "course"
   },
   {
     "id": 263,
     "image": "learn-nodejs-setting-up-a-server-course.jpg",
-    "title": "Learn Nodejs Setting Up A Server Course",
-    "organization": "Professional Training",
+    "title": "Learn Node.js: Setting Up a Server",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript",
-      "Node.js"
+      "Node.js",
+      "Server"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-263",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/827011ad71164a86a41365e2262dcb5a",
     "type": "course"
   },
   {
     "id": 264,
     "image": "learn-p5js-course.jpg",
-    "title": "Learn P5js Course",
-    "organization": "Professional Training",
+    "title": "Learn p5.js",
+    "organization": "Codecademy",
     "tags": [
+      "p5.js",
       "JavaScript"
     ],
-    "category": "other",
-    "link": "#certificate-264",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/0e832ced60be84063c15cc804795d04c",
     "type": "course"
   },
   {
     "id": 265,
     "image": "learn-p5js-fundamentals-course.jpg",
-    "title": "Learn P5js Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn p5.js: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "p5.js",
+      "Creative Coding"
     ],
     "category": "other",
-    "link": "#certificate-265",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e5e683b8fb974356a1665628f1c51df2",
     "type": "course"
   },
   {
     "id": 266,
     "image": "learn-p5js-interaction-course.jpg",
-    "title": "Learn P5js Interaction Course",
-    "organization": "Professional Training",
+    "title": "Learn p5.js: Interaction",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "p5.js",
+      "Interaction"
     ],
     "category": "other",
-    "link": "#certificate-266",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2355fee7a96b437eb5fa9204d91b6268",
     "type": "course"
   },
   {
     "id": 267,
     "image": "learn-p5js-media-course.jpg",
-    "title": "Learn P5js Media Course",
-    "organization": "Professional Training",
+    "title": "Learn p5.js: Media",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "p5.js",
+      "Media"
     ],
     "category": "other",
-    "link": "#certificate-267",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ccffaf5181f64ea29e988cc73a3e696f",
     "type": "course"
   },
   {
     "id": 268,
     "image": "learn-php-arrays-and-loops-course.jpg",
-    "title": "Learn Php Arrays And Loops Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Arrays and Loops",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Arrays"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-268",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/798f0287cb44476db8e2a21b635cac92",
     "type": "course"
   },
   {
     "id": 269,
     "image": "learn-php-conditionals-and-logic-course.jpg",
-    "title": "Learn Php Conditionals And Logic Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Conditionals and Logic",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Logic"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-269",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/62f12d63d6b44044aab18555ddf3022a",
     "type": "course"
   },
   {
     "id": 270,
     "image": "learn-php-form-handling-and-validation-course.jpg",
-    "title": "Learn Php Form Handling And Validation Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Form Handling and Validation",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Forms"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-270",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/df254d87a49d4b359764937e065e6fcc",
     "type": "course"
   },
   {
     "id": 271,
     "image": "learn-php-functions-course.jpg",
-    "title": "Learn Php Functions Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Functions",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Functions"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-271",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dc28cb2f4158446e9db7ec820a3dd839",
     "type": "course"
   },
   {
     "id": 272,
     "image": "learn-php-introduction-course.jpg",
-    "title": "Learn Php Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Basics"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-272",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/167925f179f648e8abbaedbdf5b43091",
     "type": "course"
   },
   {
     "id": 273,
     "image": "learn-php-objects-and-classes-course.jpg",
-    "title": "Learn Php Objects And Classes Course",
-    "organization": "Professional Training",
+    "title": "Learn PHP: Objects and Classes",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "OOP"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-273",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/549326eb43224f97af6886080354a5d9",
     "type": "course"
   },
   {
     "id": 274,
     "image": "learn-php-skill-path.jpg",
-    "title": "Learn Php Skill Path",
-    "organization": "Professional Training",
+    "title": "Learn PHP Skill Path",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Backend"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-274",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9b7bcc38d0ed49f593228763cbfd51e3",
+    "type": "skill-path"
   },
   {
     "id": 275,
@@ -3486,190 +3548,196 @@ export const allCertificates = [
   {
     "id": 276,
     "image": "learn-python-3-codecademy.jpg",
-    "title": "Learn Python 3 Codecademy",
+    "title": "Learn Python 3",
     "organization": "Codecademy",
     "tags": [
-      "Python"
+      "Python",
+      "Programming"
     ],
     "category": "programming",
-    "link": "#certificate-276",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6c152bd262967f8c941c9707ed636bda",
     "type": "course"
   },
   {
     "id": 277,
     "image": "learn-react-router-v6-course.jpg",
-    "title": "Learn React Router V6 Course",
-    "organization": "Professional Training",
+    "title": "Learn React Router V6",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Router"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-277",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/15b32ebcd95f164740d02275674fc5ee",
     "type": "course"
   },
   {
     "id": 278,
     "image": "learn-redux-fundamentals-course.jpg",
-    "title": "Learn Redux Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn Redux: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Redux",
+      "Fundamentals"
     ],
     "category": "other",
-    "link": "#certificate-278",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7ba1b049457e418698e5aaadbb811141",
     "type": "course"
   },
   {
     "id": 279,
     "image": "learn-redux-middleware-and-thunks-course.jpg",
-    "title": "Learn Redux Middleware And Thunks Course",
-    "organization": "Professional Training",
+    "title": "Learn Redux: Middleware and Thunks",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Redux",
+      "Middleware"
     ],
     "category": "other",
-    "link": "#certificate-279",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6fb9654b46774487a1ee055058a207ec",
     "type": "course"
   },
   {
     "id": 280,
     "image": "learn-redux-react-redux-course.jpg",
-    "title": "Learn Redux React Redux Course",
-    "organization": "Professional Training",
+    "title": "Learn Redux: React Redux",
+    "organization": "Codecademy",
     "tags": [
+      "Redux",
       "React"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-280",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/cbd71efcec444234a1803009fb501ff9",
     "type": "course"
   },
   {
     "id": 281,
     "image": "learn-redux-redux-toolkit-course.jpg",
-    "title": "Learn Redux Redux Toolkit Course",
-    "organization": "Professional Training",
+    "title": "Learn Redux: Redux Toolkit",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Redux",
+      "Toolkit"
     ],
     "category": "other",
-    "link": "#certificate-281",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dcdfe64244be441ba3f316190e8e9fc4",
     "type": "course"
   },
   {
     "id": 282,
     "image": "learn-sass-best-practices-course.jpg",
-    "title": "Learn Sass Best Practices Course",
-    "organization": "Professional Training",
+    "title": "Learn Sass: Best Practices",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Sass",
+      "Best Practices"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-282",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c8e4aa1edf8941369d657b0b8e75ec12",
     "type": "course"
   },
   {
     "id": 283,
     "image": "learn-sass-course.jpg",
-    "title": "Learn Sass Course",
-    "organization": "Professional Training",
+    "title": "Learn Sass",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Sass",
+      "CSS"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-283",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/eb1ffda40f347629dcef6de33d3f9741",
     "type": "course"
   },
   {
     "id": 284,
     "image": "learn-sass-functions-and-operations-course.jpg",
-    "title": "Learn Sass Functions And Operations Course",
-    "organization": "Professional Training",
+    "title": "Learn Sass: Functions and Operations",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Sass",
+      "Functions"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-284",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/72dce5856b26420eab990320789a756b",
     "type": "course"
   },
   {
     "id": 285,
     "image": "learn-sass-fundamentals-course.jpg",
-    "title": "Learn Sass Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn Sass: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Sass",
+      "CSS"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-285",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/85a4eb3889e340728fca80af6156330d",
     "type": "course"
   },
   {
     "id": 286,
     "image": "learn-sass-mixins-and-parent-selector-course.jpg",
-    "title": "Learn Sass Mixins And Parent Selector Course",
-    "organization": "Professional Training",
+    "title": "Learn Sass: Mixins and Parent Selector",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Sass",
+      "Mixins"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-286",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c811b7d2a1c74ba39bf01637da5bece8",
     "type": "course"
   },
   {
     "id": 287,
     "image": "learn-sql-aggregate-functions-course.jpg",
-    "title": "Learn Sql Aggregate Functions Course",
-    "organization": "Professional Training",
+    "title": "Learn SQL: Aggregate Functions",
+    "organization": "Codecademy",
     "tags": [
-      "SQL"
+      "SQL",
+      "Functions"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-287",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/54d31a5b6a6645aaa0fd30e8e39c7c8c",
     "type": "course"
   },
   {
     "id": 288,
     "image": "learn-sql-multiple-tables-course.jpg",
-    "title": "Learn Sql Multiple Tables Course",
-    "organization": "Professional Training",
+    "title": "Learn SQL: Multiple Tables",
+    "organization": "Codecademy",
     "tags": [
-      "SQL"
+      "SQL",
+      "Joins"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-288",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3458a87aa1c74416ac306a12d6d3fe9e",
     "type": "course"
   },
   {
     "id": 289,
     "image": "learn-sql.jpg",
-    "title": "Learn Sql",
-    "organization": "Professional Training",
+    "title": "Learn SQL",
+    "organization": "Codecademy",
     "tags": [
-      "SQL"
+      "SQL",
+      "Database"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-289",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/042a4e5884e3eb6ea1f2a12be6abb851",
     "type": "course"
   },
   {
     "id": 290,
     "image": "learn-testing-for-web-development-server-testing-course.jpg",
-    "title": "Learn Testing For Web Development Server Testing Course",
-    "organization": "Professional Training",
+    "title": "Learn Testing for Web Development: Server Testing",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Testing",
+      "Backend"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-290",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e1a6e39f2c4643168dd920da027b1691",
     "type": "course"
   },
   {
@@ -3712,26 +3780,27 @@ export const allCertificates = [
   {
     "id": 294,
     "image": "learn-websockets-course.jpg",
-    "title": "Learn Websockets Course",
-    "organization": "Professional Training",
+    "title": "Learn WebSockets",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "WebSockets",
+      "Real-time"
     ],
     "category": "other",
-    "link": "#certificate-294",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d0f004b5ab60b2bda59b6e38892b931b",
     "type": "course"
   },
   {
     "id": 295,
     "image": "learncsscodecademy.jpg",
-    "title": "Learncsscodecademy",
+    "title": "Learn CSS",
     "organization": "Codecademy",
     "tags": [
-      "CSS"
+      "CSS",
+      "Web Design"
     ],
-    "category": "other",
-    "link": "#certificate-295",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9a5bb1fc45b4281af1fffec93b0aaf05",
     "type": "course"
   },
   {
@@ -3761,39 +3830,41 @@ export const allCertificates = [
   {
     "id": 298,
     "image": "linear-data-structures-course.jpg",
-    "title": "Linear Data Structures Course",
-    "organization": "Professional Training",
+    "title": "Linear Data Structures",
+    "organization": "Codecademy",
     "tags": [
-      "Data"
+      "Data Structures",
+      "Algorithms"
     ],
-    "category": "dataScience",
-    "link": "#certificate-298",
+    "category": "other",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/79735c9d76222d32368a4e4f1fb2580f",
     "type": "course"
   },
   {
     "id": 299,
     "image": "linkedin-react-state-management.jpg",
-    "title": "Linkedin React State Management",
+    "title": "React: State Management",
     "organization": "LinkedIn Learning",
     "tags": [
-      "React"
+      "React",
+      "State Management"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-299",
+    "link": "https://www.linkedin.com/learning/certificates/2fbe688121f7332a3dc81e8a4adc862c4b0c8d00137ace476fb518420e63d5c3",
     "type": "course"
   },
   {
     "id": 300,
     "image": "linux.jpg",
-    "title": "Linux",
-    "organization": "Professional Training",
+    "title": "LFS101x.2: Introduction to Linux",
+    "organization": "Linux Foundation",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Linux",
+      "Operating Systems"
     ],
     "category": "other",
-    "link": "#certificate-300",
-    "type": "course"
+    "link": "https://verify.edx.org/cert/7dcebc519d644102918e42bb5492647c",
+    "type": "certificate"
   },
   {
     "id": 301,
@@ -3888,76 +3959,82 @@ export const allCertificates = [
   {
     "id": 308,
     "image": "mern-essential-training.jpg",
-    "title": "Mern Essential Training",
-    "organization": "Professional Training",
+    "title": "MERN Essential Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "AI"
+      "MERN",
+      "Full Stack"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-308",
+    "link": "https://www.linkedin.com/learning/certificates/819b6acace1b45b785a6feca72a3adf40c9e6bb5aad26fdd96273a4c3bfe1ca6",
     "type": "course"
   },
   {
     "id": 309,
     "image": "meta-introduction-to-back-end-development.jpg",
-    "title": "Meta Introduction To Back End Development",
+    "title": "Introduction to Back-End Development",
     "organization": "Meta",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Backend",
+      "Meta",
+      "2025"
     ],
-    "category": "other",
-    "link": "#certificate-309",
+    "category": "webDevelopment",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/6H1R8VB95RDR",
     "type": "course"
   },
   {
     "id": 310,
     "image": "meta-introduction-to-front-end-development.jpg",
-    "title": "Meta Introduction To Front End Development",
+    "title": "Introduction to Front-End Development",
     "organization": "Meta",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Front-End",
+      "Meta",
+      "2025"
     ],
     "category": "other",
-    "link": "#certificate-310",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/8YF9VA5TY2UO",
     "type": "course"
   },
   {
     "id": 311,
     "image": "meta-introduction-to-mobile-development.jpg",
-    "title": "Meta Introduction To Mobile Development",
+    "title": "Introduction to Mobile Development",
     "organization": "Meta",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Mobile",
+      "Meta"
     ],
-    "category": "other",
-    "link": "#certificate-311",
+    "category": "mobileDevelopment",
+    "link": "https://www.coursera.org/account/accomplishments/verify/VSJHXAAR166J",
     "type": "course"
   },
   {
     "id": 312,
     "image": "meta-programming-with-javascript.jpg",
-    "title": "Meta Programming With Javascript",
+    "title": "Programming with JavaScript",
     "organization": "Meta",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Meta",
+      "2025"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-312",
+    "link": "https://coursera.org/share/e545e94d58e2b4cf0218e9a775f8e7d4",
     "type": "course"
   },
   {
     "id": 313,
     "image": "meta-react-basics.jpg",
-    "title": "Meta React Basics",
+    "title": "React Basics",
     "organization": "Meta",
     "tags": [
-      "React"
+      "React",
+      "Meta"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-313",
+    "link": "https://coursera.org/share/8583a719cc6c13f9d7782caa7f43e2cc",
     "type": "course"
   },
   {
@@ -3977,13 +4054,13 @@ export const allCertificates = [
     "id": 315,
     "image": "microservices-foundations.jpg",
     "title": "Microservices Foundations",
-    "organization": "Professional Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Microservices",
+      "Architecture"
     ],
     "category": "other",
-    "link": "#certificate-315",
+    "link": "https://www.linkedin.com/learning/certificates/44d58bde3409ce4721b2fc300ae2d03a4dbdd7d9602b1e5a58e4cc155790c534",
     "type": "course"
   },
   {
@@ -4002,15 +4079,15 @@ export const allCertificates = [
   {
     "id": 317,
     "image": "mit.jpg",
-    "title": "Mit",
+    "title": "6.00.1x: Introduction to Computer Science and Programming Using Python",
     "organization": "MIT",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Python",
+      "Computer Science"
     ],
-    "category": "other",
-    "link": "#certificate-317",
-    "type": "course"
+    "category": "programming",
+    "link": "https://courses.edx.org/certificates/ffe9d70c18654869a2601639f6078158",
+    "type": "certificate"
   },
   {
     "id": 318,
@@ -4092,27 +4169,28 @@ export const allCertificates = [
   {
     "id": 324,
     "image": "navigationdesigncodecademy.jpg",
-    "title": "Navigationdesigncodecademy",
+    "title": "Learn Navigation Design",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Design",
+      "Navigation"
     ],
-    "category": "other",
-    "link": "#certificate-324",
+    "category": "design",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/91cf4a1767724a02a20b1eba7eca74ea",
     "type": "course"
   },
   {
     "id": 325,
     "image": "netlify-and-heroku-codecademy.jpg",
-    "title": "Netlify And Heroku Codecademy",
+    "title": "Deploying with Netlify and Heroku",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Deployment",
+      "Netlify",
+      "Heroku"
     ],
     "category": "other",
-    "link": "#certificate-325",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6156c9bebf9046929b95afa8fa67ffd5",
     "type": "course"
   },
   {
@@ -4144,39 +4222,41 @@ export const allCertificates = [
   {
     "id": 328,
     "image": "node-and-express-essentials-ibm-certificate.jpg",
-    "title": "Node And Express Essentials Ibm Certificate",
+    "title": "Node and Express Essentials",
     "organization": "IBM",
     "tags": [
-      "Node.js"
+      "Node.js",
+      "Express",
+      "IBM"
     ],
-    "category": "webDevelopment",
-    "link": "#certificate-328",
-    "type": "course"
+    "category": "bigTech",
+    "link": "https://www.credly.com/badges/f3b86027-f13c-4157-9fc8-40d77d75f546",
+    "type": "certificate"
   },
   {
     "id": 329,
     "image": "node.js-essential-training.jpg",
-    "title": "Node.Js Essential Training",
-    "organization": "Professional Training",
+    "title": "Node.js Essential Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "JavaScript",
       "Node.js",
-      "AI"
+      "Essential"
     ],
     "category": "other",
-    "link": "#certificate-329",
+    "link": "https://www.linkedin.com/learning/certificates/b9aad1320568233cd320291369abf3ff132ab5026cb636b89151fac0c885880c",
     "type": "course"
   },
   {
     "id": 330,
     "image": "nodecademy.jpg",
-    "title": "Nodecademy",
-    "organization": "Professional Training",
+    "title": "Learn Node.js",
+    "organization": "Codecademy",
     "tags": [
-      "Node.js"
+      "Node.js",
+      "Backend"
     ],
-    "category": "other",
-    "link": "#certificate-330",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/240305d50b925c17868f1ac7a21a3261",
     "type": "course"
   },
   {
@@ -4293,7 +4373,7 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "cybersecurity",
+    "category": "aiMachineLearning",
     "link": "#certificate-339",
     "type": "course"
   },
@@ -4305,7 +4385,7 @@ export const allCertificates = [
     "tags": [
       "AI"
     ],
-    "category": "cybersecurity",
+    "category": "aiMachineLearning",
     "link": "#certificate-340",
     "type": "course"
   },
@@ -4331,7 +4411,7 @@ export const allCertificates = [
       "AI",
       "Security"
     ],
-    "category": "cybersecurity",
+    "category": "aiMachineLearning",
     "link": "#certificate-342",
     "type": "course"
   },
@@ -4356,7 +4436,7 @@ export const allCertificates = [
       "AI",
       "Data"
     ],
-    "category": "dataScience",
+    "category": "aiMachineLearning",
     "link": "#certificate-344",
     "type": "course"
   },
@@ -4376,13 +4456,14 @@ export const allCertificates = [
   {
     "id": 346,
     "image": "packt-blockchain-basics-and-smart-contract-foundations.jpg",
-    "title": "Packt Blockchain Basics And Smart Contract Foundations",
+    "title": "Blockchain Basics and Smart Contract Foundations",
     "organization": "Packt",
     "tags": [
-      "AI"
+      "Blockchain",
+      "Smart Contracts"
     ],
     "category": "other",
-    "link": "#certificate-346",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/R7SPTDQ360WF",
     "type": "course"
   },
   {
@@ -4400,79 +4481,80 @@ export const allCertificates = [
   {
     "id": 348,
     "image": "pass-the-technical-interview-with-javascript-skill-path.jpg",
-    "title": "Pass The Technical Interview With Javascript Skill Path",
-    "organization": "Professional Training",
+    "title": "Pass the Technical Interview with JavaScript",
+    "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Interview Prep"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-348",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5e946e121bc8bd0011e2b932",
+    "type": "skill-path"
   },
   {
     "id": 349,
     "image": "persuasive-ux-creating-credibility.jpg",
-    "title": "Persuasive Ux Creating Credibility",
-    "organization": "Professional Training",
+    "title": "Persuasive UX: Creating Credibility",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "UX",
+      "Persuasion"
     ],
     "category": "design",
-    "link": "#certificate-349",
+    "link": "https://www.linkedin.com/learning/certificates/32db1759f9d9f5444bba5d34eb5bfa4fefc048ef3f7cbc1dec353573ff090497",
     "type": "course"
   },
   {
     "id": 350,
     "image": "php.jpg",
-    "title": "Php",
-    "organization": "Professional Training",
+    "title": "Practical PHP: Master the Basics and Code Dynamic Websites",
+    "organization": "Udemy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "Backend"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-350",
+    "link": "https://www.udemy.com/certificate/UC-76c2d964-035b-4383-825b-8c4b5b45c604/",
     "type": "course"
   },
   {
     "id": 351,
     "image": "platform-engineering-foundations-comptia-certificate.jpg",
-    "title": "Platform Engineering Foundations Comptia Certificate",
-    "organization": "Professional Training",
+    "title": "Platform Engineering Foundations (CompTIA)",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Platform Engineering",
+      "CompTIA"
     ],
     "category": "cloudDevOps",
-    "link": "#certificate-351",
-    "type": "course"
+    "link": "https://www.linkedin.com/learning/certificates/406fb9b1205f4001ced6f3c2448e72334cb79fb6ad460827bf363f8baaa4401c",
+    "type": "certificate"
   },
   {
     "id": 352,
     "image": "platform-engineering-foundations-linkedin-certificate.jpg",
-    "title": "Platform Engineering Foundations Linkedin Certificate",
+    "title": "Platform Engineering Foundations",
     "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Platform Engineering",
+      "DevOps"
     ],
     "category": "cloudDevOps",
-    "link": "#certificate-352",
+    "link": "https://www.linkedin.com/learning/certificates/ea3bdab575f87f7daacf2efa38e645dd5608069c0e8e888974da18a1db59ad1c",
     "type": "course"
   },
   {
     "id": 353,
     "image": "platform-engineering-foundations-pmi-certificate.jpg",
-    "title": "Platform Engineering Foundations Pmi Certificate",
-    "organization": "PMI",
+    "title": "Platform Engineering Foundations (PMI)",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Platform Engineering",
+      "PMI"
     ],
     "category": "cloudDevOps",
-    "link": "#certificate-353",
-    "type": "course"
+    "link": "https://www.linkedin.com/learning/certificates/0ebed1da0b70c7954dbd9f9a85db448d168d67d2782c892ac28a82bff044e8f4",
+    "type": "certificate"
   },
   {
     "id": 354,
@@ -4490,14 +4572,14 @@ export const allCertificates = [
   {
     "id": 355,
     "image": "politecnico-milano-platform-thinking-whats-beyond-uber.jpg",
-    "title": "Politecnico Milano Platform Thinking Whats Beyond Uber",
+    "title": "Platform Thinking: what",
     "organization": "Politecnico di Milano",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Platform",
+      "Strategy"
     ],
     "category": "other",
-    "link": "#certificate-355",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/35OLSQBPKEJJ",
     "type": "course"
   },
   {
@@ -4532,34 +4614,34 @@ export const allCertificates = [
     "tags": [
       "Data"
     ],
-    "category": "dataScience",
+    "category": "other",
     "link": "#certificate-358",
     "type": "course"
   },
   {
     "id": 359,
     "image": "programming-foundations-application-architecture.jpg",
-    "title": "Programming Foundations Application Architecture",
-    "organization": "Professional Training",
+    "title": "Programming Foundations: Application Architecture",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Architecture",
+      "Application Design"
     ],
     "category": "programming",
-    "link": "#certificate-359",
+    "link": "https://www.linkedin.com/learning/certificates/368279604c1378ba3399d3f5e11c16e66c5639dc34b9c1900fe76018e0310c91",
     "type": "course"
   },
   {
     "id": 360,
     "image": "programminglinkedin.jpg",
-    "title": "Programminglinkedin",
+    "title": "Programming Foundations: Fundamentals",
     "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Programming",
+      "Fundamentals"
     ],
-    "category": "other",
-    "link": "#certificate-360",
+    "category": "programming",
+    "link": "https://www.linkedin.com/learning/certificates/2198118e70a611de3d352d0317bc26f5fee33c638ba078957f48bd797b3d3527",
     "type": "course"
   },
   {
@@ -4655,223 +4737,236 @@ export const allCertificates = [
   {
     "id": 368,
     "image": "react-additional-basics-course.jpg",
-    "title": "React Additional Basics Course",
-    "organization": "Professional Training",
+    "title": "Learn React: Additional Basics",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Basics"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-368",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/fa433cfeeb40407f89552ab995d620b1",
     "type": "course"
   },
   {
     "id": 369,
     "image": "react-building-progressive-web-apps-pwas.jpg",
-    "title": "React Building Progressive Web Apps Pwas",
-    "organization": "Professional Training",
+    "title": "React: Building Progressive Web Apps (PWAs)",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "React"
+      "React",
+      "PWA"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-369",
+    "link": "https://www.linkedin.com/learning/certificates/62dd582011af66ecc184c505b14d33d0cbe66ddc6a18d433c2bfcd2edbf54fe9",
     "type": "course"
   },
   {
     "id": 370,
     "image": "react-ecosystems.jpg",
-    "title": "React Ecosystems",
-    "organization": "Professional Training",
+    "title": "React: Ecosystems",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "React"
+      "React",
+      "Ecosystem"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-370",
+    "link": "https://www.linkedin.com/learning/certificates/665998ae8360f467b3014c40195c56971a50229aaf6faa662ae8c0f78493333e",
     "type": "course"
   },
   {
     "id": 371,
     "image": "react-hackerrank.jpg",
-    "title": "React Hackerrank",
+    "title": "React Skill Assessment",
     "organization": "HackerRank",
     "tags": [
-      "React"
+      "React",
+      "Frontend"
     ],
-    "category": "webDevelopment",
-    "link": "#certificate-371",
-    "type": "course"
+    "category": "hackerrank",
+    "link": "https://www.hackerrank.com/certificates/da7e74aff5eb",
+    "type": "assessment"
   },
   {
     "id": 372,
     "image": "react-hooks-course-codecademy.jpg",
-    "title": "React Hooks Course Codecademy",
+    "title": "Learn React: Hooks",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Hooks"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-372",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4883e581ff91423990a7832d4c35839e",
     "type": "course"
   },
   {
     "id": 373,
     "image": "react-introduction-course.jpg",
-    "title": "React Introduction Course",
-    "organization": "Professional Training",
+    "title": "Learn React: Introduction",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Basics"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-373",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1bf3e70ae92b43c2a3add66cbfaec661",
     "type": "course"
   },
   {
     "id": 374,
     "image": "react-lifecycle-methods-codecademy.jpg",
-    "title": "React Lifecycle Methods Codecademy",
+    "title": "Learn React: Lifecycle Methods",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Lifecycle"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-374",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d2c01edb69ee42179f3ca8e1cd1a47a0",
     "type": "course"
   },
   {
     "id": 375,
     "image": "react-redux-skillpath.jpg",
-    "title": "React Redux Skillpath",
-    "organization": "Professional Training",
+    "title": "Create an Advanced Web App with React and Redux",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Redux",
+      "Advanced"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-375",
-    "type": "course"
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/60198396cd6fb3000e88e8e4",
+    "type": "skill-path"
   },
   {
     "id": 376,
     "image": "react-state-management-course.jpg",
-    "title": "React State Management Course",
-    "organization": "Professional Training",
+    "title": "Learn React: State Management",
+    "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "State Management"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-376",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/c060a64e62274b1abe8e9d316100aef9",
     "type": "course"
   },
   {
     "id": 377,
     "image": "react-using-typescript-2019.jpg",
-    "title": "React Using Typescript 2019",
-    "organization": "Professional Training",
+    "title": "React: Using TypeScript (2019)",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
       "TypeScript"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-377",
+    "link": "https://www.linkedin.com/learning/certificates/f24060204768a8b8a51dacf6f9eee3988ebe489b7f7a5a7fae0fbdcd9855c08d",
     "type": "course"
   },
   {
     "id": 378,
     "image": "react-working-with-apis.jpg",
-    "title": "React Working With Apis",
-    "organization": "Professional Training",
+    "title": "React: Working with APIs",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
       "API"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-378",
+    "link": "https://www.linkedin.com/learning/certificates/e0f97e56f602c37d77a79aa85b94c4bcca1b0b402fdd7e8b6e27dc0ae9b04298",
     "type": "course"
   },
   {
     "id": 379,
     "image": "React.js Building an Interface.jpg",
-    "title": "React.Js Building An Interface",
-    "organization": "Professional Training",
+    "title": "React.js: Building an Interface",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
-      "JavaScript"
+      "UI"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-379",
+    "link": "https://www.linkedin.com/learning/certificates/a9022ca31f01966b82cda3b98214bdba7626399c9606a57c92f568eb67c338be",
     "type": "course"
   },
   {
     "id": 380,
     "image": "React.js Essential Training.jpg",
-    "title": "React.Js Essential Training",
-    "organization": "Professional Training",
+    "title": "React.js Essential Training",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
-      "JavaScript",
-      "AI"
+      "Essential"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-380",
+    "link": "https://www.linkedin.com/learning/certificates/3afc6dcbd10b1e716af47be0a81f4bf05667f31e1078c787da1f030b03987aa8",
     "type": "course"
   },
   {
     "id": 381,
     "image": "reactcodecademy.jpg",
-    "title": "Reactcodecademy",
+    "title": "Learn React",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Frontend"
     ],
-    "category": "other",
-    "link": "#certificate-381",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/af00e5032d0a68cc84879983f5d8333b",
     "type": "course"
   },
   {
     "id": 382,
     "image": "ReactJS Code Challenges.jpg",
-    "title": "ReactJS Code Challenges",
-    "organization": "Professional Training",
+    "title": "React.js Code Challenges",
+    "organization": "LinkedIn Learning",
     "tags": [
       "React",
-      "JavaScript"
+      "Challenges"
     ],
-    "category": "other",
-    "link": "#certificate-382",
+    "category": "webDevelopment",
+    "link": "https://www.linkedin.com/learning/certificates/4c50fd01bb248fbcaa4a3d2d7f776a23e3cbe57cea3125dc3f8fcad2de044537",
     "type": "course"
   },
   {
     "id": 383,
     "image": "reactnativecodecademy.jpg",
-    "title": "Reactnativecodecademy",
+    "title": "Learn React Native",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React Native",
+      "Mobile"
     ],
-    "category": "other",
-    "link": "#certificate-383",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/458aef4eeb5f5130685423fc15e6493d",
     "type": "course"
   },
   {
     "id": 384,
     "image": "reactroutercodecademy.jpg",
-    "title": "Reactroutercodecademy",
+    "title": "Learn React Router",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Routing"
     ],
-    "category": "other",
-    "link": "#certificate-384",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/15b32ebcd95f164740d02275674fc5ee",
     "type": "course"
   },
   {
     "id": 385,
     "image": "reacttestingcodecademy.jpg",
-    "title": "Reacttestingcodecademy",
+    "title": "Learn React Testing",
     "organization": "Codecademy",
     "tags": [
-      "React"
+      "React",
+      "Testing"
     ],
-    "category": "other",
-    "link": "#certificate-385",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/1790781f3857d258b06a24f3c53424cd",
     "type": "course"
   },
   {
@@ -4889,54 +4984,55 @@ export const allCertificates = [
   {
     "id": 387,
     "image": "reduxcodecademy.jpg",
-    "title": "Reduxcodecademy",
+    "title": "Learn Redux",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Redux",
+      "State Management"
     ],
     "category": "other",
-    "link": "#certificate-387",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7bec2ab40c4dcf741cd2ff8d50a35e2d",
     "type": "course"
   },
   {
     "id": 388,
     "image": "regularexpressionscodecademy.jpg",
-    "title": "Regularexpressionscodecademy",
+    "title": "Learn The Basics of Regular Expressions",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Regex",
+      "Programming"
     ],
-    "category": "other",
-    "link": "#certificate-388",
+    "category": "programming",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9da8e26980d5139405439ee7578b8b69",
     "type": "course"
   },
   {
     "id": 389,
     "image": "responsivedesigncodecademy.jpg",
-    "title": "Responsivedesigncodecademy",
+    "title": "Learn Responsive Design",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Responsive",
+      "Design"
     ],
-    "category": "other",
-    "link": "#certificate-389",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3a62023b0054dc793edc0adecd715fd7",
     "type": "course"
   },
   {
     "id": 390,
     "image": "responsivefreecodecamp.jpg",
-    "title": "Responsivefreecodecamp",
+    "title": "Responsive Web Design",
     "organization": "freeCodeCamp",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Responsive Design",
+      "HTML",
+      "CSS"
     ],
-    "category": "other",
-    "link": "#certificate-390",
-    "type": "course"
+    "category": "webDevelopment",
+    "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/responsive-web-design",
+    "type": "developer-cert"
   },
   {
     "id": 391,
@@ -4980,15 +5076,15 @@ export const allCertificates = [
   {
     "id": 394,
     "image": "scratch.jpg",
-    "title": "Scratch",
-    "organization": "Professional Training",
+    "title": "CS002x: Programming in Scratch",
+    "organization": "Harvey Mudd College",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Scratch",
+      "Teaching"
     ],
-    "category": "other",
-    "link": "#certificate-394",
-    "type": "course"
+    "category": "teaching",
+    "link": "https://verify.edx.org/cert/2e8ffab324de4951b05152478a2d5bb3",
+    "type": "certificate"
   },
   {
     "id": 395,
@@ -5022,7 +5118,7 @@ export const allCertificates = [
     "tags": [
       "Scrum"
     ],
-    "category": "other",
+    "category": "projectManagement",
     "link": "#certificate-397",
     "type": "course"
   },
@@ -5043,78 +5139,78 @@ export const allCertificates = [
     "id": 399,
     "image": "software-architecture-foundations.jpg",
     "title": "Software Architecture Foundations",
-    "organization": "Professional Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Architecture",
+      "Foundations"
     ],
     "category": "other",
-    "link": "#certificate-399",
+    "link": "https://www.linkedin.com/learning/certificates/da884988c5622e1f2a35eef1d1349ebea288c124623cb1e96c7f6ea88c39b8a0",
     "type": "course"
   },
   {
     "id": 400,
     "image": "software-architecture-from-developer-to-architect.jpg",
-    "title": "Software Architecture From Developer To Architect",
-    "organization": "Professional Training",
+    "title": "Software Architecture: From Developer to Architect",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Architecture",
+      "Software Design"
     ],
-    "category": "other",
-    "link": "#certificate-400",
+    "category": "design",
+    "link": "https://www.linkedin.com/learning/certificates/9ea008a6c95c67dd601c5b3bcf35b650b2da84419d4ad492cd0b6f504762ca44",
     "type": "course"
   },
   {
     "id": 401,
     "image": "software-design-code-and-design-smells.jpg",
-    "title": "Software Design Code And Design Smells",
-    "organization": "Professional Training",
+    "title": "Software Design: Code and Design Smells",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Code Quality",
+      "Design Patterns"
     ],
     "category": "design",
-    "link": "#certificate-401",
+    "link": "https://www.linkedin.com/learning/certificates/0836b0b4f161321447354b07c0deb474d623c655e11210ddc0b5c6f6b14dfe7c",
     "type": "course"
   },
   {
     "id": 402,
     "image": "software-design-developing-effective-requirements-linkedin-certificate.jpg",
-    "title": "Software Design Developing Effective Requirements Linkedin Certificate",
+    "title": "Software Design: Developing Effective Requirements",
     "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Requirements",
+      "Software Design"
     ],
     "category": "design",
-    "link": "#certificate-402",
+    "link": "https://www.linkedin.com/learning/certificates/3353bd9c8f2eccabcf5ad909194a6ed80c8cc5c93f44e8745f01289444a10511",
     "type": "course"
   },
   {
     "id": 403,
     "image": "software-design-developing-effective-requirements-nasba-certificate.jpg",
-    "title": "Software Design Developing Effective Requirements Nasba Certificate",
-    "organization": "Professional Training",
+    "title": "Software Design: Developing Effective Requirements (NASBA)",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Requirements",
+      "Software Design"
     ],
     "category": "design",
-    "link": "#certificate-403",
-    "type": "course"
+    "link": "https://www.linkedin.com/learning/certificates/051d97d3ff1dafd2bc9bfd07eff1569e9b961e1303658df1cd73b6f02872e1b5",
+    "type": "certificate"
   },
   {
     "id": 404,
     "image": "softwaredesigncodecademy.jpg",
-    "title": "Softwaredesigncodecademy",
+    "title": "Software Design Principles",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Software Design",
+      "Architecture"
     ],
-    "category": "other",
-    "link": "#certificate-404",
+    "category": "design",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/920e83367c1e1b29ef2ce88c8086a0b6",
     "type": "course"
   },
   {
@@ -5125,7 +5221,7 @@ export const allCertificates = [
     "tags": [
       "Machine Learning"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-405",
     "type": "course"
   },
@@ -5146,38 +5242,39 @@ export const allCertificates = [
     "id": 407,
     "image": "sustainable-software-architecture.jpg",
     "title": "Sustainable Software Architecture",
-    "organization": "Professional Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "AI"
+      "Architecture",
+      "Sustainability"
     ],
     "category": "other",
-    "link": "#certificate-407",
+    "link": "https://www.linkedin.com/learning/certificates/9aa76bf5f4e9dd65e14ef1de8e16db7749c97ccd5530c15f749ea4e1a65afbd4",
     "type": "course"
   },
   {
     "id": 408,
     "image": "Systems Engineering.jpg",
     "title": "Systems Engineering",
-    "organization": "Professional Training",
+    "organization": "MathWorks",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Systems Engineering",
+      "MATLAB"
     ],
     "category": "other",
-    "link": "#certificate-408",
+    "link": "https://www.coursera.org/account/accomplishments/verify/KTTI0FSG4GY1",
     "type": "course"
   },
   {
     "id": 409,
     "image": "systems thinking.jpg",
     "title": "Systems Thinking",
-    "organization": "Professional Training",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Systems",
+      "Design"
     ],
-    "category": "other",
-    "link": "#certificate-409",
+    "category": "design",
+    "link": "https://www.linkedin.com/learning/certificates/68830012070b79f5054ff1bd21a1d94d0b1275b597efe45a5370f8b0b574a200",
     "type": "course"
   },
   {
@@ -5202,60 +5299,60 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "programming",
     "link": "#certificate-411",
     "type": "course"
   },
   {
     "id": 412,
     "image": "tech-on-the-go-ethics-in-web-development.jpg",
-    "title": "Tech On The Go Ethics In Web Development",
-    "organization": "Professional Training",
+    "title": "Tech on the Go: Ethics in Web Development",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Ethics",
+      "Web Development"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-412",
+    "link": "https://www.linkedin.com/learning/certificates/2223d1f2c26102fb45df6b5f71de592f41da4c77460be00fb3171117e459292e",
     "type": "course"
   },
   {
     "id": 413,
     "image": "tech-on-the-go-from-software-developer-to-architect.jpg",
-    "title": "Tech On The Go From Software Developer To Architect",
-    "organization": "Professional Training",
+    "title": "Tech on the Go: From Software Developer to Architect",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Career",
+      "Architecture"
     ],
-    "category": "other",
-    "link": "#certificate-413",
+    "category": "programming",
+    "link": "https://www.linkedin.com/learning/certificates/163f980fa91acfb86dd661c3577a82cb0f6e0c588cd7276e9ad9aa550f011f2a",
     "type": "course"
   },
   {
     "id": 414,
     "image": "tech-on-the-go-history-of-php.jpg",
-    "title": "Tech On The Go History Of Php",
-    "organization": "Professional Training",
+    "title": "Tech on the Go: History of PHP",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "PHP",
+      "History"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-414",
+    "link": "https://www.linkedin.com/learning/certificates/1556e7ef1f80464ea80793ffa9adee334903bc47183e12350fe49caac5feecd7",
     "type": "course"
   },
   {
     "id": 415,
     "image": "tech-on-the-go-no-code-for-coders.jpg",
-    "title": "Tech On The Go No Code For Coders",
-    "organization": "Professional Training",
+    "title": "Tech on the Go: No-Code for Coders",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "No-Code",
+      "Development"
     ],
-    "category": "other",
-    "link": "#certificate-415",
+    "category": "programming",
+    "link": "https://www.linkedin.com/learning/certificates/fe06c1f8801c45fd0a088c4c933c5aa6bd7179006ff908fe35ddcfc87d14c599",
     "type": "course"
   },
   {
@@ -5267,21 +5364,21 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "programming",
     "link": "#certificate-416",
     "type": "course"
   },
   {
     "id": 417,
     "image": "tech-on-the-go-rest.jpg",
-    "title": "Tech On The Go Rest",
-    "organization": "Professional Training",
+    "title": "Tech on the Go: REST",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "REST",
+      "API"
     ],
-    "category": "other",
-    "link": "#certificate-417",
+    "category": "webDevelopment",
+    "link": "https://www.linkedin.com/learning/certificates/d0a0950385237aed1487bbf0d24012359d79be07c6f273ea58d092e8740450b8",
     "type": "course"
   },
   {
@@ -5300,13 +5397,14 @@ export const allCertificates = [
   {
     "id": 419,
     "image": "technicalinterviewjscodecademy.jpg",
-    "title": "Technicalinterviewjscodecademy",
+    "title": "Technical Interview Practice with JavaScript",
     "organization": "Codecademy",
     "tags": [
-      "JavaScript"
+      "JavaScript",
+      "Interview"
     ],
-    "category": "other",
-    "link": "#certificate-419",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5d21dc9e5c51390f8f49eb6f2985bab5",
     "type": "course"
   },
   {
@@ -5351,14 +5449,14 @@ export const allCertificates = [
   {
     "id": 423,
     "image": "toronto.jpg",
-    "title": "Toronto",
+    "title": "Learn to Program: The Fundamentals",
     "organization": "University of Toronto",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Programming",
+      "Fundamentals"
     ],
-    "category": "other",
-    "link": "#certificate-423",
+    "category": "programming",
+    "link": "https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/LEARN%20TO%20PROGRAM%20THE%20FUNDAMENTALS.pdf",
     "type": "course"
   },
   {
@@ -5377,98 +5475,104 @@ export const allCertificates = [
   {
     "id": 425,
     "image": "typescript-complex-types-course.jpg",
-    "title": "Typescript Complex Types Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Complex Types",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Advanced"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-425",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/034d7778456644ffb78ed5e774f33603",
     "type": "course"
   },
   {
     "id": 426,
     "image": "typescript-functions-course.jpg",
-    "title": "Typescript Functions Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Functions",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Functions"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-426",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/4e7826b0c9a343178a5b998322d1616c",
     "type": "course"
   },
   {
     "id": 427,
     "image": "typescript-fundamentals-course.jpg",
-    "title": "Typescript Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Fundamentals"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-427",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d74421b4615249039756ea358748f532",
     "type": "course"
   },
   {
     "id": 428,
     "image": "typescript-in-react-get-started.jpg",
-    "title": "Typescript In React Get Started",
-    "organization": "Professional Training",
+    "title": "Typescript in React: Get Started",
+    "organization": "Coursera",
     "tags": [
-      "React",
-      "TypeScript"
+      "TypeScript",
+      "React"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-428",
+    "link": "https://www.coursera.org/account/accomplishments/verify/DXFJ6OXOSGI5",
     "type": "course"
   },
   {
     "id": 429,
     "image": "typescript-object-types-course.jpg",
-    "title": "Typescript Object Types Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Object Types",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Objects"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-429",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d7bd7bc8f3b9401a9c6b7e9846cd6175",
     "type": "course"
   },
   {
     "id": 430,
     "image": "typescript-type-narrowing-course.jpg",
-    "title": "Typescript Type Narrowing Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Type Narrowing",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Type System"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-430",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/69e8d31add18448aabb29889b394b56b",
     "type": "course"
   },
   {
     "id": 431,
     "image": "typescript-union-types-course.jpg",
-    "title": "Typescript Union Types Course",
-    "organization": "Professional Training",
+    "title": "Learn TypeScript: Union Types",
+    "organization": "Codecademy",
     "tags": [
-      "TypeScript"
+      "TypeScript",
+      "Union Types"
     ],
     "category": "webDevelopment",
-    "link": "#certificate-431",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e6722473680f43cd891253d900b84918",
     "type": "course"
   },
   {
     "id": 432,
     "image": "typescriptcodecademy.jpg",
-    "title": "Typescriptcodecademy",
+    "title": "Learn TypeScript",
     "organization": "Codecademy",
     "tags": [
       "TypeScript"
     ],
-    "category": "other",
-    "link": "#certificate-432",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/56fb1e71303e37b643bb1905f31c8a09",
     "type": "course"
   },
   {
@@ -5525,78 +5629,79 @@ export const allCertificates = [
   {
     "id": 437,
     "image": "ux-design-1-overview.jpg",
-    "title": "Ux Design 1 Overview",
-    "organization": "Professional Training",
+    "title": "UX Design: 1 Overview",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "UX",
+      "Design"
     ],
     "category": "design",
-    "link": "#certificate-437",
+    "link": "https://www.linkedin.com/learning/certificates/7d9f33e10780a1c5f60b9d22734c5bd7569474e918fdb4865e9a2779d5d1d482",
     "type": "course"
   },
   {
     "id": 438,
     "image": "ux-design-2-analyzing-user-data.jpg",
-    "title": "Ux Design 2 Analyzing User Data",
-    "organization": "Professional Training",
+    "title": "UX Design: 2 Analyzing User Data",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Data"
+      "UX",
+      "User Research"
     ],
-    "category": "dataScience",
-    "link": "#certificate-438",
+    "category": "design",
+    "link": "https://www.linkedin.com/learning/certificates/f09949c651bab6515e80cb427a9dbacfb45f321e563d07fb171c2c9535d7b126",
     "type": "course"
   },
   {
     "id": 439,
     "image": "ux-design-3-creating-personas.jpg",
-    "title": "Ux Design 3 Creating Personas",
-    "organization": "Professional Training",
+    "title": "UX Design: 3 Creating Personas",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "UX",
+      "Personas"
     ],
     "category": "design",
-    "link": "#certificate-439",
+    "link": "https://www.linkedin.com/learning/certificates/9d190a4f29bd5ceb809e9256c4d9166a195dd8be4b24e7d933f31bde0d461906",
     "type": "course"
   },
   {
     "id": 440,
     "image": "ux-design-4-ideation.jpg",
-    "title": "Ux Design 4 Ideation",
-    "organization": "Professional Training",
+    "title": "UX Design: 4 Ideation",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "UX",
+      "Ideation"
     ],
     "category": "design",
-    "link": "#certificate-440",
+    "link": "https://www.linkedin.com/learning/certificates/eac34a16fa3585bf42f9d9114e3a6fcaa4ecb03e4d540044dd32ae7535ca468d",
     "type": "course"
   },
   {
     "id": 441,
     "image": "ux-design-5-creating-scenarios-and-storyboards.jpg",
-    "title": "Ux Design 5 Creating Scenarios And Storyboards",
-    "organization": "Professional Training",
+    "title": "UX Design: 5 Creating Scenarios and Storyboards",
+    "organization": "LinkedIn Learning",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "UX",
+      "Storyboards"
     ],
     "category": "design",
-    "link": "#certificate-441",
+    "link": "https://www.linkedin.com/learning/certificates/1cb8601bbfe61d483f265a211c5b6ba5d216d02b15764e4d6a8fe48b6ae1047f",
     "type": "course"
   },
   {
     "id": 442,
     "image": "velo-by-wix-fundamentals-course.jpg",
-    "title": "Velo By Wix Fundamentals Course",
-    "organization": "Professional Training",
+    "title": "Velo by Wix: Fundamentals",
+    "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Wix",
+      "Velo"
     ],
     "category": "other",
-    "link": "#certificate-442",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e2c7153cea9a41cfbff88793781b8271",
     "type": "course"
   },
   {
@@ -5615,14 +5720,14 @@ export const allCertificates = [
   {
     "id": 444,
     "image": "vuecodecademy.jpg",
-    "title": "Vuecodecademy",
+    "title": "Learn Vue.js",
     "organization": "Codecademy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "Vue.js",
+      "Frontend"
     ],
-    "category": "other",
-    "link": "#certificate-444",
+    "category": "webDevelopment",
+    "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/db927a84bf4bba96bb285ee6a85466fc",
     "type": "course"
   },
   {
@@ -5653,14 +5758,14 @@ export const allCertificates = [
   {
     "id": 447,
     "image": "wordpressudemy.jpg",
-    "title": "Wordpressudemy",
+    "title": "WordPress for Beginners - Create a Pro Site Fast and Easy",
     "organization": "Udemy",
     "tags": [
-      "Technology",
-      "Professional Development"
+      "WordPress",
+      "CMS"
     ],
     "category": "other",
-    "link": "#certificate-447",
+    "link": "https://www.udemy.com/certificate/UC-82d0d0b1-36e1-4026-8bab-5625723e4d97/",
     "type": "course"
   },
   {
@@ -5693,10 +5798,14 @@ export const allCertificates = [
 
 // Group by category
 export const certificatesByCategory = {
-  aiMachineLearning: allCertificates.filter(c => c.category === 'aiMachineLearning'),
-  webDevelopment: allCertificates.filter(c => c.category === 'webDevelopment'),
-  cloudDevOps: allCertificates.filter(c => c.category === 'cloudDevOps'),
+  hackerrank: allCertificates.filter(c => c.category === 'hackerrank'),
+  bigTech: allCertificates.filter(c => c.category === 'bigTech'),
   programming: allCertificates.filter(c => c.category === 'programming'),
+  teaching: allCertificates.filter(c => c.category === 'teaching'),
+  webDevelopment: allCertificates.filter(c => c.category === 'webDevelopment'),
+  mobileDevelopment: allCertificates.filter(c => c.category === 'mobileDevelopment'),
+  aiMachineLearning: allCertificates.filter(c => c.category === 'aiMachineLearning'),
+  cloudDevOps: allCertificates.filter(c => c.category === 'cloudDevOps'),
   dataScience: allCertificates.filter(c => c.category === 'dataScience'),
   cybersecurity: allCertificates.filter(c => c.category === 'cybersecurity'),
   projectManagement: allCertificates.filter(c => c.category === 'projectManagement'),
@@ -5709,10 +5818,14 @@ export const certificatesByCategory = {
 export const stats = {
   total: allCertificates.length,
   byCategory: {
-    'AI & Machine Learning': certificatesByCategory.aiMachineLearning.length,
+    'HackerRank': certificatesByCategory.hackerrank.length,
+    'Big Tech': certificatesByCategory.bigTech.length,
+    'Programming & CS': certificatesByCategory.programming.length,
+    'Teaching': certificatesByCategory.teaching.length,
     'Web Development': certificatesByCategory.webDevelopment.length,
+    'Mobile Development': certificatesByCategory.mobileDevelopment.length,
+    'AI & Machine Learning': certificatesByCategory.aiMachineLearning.length,
     'Cloud & DevOps': certificatesByCategory.cloudDevOps.length,
-    'Programming': certificatesByCategory.programming.length,
     'Data Science': certificatesByCategory.dataScience.length,
     'Cybersecurity': certificatesByCategory.cybersecurity.length,
     'Project Management': certificatesByCategory.projectManagement.length,
