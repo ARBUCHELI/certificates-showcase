@@ -377,7 +377,7 @@ const getOrganizationPriority = (org) => {
 
 // Detect if a certificate is featured/professional
 const isFeatured = (filename, title) => {
-  const name = filename.toLowerCase();
+  const name = filename.toLowerCase().replace('.jpg', '').replace('.png', '');
   
   // Professional Certifications and Career Paths
   if (name === 'front-end-engineer') return true; // Codecademy Front-End Engineer

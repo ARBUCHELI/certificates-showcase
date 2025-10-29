@@ -406,7 +406,7 @@ export const allCertificates = [
     "category": "cloudDevOps",
     "link": "#certificate-116",
     "type": "course",
-    "featured": false
+    "featured": true
   },
   {
     "id": 30,
@@ -658,7 +658,7 @@ export const allCertificates = [
     "category": "bigTech",
     "link": "#certificate-37",
     "type": "course",
-    "featured": false
+    "featured": true
   },
   {
     "id": 48,
@@ -1433,7 +1433,7 @@ export const allCertificates = [
     "category": "other",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2682884a0719474f96407efe432fdd87",
     "type": "professional-cert",
-    "featured": false
+    "featured": true
   },
   {
     "id": 103,
