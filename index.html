@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Certificate Showcase - Andrés R. Bucheli</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Certificate Showcase">Certificate Showcase</h1>
+            <p class="hero-subtitle">Continuous Learning Journey in Technology</p>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <i class="fas fa-certificate"></i>
+                    <div class="stat-number" data-count="200">0</div>
+                    <div class="stat-label">Certificates</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-label">Platforms</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-award"></i>
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">Scholarships</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">AR Bucheli</div>
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search certificates..." class="search-input">
+            </div>
+            <div class="nav-links">
+                <a href="#all" class="nav-link active" data-filter="all">All</a>
+                <a href="#" class="nav-link" data-filter="web">Web Dev</a>
+                <a href="#" class="nav-link" data-filter="ai">AI/ML</a>
+                <a href="#" class="nav-link" data-filter="cloud">Cloud</a>
+                <a href="#" class="nav-link" data-filter="scholarships">Scholarships</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Platform Logos -->
+    <section class="platforms-section">
+        <div class="container">
+            <h2 class="section-title">Learning Platforms</h2>
+            <div class="platforms-carousel">
+                <div class="platform-logo"><img src="./education-icons/codecademy.jpg" alt="Codecademy"></div>
+                <div class="platform-logo"><img src="./education-icons/edx.jpg" alt="edX"></div>
+                <div class="platform-logo"><img src="./education-icons/freecodecamp.jpg" alt="freeCodeCamp"></div>
+                <div class="platform-logo"><img src="./education-icons/udacity.jpg" alt="Udacity"></div>
+                <div class="platform-logo"><img src="./education-icons/coursera.jpg" alt="Coursera"></div>
+                <div class="platform-logo"><img src="./education-icons/linkedin.jpg" alt="LinkedIn Learning"></div>
+                <div class="platform-logo"><img src="./education-icons/mitx.jpg" alt="MITx"></div>
+                <div class="platform-logo"><img src="./education-icons/udemy.jpg" alt="Udemy"></div>
+                <div class="platform-logo"><img src="./education-icons/harvardx.jpg" alt="HarvardX"></div>
+                <div class="platform-logo"><img src="./education-icons/datacamp-learning-platform-logo.jpg" alt="DataCamp"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Filter Chips -->
+            <div class="filter-chips">
+                <button class="chip active" data-category="all">
+                    <i class="fas fa-layer-group"></i> All Categories
+                </button>
+                <button class="chip" data-category="hackerrank">
+                    <i class="fas fa-code"></i> HackerRank
+                </button>
+                <button class="chip" data-category="web-development">
+                    <i class="fas fa-laptop-code"></i> Web Development
+                </button>
+                <button class="chip" data-category="ai-ml">
+                    <i class="fas fa-brain"></i> AI & Machine Learning
+                </button>
+                <button class="chip" data-category="generative-ai">
+                    <i class="fas fa-robot"></i> Generative AI
+                </button>
+                <button class="chip" data-category="cloud">
+                    <i class="fas fa-cloud"></i> Cloud Computing
+                </button>
+                <button class="chip" data-category="devops">
+                    <i class="fas fa-infinity"></i> DevOps
+                </button>
+                <button class="chip" data-category="programming">
+                    <i class="fas fa-terminal"></i> Programming
+                </button>
+                <button class="chip" data-category="cybersecurity">
+                    <i class="fas fa-shield-alt"></i> Cybersecurity
+                </button>
+            </div>
+
+            <!-- HackerRank Certificates -->
+            <section class="certificate-section" data-category="hackerrank">
+                <div class="section-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-trophy"></i>
+                        HackerRank Skill Assessments
+                    </h2>
+                    <span class="cert-count">3 Certificates</span>
+                </div>
+                <div class="certificates-grid">
+                    <div class="certificate-card" data-aos="fade-up">
+                        <div class="cert-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/css-hackerrank.jpg" alt="CSS Certificate">
+                            <div class="cert-overlay">
+                                <a href="https://www.hackerrank.com/certificates/7c650a8b2b8e" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">CSS Skill Assessment</h3>
+                            <p class="cert-org">HackerRank</p>
+                            <div class="cert-tags">
+                                <span class="tag">CSS</span>
+                                <span class="tag">Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cert-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/javascript-hackerrank.jpg" alt="JavaScript Certificate">
+                            <div class="cert-overlay">
+                                <a href="https://www.hackerrank.com/certificates/8dccbd813b0e" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">JavaScript Skill Assessment</h3>
+                            <p class="cert-org">HackerRank</p>
+                            <div class="cert-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Programming</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cert-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/react-hackerrank.jpg" alt="React Certificate">
+                            <div class="cert-overlay">
+                                <a href="https://www.hackerrank.com/certificates/da7e74aff5eb" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">React Skill Assessment</h3>
+                            <p class="cert-org">HackerRank</p>
+                            <div class="cert-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Frontend</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web Development Professional Certification -->
+            <section class="certificate-section" data-category="web-development">
+                <div class="section-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Professional Web Development Certifications
+                    </h2>
+                    <span class="cert-count">Multiple Certificates</span>
+                </div>
+                <div class="featured-cert">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">PROFESSIONAL CERTIFICATION</div>
+                        <h3>Front-End Engineer</h3>
+                        <p class="featured-org">Codecademy Professional Certification</p>
+                        <p class="featured-desc">Comprehensive professional certification covering HTML, CSS, JavaScript, React, Redux, and modern web development practices.</p>
+                        <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2682884a0719474f96407efe432fdd87" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certification
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-certificates/front-end-engineer.jpg" alt="Front-End Engineer Certificate">
+                    </div>
+                </div>
+
+                <div class="certificates-grid">
+                    <!-- React Certificates -->
+                    <div class="certificate-card" data-aos="fade-up">
+                        <div class="cert-badge"><i class="fas fa-star"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/reactcodecademy.jpg" alt="React">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/af00e5032d0a68cc84879983f5d8333b" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Learn React</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Frontend</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cert-badge"><i class="fas fa-star"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/reduxcodecademy.jpg" alt="Redux">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7bec2ab40c4dcf741cd2ff8d50a35e2d" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Learn Redux</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">Redux</span>
+                                <span class="tag">State Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cert-badge"><i class="fas fa-star"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/typescriptcodecademy.jpg" alt="TypeScript">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/56fb1e71303e37b643bb1905f31c8a09" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Learn TypeScript</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Generative AI Section -->
+            <section class="certificate-section" data-category="generative-ai">
+                <div class="section-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-robot"></i>
+                        Generative AI & LLM Certifications
+                    </h2>
+                    <span class="cert-count">Multiple Certificates</span>
+                </div>
+                
+                <div class="featured-cert ai-themed">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">PROFESSIONAL CERTIFICATE</div>
+                        <h3>Career Essentials in Generative AI</h3>
+                        <p class="featured-org">Microsoft & LinkedIn</p>
+                        <p class="featured-desc">Comprehensive certification covering Generative AI fundamentals, prompt engineering, and practical applications in business contexts.</p>
+                        <a href="https://www.linkedin.com/learning/certificates/b685ede0f2b0a75e275810799afb8d45e8ffd0892d052b9f0b25fece37145a2f" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certification
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-certificates/Career-Essentials-in-Generative-AI-by-Microsoft-and-LinkedIn.jpg" alt="Generative AI Certificate">
+                    </div>
+                </div>
+
+                <div class="certificates-grid">
+                    <div class="certificate-card" data-aos="fade-up">
+                        <div class="cert-badge"><i class="fas fa-brain"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/intro-to-chatgpt-course.jpg" alt="ChatGPT">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ef9a06323b7d44b091a3ec7816092dc6" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Intro to ChatGPT</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">ChatGPT</span>
+                                <span class="tag">AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cert-badge"><i class="fas fa-brain"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/learn-prompt-engineering-course.jpg" alt="Prompt Engineering">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/154a14d92f104c7bad51a5c6441d0056" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Prompt Engineering</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">Prompting</span>
+                                <span class="tag">LLMs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cert-badge"><i class="fas fa-brain"></i></div>
+                        <div class="cert-image">
+                            <img src="./images-certificates/intro-to-openai-gpt-api-course.jpg" alt="OpenAI API">
+                            <div class="cert-overlay">
+                                <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3b2c5de258e6407cae576d66bfef9e91" target="_blank" class="cert-link">
+                                    <i class="fas fa-external-link-alt"></i> View
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">OpenAI GPT API</h3>
+                            <p class="cert-org">Codecademy</p>
+                            <div class="cert-tags">
+                                <span class="tag">OpenAI</span>
+                                <span class="tag">API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Scholarships Section -->
+            <section class="certificate-section" data-category="scholarships">
+                <div class="section-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Technology Scholarships
+                    </h2>
+                    <span class="cert-count">8 Scholarships</span>
+                </div>
+                <p class="section-description">
+                    Throughout my career, I have been awarded scholarships from leading technology companies, allowing me to collaborate with engineers worldwide and work with cutting-edge technologies.
+                </p>
+                <div class="scholarships-grid">
+                    <div class="scholarship-card" data-aos="zoom-in">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/google.jpg" alt="Google">
+                        </div>
+                        <h3>Front-End Web Developer</h3>
+                        <p class="scholarship-org">Google & Udacity</p>
+                        <p class="scholarship-period">2017 - 2018</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/intel.jpg" alt="Intel">
+                        </div>
+                        <h3>Intel Edge AI for IoT</h3>
+                        <p class="scholarship-org">Intel & Udacity</p>
+                        <p class="scholarship-period">2019 - 2020</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/microsoft-azure.jpg" alt="Microsoft">
+                        </div>
+                        <h3>Azure ML Scholarship</h3>
+                        <p class="scholarship-org">Microsoft & Udacity</p>
+                        <p class="scholarship-period">2020 - 2021</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/bertelsmann.jpg" alt="Bertelsmann">
+                        </div>
+                        <h3>Next Gen Tech Booster</h3>
+                        <p class="scholarship-org">Bertelsmann & Udacity</p>
+                        <p class="scholarship-period">2023 - 2024</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Showcasing my continuous learning journey in software engineering and technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Stats</h3>
+                    <p>200+ Certificates</p>
+                    <p>15+ Platforms</p>
+                    <p>8 Scholarships</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Andrés R. Bucheli - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
