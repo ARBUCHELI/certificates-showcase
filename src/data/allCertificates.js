@@ -332,7 +332,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "networking",
     "link": "#certificate-39",
     "type": "certificate",
     "featured": false
@@ -346,7 +346,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "networking",
     "link": "#certificate-40",
     "type": "certificate",
     "featured": false
@@ -599,7 +599,7 @@ export const allCertificates = [
       "Meta",
       "2025"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.coursera.org/account/accomplishments/certificate/8YF9VA5TY2UO",
     "type": "certificate",
     "featured": false
@@ -737,7 +737,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "cloudDevOps",
     "link": "#certificate-332",
     "type": "certificate",
     "featured": false
@@ -1243,7 +1243,7 @@ export const allCertificates = [
       "Assembly",
       "Computer Architecture"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/3a71095cc7ab466e9c96d9ff790e78ac",
     "type": "certificate",
     "featured": false
@@ -1285,7 +1285,7 @@ export const allCertificates = [
       "Full Stack",
       "Integration"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/5b4a7c00ec9175d141a8b6e611d4812a",
     "type": "certificate",
     "featured": false
@@ -1415,7 +1415,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "cloudDevOps",
     "link": "#certificate-111",
     "type": "certificate",
     "featured": false
@@ -1430,7 +1430,7 @@ export const allCertificates = [
       "Professional",
       "Certification"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2682884a0719474f96407efe432fdd87",
     "type": "professional-cert",
     "featured": true
@@ -2696,7 +2696,7 @@ export const allCertificates = [
       "p5.js",
       "Creative Coding"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/e5e683b8fb974356a1665628f1c51df2",
     "type": "certificate",
     "featured": false
@@ -2710,7 +2710,7 @@ export const allCertificates = [
       "p5.js",
       "Interaction"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/2355fee7a96b437eb5fa9204d91b6268",
     "type": "certificate",
     "featured": false
@@ -2724,7 +2724,7 @@ export const allCertificates = [
       "p5.js",
       "Media"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/ccffaf5181f64ea29e988cc73a3e696f",
     "type": "certificate",
     "featured": false
@@ -2990,7 +2990,7 @@ export const allCertificates = [
       "Redux",
       "State Management"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7bec2ab40c4dcf741cd2ff8d50a35e2d",
     "type": "certificate",
     "featured": false
@@ -3004,7 +3004,7 @@ export const allCertificates = [
       "Redux",
       "Fundamentals"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/7ba1b049457e418698e5aaadbb811141",
     "type": "certificate",
     "featured": false
@@ -3018,7 +3018,7 @@ export const allCertificates = [
       "Redux",
       "Middleware"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/6fb9654b46774487a1ee055058a207ec",
     "type": "certificate",
     "featured": false
@@ -3046,7 +3046,7 @@ export const allCertificates = [
       "Redux",
       "Toolkit"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/dcdfe64244be441ba3f316190e8e9fc4",
     "type": "certificate",
     "featured": false
@@ -3200,7 +3200,7 @@ export const allCertificates = [
       "Regex",
       "Programming"
     ],
-    "category": "programming",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/9da8e26980d5139405439ee7578b8b69",
     "type": "certificate",
     "featured": false
@@ -3339,7 +3339,7 @@ export const allCertificates = [
       "WebSockets",
       "Real-time"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/d0f004b5ab60b2bda59b6e38892b931b",
     "type": "certificate",
     "featured": false
@@ -3353,7 +3353,7 @@ export const allCertificates = [
       "Data Structures",
       "Algorithms"
     ],
-    "category": "other",
+    "category": "programming",
     "link": "https://www.codecademy.com/profiles/ANDRES.R.BUCHELI/certificates/79735c9d76222d32368a4e4f1fb2580f",
     "type": "certificate",
     "featured": false
@@ -3423,7 +3423,7 @@ export const allCertificates = [
       "Front-End",
       "Libraries"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.freecodecamp.org/certification/fccfbd56539-86c0-4fe9-96bd-bb6901ab1849/front-end-development-libraries",
     "type": "certificate",
     "featured": false
@@ -3479,7 +3479,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "aiMachineLearning",
     "link": "#certificate-103",
     "type": "certificate",
     "featured": false
@@ -3604,7 +3604,7 @@ export const allCertificates = [
       "Full Stack",
       "Bootcamp"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.udemy.com/certificate/UC-d781fd85-fec8-44d5-adce-c0b649b30d79/",
     "type": "certificate",
     "featured": false
@@ -3618,7 +3618,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "business",
     "link": "#certificate-433",
     "type": "certificate",
     "featured": false
@@ -3798,7 +3798,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "projectManagement",
     "link": "#certificate-202",
     "type": "certificate",
     "featured": false
@@ -3882,7 +3882,7 @@ export const allCertificates = [
       "Node.js",
       "Essential"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/b9aad1320568233cd320291369abf3ff132ab5026cb636b89151fac0c885880c",
     "type": "certificate",
     "featured": false
@@ -3966,7 +3966,7 @@ export const allCertificates = [
       "Databases",
       "Fundamentals"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/acbf8220ff6a3dc6fad01daf2527a20c0d117953fe082de5912cd867bd872f43",
     "type": "certificate",
     "featured": false
@@ -4176,7 +4176,7 @@ export const allCertificates = [
       "Full Stack",
       "Career"
     ],
-    "category": "other",
+    "category": "webDevelopment",
     "link": "https://www.linkedin.com/learning/certificates/0eabb6c259add4ed58cb010c68b3bbbd8a084edb19a6a6542dd59531ef396fd8",
     "type": "certificate",
     "featured": false
@@ -4400,7 +4400,7 @@ export const allCertificates = [
       "Blockchain",
       "Smart Contracts"
     ],
-    "category": "other",
+    "category": "blockchain",
     "link": "https://www.coursera.org/account/accomplishments/certificate/R7SPTDQ360WF",
     "type": "certificate",
     "featured": false
@@ -4763,7 +4763,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-56",
     "type": "certificate",
     "featured": false
@@ -4777,7 +4777,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "leadership",
     "link": "#certificate-59",
     "type": "certificate",
     "featured": false
@@ -4983,7 +4983,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "business",
     "link": "#certificate-114",
     "type": "certificate",
     "featured": false
@@ -5024,7 +5024,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-119",
     "type": "certificate",
     "featured": false
@@ -5038,7 +5038,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-120",
     "type": "certificate",
     "featured": false
@@ -5092,7 +5092,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-127",
     "type": "certificate",
     "featured": false
@@ -5119,7 +5119,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "leadership",
     "link": "#certificate-133",
     "type": "certificate",
     "featured": false
@@ -5146,7 +5146,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-136",
     "type": "certificate",
     "featured": false
@@ -5174,7 +5174,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "leadership",
     "link": "#certificate-145",
     "type": "certificate",
     "featured": false
@@ -5188,7 +5188,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-151",
     "type": "certificate",
     "featured": false
@@ -5676,7 +5676,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-306",
     "type": "certificate",
     "featured": false
@@ -5745,7 +5745,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "networking",
     "link": "#certificate-326",
     "type": "certificate",
     "featured": false
@@ -6045,7 +6045,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "languages",
     "link": "#certificate-393",
     "type": "certificate",
     "featured": false
@@ -6142,7 +6142,7 @@ export const allCertificates = [
       "Technology",
       "Professional Development"
     ],
-    "category": "other",
+    "category": "business",
     "link": "#certificate-420",
     "type": "certificate",
     "featured": false
@@ -6260,6 +6260,10 @@ export const certificatesByCategory = {
   projectManagement: allCertificates.filter(c => c.category === 'projectManagement'),
   leadership: allCertificates.filter(c => c.category === 'leadership'),
   design: allCertificates.filter(c => c.category === 'design'),
+  networking: allCertificates.filter(c => c.category === 'networking'),
+  blockchain: allCertificates.filter(c => c.category === 'blockchain'),
+  business: allCertificates.filter(c => c.category === 'business'),
+  languages: allCertificates.filter(c => c.category === 'languages'),
   other: allCertificates.filter(c => c.category === 'other')
 };
 
@@ -6280,6 +6284,10 @@ export const stats = {
     'Project Management': certificatesByCategory.projectManagement.length,
     'Leadership': certificatesByCategory.leadership.length,
     'Design': certificatesByCategory.design.length,
+    'Networking': certificatesByCategory.networking.length,
+    'Blockchain': certificatesByCategory.blockchain.length,
+    'Business': certificatesByCategory.business.length,
+    'Languages': certificatesByCategory.languages.length,
     'Other': certificatesByCategory.other.length
   }
 };

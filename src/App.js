@@ -57,6 +57,10 @@ function App() {
     projectManagement: 'Project Management & Agile',
     leadership: 'Leadership & Soft Skills',
     design: 'UX/UI Design',
+    networking: 'Networking & Computer Networks',
+    blockchain: 'Blockchain & Cryptocurrency',
+    business: 'Business & Entrepreneurship',
+    languages: 'Languages & Foreign Languages',
     other: 'Other Certifications'
   };
 

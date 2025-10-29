@@ -231,59 +231,79 @@ const detectCategory = (filename, tags) => {
     return 'bigTech';
   }
   
-  // AI & ML
-  if (combined.match(/\b(ai|ml|machine.learning|chatgpt|openai|gemini|copilot|claude|midjourney|generative|prompt|llm|agent)\b/)) {
+  // AI & ML (check before web dev to catch AI-specific certs)
+  if (combined.match(/(\bai\b|\bml\b|machine[- ]?learning|chatgpt|openai|gemini|copilot|claude|midjourney|generativ|prompt|\bllm\b|agent|neural|deep[- ]?learning)/)) {
     return 'aiMachineLearning';
   }
   
   // Cloud & DevOps
-  if (combined.match(/\b(aws|cloud|docker|kubernetes|devops|container|nutanix|platform.engineering)\b/)) {
+  if (combined.match(/(\baws\b|cloud|docker|kubernetes|devops|container|nutanix|platform[- ]?engineering)/)) {
     return 'cloudDevOps';
   }
   
   // Data Science
-  if (combined.match(/\b(data.science|pandas|numpy|statistics|visualization|seaborn|data.manipulation|data.analysis)\b/)) {
+  if (combined.match(/(data[- ]?science|pandas|numpy|statistics|visualization|seaborn|data[- ]?manipulation|data[- ]?analysis)/)) {
     return 'dataScience';
   }
   
-  // Web Development
-  if (combined.match(/\b(react|javascript|html|css|nodejs|express|typescript|vue|angular|frontend|backend|fullstack|web|sass|jquery|bootstrap|php|flask|django|api|graphql|mongodb|sql|database|nextjs|mern|websocket|responsive)\b/)) {
+  // Web Development (expanded to catch more variations)
+  if (combined.match(/(react|javascript|\bjs\b|html|\bcss\b|node|express|typescript|vue|angular|front[- ]?end|back[- ]?end|full[- ]?stack|\bweb\b|sass|jquery|bootstrap|\bphp\b|flask|django|\bapi\b|graphql|mongodb|\bsql\b|database|next\.?js|mern|websocket|responsive|libraries|dom|redux|router)/)) {
     return 'webDevelopment';
   }
   
   // Programming & CS
-  if (combined.match(/\b(python|java|c\+\+|golang|go|rust|programming|algorithm|data.structure|learn.c|computer.science|command.line|git|github)\b/)) {
+  if (combined.match(/(python|\bjava\b|c\+\+|golang|\bgo\b|rust|programming|algorithm|data[- ]?structure|learn[- ]?c|computer[- ]?science|command[- ]?line|\bgit\b|github)/)) {
     return 'programming';
   }
   
   // Cybersecurity
-  if (combined.match(/\b(security|cyber|ethical|penetration|owasp|hacking)\b/)) {
+  if (combined.match(/(security|cyber|ethical|penetration|owasp|hacking)/)) {
     return 'cybersecurity';
   }
   
   // Project Management & Agile
-  if (combined.match(/\b(agile|scrum|project|kanban|stakeholder|okr|pmi)\b/)) {
+  if (combined.match(/(agile|scrum|project|kanban|stakeholder|\bokr\b|\bpmi\b)/)) {
     return 'projectManagement';
   }
   
   // Leadership & Soft Skills
-  if (combined.match(/\b(leader|manager|team|communication|negotiation|emotional|coaching)\b/)) {
+  if (combined.match(/(leader|manager|team|communication|negotiation|emotional|coaching)/)) {
     return 'leadership';
   }
   
   // UX/UI Design
-  if (combined.match(/\b(ux|ui|design|figma|sketch|color.design|navigation.design)\b/)) {
+  if (combined.match(/(\bux\b|\bui\b|design|figma|sketch|color[- ]?design|navigation[- ]?design)/)) {
     return 'design';
   }
   
   // Teaching
-  if (combined.match(/\b(teaching|educator|cs50|scratch)\b/)) {
+  if (combined.match(/(teaching|educator|cs50|scratch)/)) {
     return 'teaching';
   }
   
   // Mobile Development
-  if (combined.match(/\b(mobile|react.native|android|ios|flutter)\b/)) {
+  if (combined.match(/(mobile|react[- ]?native|android|\bios\b|flutter)/)) {
     return 'mobileDevelopment';
+  }
+  
+  // Networking
+  if (combined.match(/(network|cisco|icnd|ccna|routing|switching|internet[- ]?history)/)) {
+    return 'networking';
+  }
+  
+  // Blockchain & Cryptocurrency
+  if (combined.match(/(blockchain|bitcoin|crypto|ethereum|smart[- ]?contract|web3)/)) {
+    return 'blockchain';
+  }
+  
+  // Business & Entrepreneurship
+  if (combined.match(/(business|entrepreneur|startup|invest|digital[- ]?transformation|industry|innovation|company)/)) {
+    return 'business';
+  }
+  
+  // Languages & Foreign Languages
+  if (combined.match(/(language|english|french|russian|spanish|writing|ielts|conversation)/)) {
+    return 'languages';
   }
   
   return 'other';
@@ -469,6 +489,10 @@ export const certificatesByCategory = {
   projectManagement: allCertificates.filter(c => c.category === 'projectManagement'),
   leadership: allCertificates.filter(c => c.category === 'leadership'),
   design: allCertificates.filter(c => c.category === 'design'),
+  networking: allCertificates.filter(c => c.category === 'networking'),
+  blockchain: allCertificates.filter(c => c.category === 'blockchain'),
+  business: allCertificates.filter(c => c.category === 'business'),
+  languages: allCertificates.filter(c => c.category === 'languages'),
   other: allCertificates.filter(c => c.category === 'other')
 };
 
@@ -489,6 +513,10 @@ export const stats = {
     'Project Management': certificatesByCategory.projectManagement.length,
     'Leadership': certificatesByCategory.leadership.length,
     'Design': certificatesByCategory.design.length,
+    'Networking': certificatesByCategory.networking.length,
+    'Blockchain': certificatesByCategory.blockchain.length,
+    'Business': certificatesByCategory.business.length,
+    'Languages': certificatesByCategory.languages.length,
     'Other': certificatesByCategory.other.length
   }
 };
@@ -515,6 +543,10 @@ Object.entries({
   'Project Management': certificates.filter(c => c.category === 'projectManagement').length,
   'Leadership': certificates.filter(c => c.category === 'leadership').length,
   'Design': certificates.filter(c => c.category === 'design').length,
+  'Networking': certificates.filter(c => c.category === 'networking').length,
+  'Blockchain': certificates.filter(c => c.category === 'blockchain').length,
+  'Business': certificates.filter(c => c.category === 'business').length,
+  'Languages': certificates.filter(c => c.category === 'languages').length,
   'Other': certificates.filter(c => c.category === 'other').length
 }).forEach(([cat, count]) => {
   if (count > 0) console.log(`  ${cat}: ${count}`);
