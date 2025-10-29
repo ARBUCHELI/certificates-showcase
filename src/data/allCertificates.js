@@ -44,110 +44,6 @@ export const allCertificates = [
   },
   {
     "id": 4,
-    "image": "mit.jpg",
-    "title": "6.00.1x: Introduction to Computer Science and Programming Using Python",
-    "organization": "MIT",
-    "tags": [
-      "Python",
-      "Computer Science"
-    ],
-    "category": "programming",
-    "link": "https://courses.edx.org/certificates/ffe9d70c18654869a2601639f6078158",
-    "type": "certificate"
-  },
-  {
-    "id": 5,
-    "image": "berkeley.jpg",
-    "title": "College Writing 2.1x: Principles of Written English",
-    "organization": "UC Berkeley",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-25",
-    "type": "course"
-  },
-  {
-    "id": 6,
-    "image": "berkeley2.jpg",
-    "title": "College Writing 2.2x: Principles of Written English",
-    "organization": "UC Berkeley",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-26",
-    "type": "course"
-  },
-  {
-    "id": 7,
-    "image": "washington.jpg",
-    "title": "Computer Networks",
-    "organization": "University of Washington",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-445",
-    "type": "course"
-  },
-  {
-    "id": 8,
-    "image": "scratch.jpg",
-    "title": "CS002x: Programming in Scratch",
-    "organization": "Harvey Mudd College",
-    "tags": [
-      "Scratch",
-      "Teaching"
-    ],
-    "category": "teaching",
-    "link": "https://verify.edx.org/cert/2e8ffab324de4951b05152478a2d5bb3",
-    "type": "certificate"
-  },
-  {
-    "id": 9,
-    "image": "harvard-educators.jpg",
-    "title": "CS50 For Educators",
-    "organization": "Harvard University",
-    "tags": [
-      "Teaching",
-      "CS50"
-    ],
-    "category": "teaching",
-    "link": "https://certificates.cs50.io/c01437a4-d4df-42db-87e3-46f5cdc7d19c.pdf",
-    "type": "certificate"
-  },
-  {
-    "id": 10,
-    "image": "harvard.jpg",
-    "title": "CS50 Understanding Technology",
-    "organization": "Harvard University",
-    "tags": [
-      "Technology",
-      "CS50"
-    ],
-    "category": "teaching",
-    "link": "https://certificates.cs50.io/5567f401-47d6-414b-abb4-e5c369aeaa14.pdf",
-    "type": "certificate"
-  },
-  {
-    "id": 11,
-    "image": "maryland.jpg",
-    "title": "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
-    "organization": "University of Maryland",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-305",
-    "type": "course"
-  },
-  {
-    "id": 12,
     "image": "columbia.jpg",
     "title": "DS103x: Enabling Technologies for Data Science and Analytics: The Internet of Things",
     "organization": "Columbia University",
@@ -160,29 +56,133 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 13,
-    "image": "rochester.jpg",
-    "title": "Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics",
-    "organization": "University of Rochester",
+    "id": 5,
+    "image": "harvard-educators.jpg",
+    "title": "CS50 For Educators",
+    "organization": "Harvard University",
+    "tags": [
+      "Teaching",
+      "CS50"
+    ],
+    "category": "teaching",
+    "link": "https://certificates.cs50.io/c01437a4-d4df-42db-87e3-46f5cdc7d19c.pdf",
+    "type": "certificate"
+  },
+  {
+    "id": 6,
+    "image": "harvard.jpg",
+    "title": "CS50 Understanding Technology",
+    "organization": "Harvard University",
+    "tags": [
+      "Technology",
+      "CS50"
+    ],
+    "category": "teaching",
+    "link": "https://certificates.cs50.io/5567f401-47d6-414b-abb4-e5c369aeaa14.pdf",
+    "type": "certificate"
+  },
+  {
+    "id": 7,
+    "image": "scratch.jpg",
+    "title": "CS002x: Programming in Scratch",
+    "organization": "Harvey Mudd College",
+    "tags": [
+      "Scratch",
+      "Teaching"
+    ],
+    "category": "teaching",
+    "link": "https://verify.edx.org/cert/2e8ffab324de4951b05152478a2d5bb3",
+    "type": "certificate"
+  },
+  {
+    "id": 8,
+    "image": "harvey.jpg",
+    "title": "My CS: Computer Science for Beginners",
+    "organization": "Harvey Mudd College",
+    "tags": [
+      "Teaching",
+      "Beginners"
+    ],
+    "category": "teaching",
+    "link": "https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754",
+    "type": "certificate"
+  },
+  {
+    "id": 9,
+    "image": "mit.jpg",
+    "title": "6.00.1x: Introduction to Computer Science and Programming Using Python",
+    "organization": "MIT",
+    "tags": [
+      "Python",
+      "Computer Science"
+    ],
+    "category": "programming",
+    "link": "https://courses.edx.org/certificates/ffe9d70c18654869a2601639f6078158",
+    "type": "certificate"
+  },
+  {
+    "id": 10,
+    "image": "mitigating-prompt-injection-and-prompt-hacking.jpg",
+    "title": "Mitigating Prompt Injection And Prompt Hacking",
+    "organization": "MIT",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-318",
+    "type": "course"
+  },
+  {
+    "id": 11,
+    "image": "politecnico-milano-platform-thinking-whats-beyond-uber.jpg",
+    "title": "Platform Thinking: what",
+    "organization": "Politecnico di Milano",
+    "tags": [
+      "Platform",
+      "Strategy"
+    ],
+    "category": "other",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/35OLSQBPKEJJ",
+    "type": "course"
+  },
+  {
+    "id": 12,
+    "image": "berkeley.jpg",
+    "title": "College Writing 2.1x: Principles of Written English",
+    "organization": "UC Berkeley",
     "tags": [
       "Technology",
       "Professional Development"
     ],
     "category": "other",
-    "link": "#certificate-392",
+    "link": "#certificate-25",
+    "type": "course"
+  },
+  {
+    "id": 13,
+    "image": "berkeley2.jpg",
+    "title": "College Writing 2.2x: Principles of Written English",
+    "organization": "UC Berkeley",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-26",
     "type": "course"
   },
   {
     "id": 14,
-    "image": "virginia.jpg",
-    "title": "Fundamentals of Project Planning and Management",
-    "organization": "University of Virginia",
+    "image": "maryland.jpg",
+    "title": "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
+    "organization": "University of Maryland",
     "tags": [
       "Technology",
       "Professional Development"
     ],
     "category": "other",
-    "link": "#certificate-443",
+    "link": "#certificate-305",
     "type": "course"
   },
   {
@@ -200,6 +200,19 @@ export const allCertificates = [
   },
   {
     "id": 16,
+    "image": "rochester.jpg",
+    "title": "Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics",
+    "organization": "University of Rochester",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-392",
+    "type": "course"
+  },
+  {
+    "id": 17,
     "image": "toronto.jpg",
     "title": "Learn to Program: The Fundamentals",
     "organization": "University of Toronto",
@@ -212,48 +225,35 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 17,
-    "image": "mitigating-prompt-injection-and-prompt-hacking.jpg",
-    "title": "Mitigating Prompt Injection And Prompt Hacking",
-    "organization": "MIT",
+    "id": 18,
+    "image": "virginia.jpg",
+    "title": "Fundamentals of Project Planning and Management",
+    "organization": "University of Virginia",
     "tags": [
       "Technology",
       "Professional Development"
     ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-318",
+    "category": "other",
+    "link": "#certificate-443",
     "type": "course"
   },
   {
-    "id": 18,
-    "image": "harvey.jpg",
-    "title": "My CS: Computer Science for Beginners",
-    "organization": "Harvey Mudd College",
-    "tags": [
-      "Teaching",
-      "Beginners"
-    ],
-    "category": "teaching",
-    "link": "https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754",
-    "type": "certificate"
-  },
-  {
     "id": 19,
-    "image": "politecnico-milano-platform-thinking-whats-beyond-uber.jpg",
-    "title": "Platform Thinking: what",
-    "organization": "Politecnico di Milano",
+    "image": "washington.jpg",
+    "title": "Computer Networks",
+    "organization": "University of Washington",
     "tags": [
-      "Platform",
-      "Strategy"
+      "Technology",
+      "Professional Development"
     ],
     "category": "other",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/35OLSQBPKEJJ",
+    "link": "#certificate-445",
     "type": "course"
   },
   {
     "id": 20,
     "image": "awsconcepts.jpg",
-    "title": "Awsconcepts",
+    "title": "AWS Concepts",
     "organization": "AWS",
     "tags": [
       "Technology",
@@ -266,7 +266,7 @@ export const allCertificates = [
   {
     "id": 21,
     "image": "awsudacity.jpg",
-    "title": "Awsudacity",
+    "title": "AWS Fundamental Course in the AWS Machine Learning Scholarship",
     "organization": "AWS",
     "tags": [
       "Technology",
@@ -278,56 +278,6 @@ export const allCertificates = [
   },
   {
     "id": 22,
-    "image": "Career-Essentials-in-Generative-AI-by-Microsoft-and-LinkedIn.jpg",
-    "title": "Career Essentials In Generative AI By Microsoft And LinkedIn",
-    "organization": "Microsoft",
-    "tags": [
-      "AI"
-    ],
-    "category": "bigTech",
-    "link": "#certificate-37",
-    "type": "course"
-  },
-  {
-    "id": 23,
-    "image": "cisco1.jpg",
-    "title": "Cisco1",
-    "organization": "Cisco",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-39",
-    "type": "course"
-  },
-  {
-    "id": 24,
-    "image": "cisco2.jpg",
-    "title": "Cisco2",
-    "organization": "Cisco",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-40",
-    "type": "course"
-  },
-  {
-    "id": 25,
-    "image": "machine-learning-microsoft.jpg",
-    "title": "DAT203x: Data Science and Machine Learning Essentials",
-    "organization": "Microsoft",
-    "tags": [
-      "Machine Learning"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-301",
-    "type": "course"
-  },
-  {
-    "id": 26,
     "image": "datacamp-aws-concetps.jpg",
     "title": "Datacamp Aws Concetps",
     "organization": "AWS",
@@ -339,7 +289,45 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 27,
+    "id": 23,
+    "image": "generative-ai-on-aws-getting-started-course.jpg",
+    "title": "Generative Ai On Aws Getting Started Course",
+    "organization": "AWS",
+    "tags": [
+      "AI"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-131",
+    "type": "course"
+  },
+  {
+    "id": 24,
+    "image": "cisco1.jpg",
+    "title": "Interconnecting Cisco Networking Devices Part 1 (ICND1)",
+    "organization": "Cisco",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-39",
+    "type": "course"
+  },
+  {
+    "id": 25,
+    "image": "cisco2.jpg",
+    "title": "Interconnecting Cisco Networking Devices Part 2 (ICND2)",
+    "organization": "Cisco",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-40",
+    "type": "course"
+  },
+  {
+    "id": 26,
     "image": "datacamp-containerization-and-virtualization-with-docker-and-kubernetes.jpg",
     "title": "Datacamp Containerization And Virtualization With Docker And Kubernetes",
     "organization": "Docker",
@@ -354,7 +342,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 28,
+    "id": 27,
     "image": "datacamp-intermediate-docker.jpg",
     "title": "Datacamp Intermediate Docker",
     "organization": "Docker",
@@ -367,7 +355,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 29,
+    "id": 28,
     "image": "datacamp-introduction-to-docker.jpg",
     "title": "Datacamp Introduction To Docker",
     "organization": "Docker",
@@ -380,20 +368,92 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 30,
-    "image": "c.jpg",
-    "title": "DEV210x: Introduction to C++",
-    "organization": "Microsoft",
+    "id": 29,
+    "image": "docker-foundations-professional-certificate.jpg",
+    "title": "Docker Foundations Professional Certificate",
+    "organization": "Docker",
     "tags": [
-      "C++",
-      "Programming"
+      "Docker"
     ],
-    "category": "programming",
-    "link": "https://courses.edx.org/certificates/6c19c4f9030c46f5b0598365213e8d0b",
-    "type": "certificate"
+    "category": "cloudDevOps",
+    "link": "#certificate-116",
+    "type": "course"
+  },
+  {
+    "id": 30,
+    "image": "docker-your-first-project.jpg",
+    "title": "Docker Your First Project",
+    "organization": "Docker",
+    "tags": [
+      "Docker"
+    ],
+    "category": "cloudDevOps",
+    "link": "#certificate-117",
+    "type": "course"
   },
   {
     "id": 31,
+    "image": "getting-started-with-docker.jpg",
+    "title": "Getting Started With Docker",
+    "organization": "Docker",
+    "tags": [
+      "Docker"
+    ],
+    "category": "cloudDevOps",
+    "link": "#certificate-135",
+    "type": "course"
+  },
+  {
+    "id": 32,
+    "image": "learning-docker.jpg",
+    "title": "Learning Docker",
+    "organization": "Docker",
+    "tags": [
+      "Docker"
+    ],
+    "category": "cloudDevOps",
+    "link": "#certificate-297",
+    "type": "course"
+  },
+  {
+    "id": 33,
+    "image": "learning-docker-compose.jpg",
+    "title": "Learning Docker Compose",
+    "organization": "Docker",
+    "tags": [
+      "Docker"
+    ],
+    "category": "cloudDevOps",
+    "link": "#certificate-296",
+    "type": "course"
+  },
+  {
+    "id": 34,
+    "image": "google-foundations-data-data-everywhere.jpg",
+    "title": "Google Foundations Data Data Everywhere",
+    "organization": "Google",
+    "tags": [
+      "Data"
+    ],
+    "category": "other",
+    "link": "#certificate-138",
+    "type": "course"
+  },
+  {
+    "id": 35,
+    "image": "multimodal-prompting-with-googles-project-gemini.jpg",
+    "title": "Multimodal Prompting With Googles Project Gemini",
+    "organization": "Google",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-320",
+    "type": "course"
+  },
+  {
+    "id": 36,
     "image": "developing-back-end-apps-with-nodejs-and-express.jpg",
     "title": "Developing Back-End Apps with Node.js and Express",
     "organization": "IBM",
@@ -407,147 +467,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 32,
-    "image": "docker-foundations-professional-certificate.jpg",
-    "title": "Docker Foundations Professional Certificate",
-    "organization": "Docker",
-    "tags": [
-      "Docker"
-    ],
-    "category": "cloudDevOps",
-    "link": "#certificate-116",
-    "type": "course"
-  },
-  {
-    "id": 33,
-    "image": "docker-your-first-project.jpg",
-    "title": "Docker Your First Project",
-    "organization": "Docker",
-    "tags": [
-      "Docker"
-    ],
-    "category": "cloudDevOps",
-    "link": "#certificate-117",
-    "type": "course"
-  },
-  {
-    "id": 34,
-    "image": "generative-ai-on-aws-getting-started-course.jpg",
-    "title": "Generative Ai On Aws Getting Started Course",
-    "organization": "AWS",
-    "tags": [
-      "AI"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-131",
-    "type": "course"
-  },
-  {
-    "id": 35,
-    "image": "getting-started-with-docker.jpg",
-    "title": "Getting Started With Docker",
-    "organization": "Docker",
-    "tags": [
-      "Docker"
-    ],
-    "category": "cloudDevOps",
-    "link": "#certificate-135",
-    "type": "course"
-  },
-  {
-    "id": 36,
-    "image": "google-foundations-data-data-everywhere.jpg",
-    "title": "Google Foundations Data Data Everywhere",
-    "organization": "Google",
-    "tags": [
-      "Data"
-    ],
-    "category": "other",
-    "link": "#certificate-138",
-    "type": "course"
-  },
-  {
     "id": 37,
-    "image": "intro-to-openai-gpt-api-course.jpg",
-    "title": "Intro To Openai Gpt Api Course",
-    "organization": "OpenAI",
-    "tags": [
-      "AI",
-      "API"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-168",
-    "type": "course"
-  },
-  {
-    "id": 38,
-    "image": "introduction-to-artificial-intelligence.jpg",
-    "title": "Introduction To Artificial Intelligence",
-    "organization": "Intel",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-176",
-    "type": "course"
-  },
-  {
-    "id": 39,
-    "image": "introduction-to-artificial-intelligence-linkedin-certificate.jpg",
-    "title": "Introduction To Artificial Intelligence Linkedin Certificate",
-    "organization": "Intel",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-175",
-    "type": "course"
-  },
-  {
-    "id": 40,
-    "image": "meta-introduction-to-back-end-development.jpg",
-    "title": "Introduction to Back-End Development",
-    "organization": "Meta",
-    "tags": [
-      "Backend",
-      "Meta",
-      "2025"
-    ],
-    "category": "webDevelopment",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/6H1R8VB95RDR",
-    "type": "course"
-  },
-  {
-    "id": 41,
-    "image": "meta-introduction-to-front-end-development.jpg",
-    "title": "Introduction to Front-End Development",
-    "organization": "Meta",
-    "tags": [
-      "Front-End",
-      "Meta",
-      "2025"
-    ],
-    "category": "other",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/8YF9VA5TY2UO",
-    "type": "course"
-  },
-  {
-    "id": 42,
-    "image": "meta-introduction-to-mobile-development.jpg",
-    "title": "Introduction to Mobile Development",
-    "organization": "Meta",
-    "tags": [
-      "Mobile",
-      "Meta"
-    ],
-    "category": "mobileDevelopment",
-    "link": "https://www.coursera.org/account/accomplishments/verify/VSJHXAAR166J",
-    "type": "course"
-  },
-  {
-    "id": 43,
     "image": "ibm-javascript-programming-essentials.jpg",
     "title": "JavaScript Programming Essentials",
     "organization": "IBM",
@@ -561,7 +481,47 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 44,
+    "id": 38,
+    "image": "node-and-express-essentials-ibm-certificate.jpg",
+    "title": "Node and Express Essentials",
+    "organization": "IBM",
+    "tags": [
+      "Node.js",
+      "Express",
+      "IBM"
+    ],
+    "category": "bigTech",
+    "link": "https://www.credly.com/badges/f3b86027-f13c-4157-9fc8-40d77d75f546",
+    "type": "certificate"
+  },
+  {
+    "id": 39,
+    "image": "introduction-to-artificial-intelligence.jpg",
+    "title": "Introduction To Artificial Intelligence",
+    "organization": "Intel",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-176",
+    "type": "course"
+  },
+  {
+    "id": 40,
+    "image": "introduction-to-artificial-intelligence-linkedin-certificate.jpg",
+    "title": "Introduction To Artificial Intelligence Linkedin Certificate",
+    "organization": "Intel",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-175",
+    "type": "course"
+  },
+  {
+    "id": 41,
     "image": "learn-emotional-intelligence-the-key-determine-of-success.jpg",
     "title": "Learn Emotional Intelligence The Key Determine Of Success",
     "organization": "Intel",
@@ -574,44 +534,112 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 45,
-    "image": "learn-the-openai-api-playground-course.jpg",
-    "title": "Learn The Openai Api Playground Course",
-    "organization": "OpenAI",
+    "id": 42,
+    "image": "meta-introduction-to-back-end-development.jpg",
+    "title": "Introduction to Back-End Development",
+    "organization": "Meta",
     "tags": [
-      "AI",
-      "API"
+      "Backend",
+      "Meta",
+      "2025"
     ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-291",
+    "category": "webDevelopment",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/6H1R8VB95RDR",
+    "type": "course"
+  },
+  {
+    "id": 43,
+    "image": "meta-introduction-to-front-end-development.jpg",
+    "title": "Introduction to Front-End Development",
+    "organization": "Meta",
+    "tags": [
+      "Front-End",
+      "Meta",
+      "2025"
+    ],
+    "category": "other",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/8YF9VA5TY2UO",
+    "type": "course"
+  },
+  {
+    "id": 44,
+    "image": "meta-introduction-to-mobile-development.jpg",
+    "title": "Introduction to Mobile Development",
+    "organization": "Meta",
+    "tags": [
+      "Mobile",
+      "Meta"
+    ],
+    "category": "mobileDevelopment",
+    "link": "https://www.coursera.org/account/accomplishments/verify/VSJHXAAR166J",
+    "type": "course"
+  },
+  {
+    "id": 45,
+    "image": "meta-programming-with-javascript.jpg",
+    "title": "Programming with JavaScript",
+    "organization": "Meta",
+    "tags": [
+      "JavaScript",
+      "Meta",
+      "2025"
+    ],
+    "category": "webDevelopment",
+    "link": "https://coursera.org/share/e545e94d58e2b4cf0218e9a775f8e7d4",
     "type": "course"
   },
   {
     "id": 46,
-    "image": "learning-docker.jpg",
-    "title": "Learning Docker",
-    "organization": "Docker",
+    "image": "meta-react-basics.jpg",
+    "title": "React Basics",
+    "organization": "Meta",
     "tags": [
-      "Docker"
+      "React",
+      "Meta"
     ],
-    "category": "cloudDevOps",
-    "link": "#certificate-297",
+    "category": "webDevelopment",
+    "link": "https://coursera.org/share/8583a719cc6c13f9d7782caa7f43e2cc",
     "type": "course"
   },
   {
     "id": 47,
-    "image": "learning-docker-compose.jpg",
-    "title": "Learning Docker Compose",
-    "organization": "Docker",
+    "image": "Career-Essentials-in-Generative-AI-by-Microsoft-and-LinkedIn.jpg",
+    "title": "Career Essentials In Generative AI By Microsoft And LinkedIn",
+    "organization": "Microsoft",
     "tags": [
-      "Docker"
+      "AI"
     ],
-    "category": "cloudDevOps",
-    "link": "#certificate-296",
+    "category": "bigTech",
+    "link": "#certificate-37",
     "type": "course"
   },
   {
     "id": 48,
+    "image": "machine-learning-microsoft.jpg",
+    "title": "DAT203x: Data Science and Machine Learning Essentials",
+    "organization": "Microsoft",
+    "tags": [
+      "Machine Learning"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-301",
+    "type": "course"
+  },
+  {
+    "id": 49,
+    "image": "c.jpg",
+    "title": "DEV210x: Introduction to C++",
+    "organization": "Microsoft",
+    "tags": [
+      "C++",
+      "Programming"
+    ],
+    "category": "programming",
+    "link": "https://courses.edx.org/certificates/6c19c4f9030c46f5b0598365213e8d0b",
+    "type": "certificate"
+  },
+  {
+    "id": 50,
     "image": "microsoft-365-copilot-first-look.jpg",
     "title": "Microsoft 365 Copilot First Look",
     "organization": "Microsoft",
@@ -624,44 +652,16 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 49,
-    "image": "multi-modal-systems-with-the-openai-api.jpg",
-    "title": "Multi Modal Systems With The Openai Api",
-    "organization": "OpenAI",
-    "tags": [
-      "AI",
-      "API"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-319",
-    "type": "course"
-  },
-  {
-    "id": 50,
-    "image": "multimodal-prompting-with-googles-project-gemini.jpg",
-    "title": "Multimodal Prompting With Googles Project Gemini",
-    "organization": "Google",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-320",
-    "type": "course"
-  },
-  {
     "id": 51,
-    "image": "node-and-express-essentials-ibm-certificate.jpg",
-    "title": "Node and Express Essentials",
-    "organization": "IBM",
+    "image": "streamlining-your-work-with-microsoft-bing-chat.jpg",
+    "title": "Streamlining Your Work With Microsoft Bing Chat",
+    "organization": "Microsoft",
     "tags": [
-      "Node.js",
-      "Express",
-      "IBM"
+      "Machine Learning"
     ],
-    "category": "bigTech",
-    "link": "https://www.credly.com/badges/f3b86027-f13c-4157-9fc8-40d77d75f546",
-    "type": "certificate"
+    "category": "aiMachineLearning",
+    "link": "#certificate-405",
+    "type": "course"
   },
   {
     "id": 52,
@@ -679,7 +679,7 @@ export const allCertificates = [
   {
     "id": 53,
     "image": "nutanixfoundations.jpg",
-    "title": "Nutanixfoundations",
+    "title": "Nutanix Hybrid Cloud Foundation Course",
     "organization": "Nutanix",
     "tags": [
       "Technology",
@@ -691,6 +691,45 @@ export const allCertificates = [
   },
   {
     "id": 54,
+    "image": "intro-to-openai-gpt-api-course.jpg",
+    "title": "Intro To Openai Gpt Api Course",
+    "organization": "OpenAI",
+    "tags": [
+      "AI",
+      "API"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-168",
+    "type": "course"
+  },
+  {
+    "id": 55,
+    "image": "learn-the-openai-api-playground-course.jpg",
+    "title": "Learn The Openai Api Playground Course",
+    "organization": "OpenAI",
+    "tags": [
+      "AI",
+      "API"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-291",
+    "type": "course"
+  },
+  {
+    "id": 56,
+    "image": "multi-modal-systems-with-the-openai-api.jpg",
+    "title": "Multi Modal Systems With The Openai Api",
+    "organization": "OpenAI",
+    "tags": [
+      "AI",
+      "API"
+    ],
+    "category": "aiMachineLearning",
+    "link": "#certificate-319",
+    "type": "course"
+  },
+  {
+    "id": 57,
     "image": "openai-api-coding-with-javascript-course.jpg",
     "title": "Openai Api Coding With Javascript Course",
     "organization": "OpenAI",
@@ -704,7 +743,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 55,
+    "id": 58,
     "image": "openai-api-coding-with-python-course.jpg",
     "title": "Openai Api Coding With Python Course",
     "organization": "OpenAI",
@@ -718,7 +757,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 56,
+    "id": 59,
     "image": "openai-api-function-calling.jpg",
     "title": "Openai Api Function Calling",
     "organization": "OpenAI",
@@ -731,21 +770,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 57,
-    "image": "meta-programming-with-javascript.jpg",
-    "title": "Programming with JavaScript",
-    "organization": "Meta",
-    "tags": [
-      "JavaScript",
-      "Meta",
-      "2025"
-    ],
-    "category": "webDevelopment",
-    "link": "https://coursera.org/share/e545e94d58e2b4cf0218e9a775f8e7d4",
-    "type": "course"
-  },
-  {
-    "id": 58,
+    "id": 60,
     "image": "prompt-engineering-with-the-openai-api.jpg",
     "title": "Prompt Engineering With The Openai Api",
     "organization": "OpenAI",
@@ -755,31 +780,6 @@ export const allCertificates = [
     ],
     "category": "aiMachineLearning",
     "link": "#certificate-362",
-    "type": "course"
-  },
-  {
-    "id": 59,
-    "image": "meta-react-basics.jpg",
-    "title": "React Basics",
-    "organization": "Meta",
-    "tags": [
-      "React",
-      "Meta"
-    ],
-    "category": "webDevelopment",
-    "link": "https://coursera.org/share/8583a719cc6c13f9d7782caa7f43e2cc",
-    "type": "course"
-  },
-  {
-    "id": 60,
-    "image": "streamlining-your-work-with-microsoft-bing-chat.jpg",
-    "title": "Streamlining Your Work With Microsoft Bing Chat",
-    "organization": "Microsoft",
-    "tags": [
-      "Machine Learning"
-    ],
-    "category": "aiMachineLearning",
-    "link": "#certificate-405",
     "type": "course"
   },
   {
@@ -4041,18 +4041,45 @@ export const allCertificates = [
   },
   {
     "id": 311,
-    "image": "agile-development-practices-pmi-certificate.jpg",
-    "title": "Agile Development Practices Pmi Certificate",
-    "organization": "PMI",
+    "image": "ieee1.jpg",
+    "title": "CloudIntro.x: Introduction to Cloud Computing",
+    "organization": "IEEE",
     "tags": [
-      "Agile"
+      "Technology",
+      "Professional Development"
     ],
-    "category": "projectManagement",
-    "link": "#certificate-6",
+    "category": "other",
+    "link": "#certificate-149",
     "type": "course"
   },
   {
     "id": 312,
+    "image": "ieee2.jpg",
+    "title": "RTSIx: Introduction to Real-Time Systems",
+    "organization": "IEEE",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-150",
+    "type": "course"
+  },
+  {
+    "id": 313,
+    "image": "Systems Engineering.jpg",
+    "title": "Systems Engineering",
+    "organization": "MathWorks",
+    "tags": [
+      "Systems Engineering",
+      "MATLAB"
+    ],
+    "category": "other",
+    "link": "https://www.coursera.org/account/accomplishments/verify/KTTI0FSG4GY1",
+    "type": "course"
+  },
+  {
+    "id": 314,
     "image": "packt-blockchain-basics-and-smart-contract-foundations.jpg",
     "title": "Blockchain Basics and Smart Contract Foundations",
     "organization": "Packt",
@@ -4065,7 +4092,19 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 313,
+    "id": 315,
+    "image": "agile-development-practices-pmi-certificate.jpg",
+    "title": "Agile Development Practices Pmi Certificate",
+    "organization": "PMI",
+    "tags": [
+      "Agile"
+    ],
+    "category": "projectManagement",
+    "link": "#certificate-6",
+    "type": "course"
+  },
+  {
+    "id": 316,
     "image": "coaching-skills-for-leaders-and-managers-pmi.jpg",
     "title": "Coaching Skills For Leaders And Managers Pmi",
     "organization": "PMI",
@@ -4078,7 +4117,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 314,
+    "id": 317,
     "image": "ethics-in-the-age-of-generative-ai-pmi-certificate.jpg",
     "title": "Ethics In The Age Of Generative Ai Pmi Certificate",
     "organization": "PMI",
@@ -4090,33 +4129,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 315,
-    "image": "ieee1.jpg",
-    "title": "Ieee1",
-    "organization": "IEEE",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-149",
-    "type": "course"
-  },
-  {
-    "id": 316,
-    "image": "ieee2.jpg",
-    "title": "Ieee2",
-    "organization": "IEEE",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-150",
-    "type": "course"
-  },
-  {
-    "id": 317,
+    "id": 318,
     "image": "leading-remote-projects-and-virtual-teams-pmi.jpg",
     "title": "Leading Remote Projects And Virtual Teams Pmi",
     "organization": "PMI",
@@ -4129,7 +4142,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 318,
+    "id": 319,
     "image": "leading-virtually-vulnerability-and-presence-when-working-from-home-pmi-certificate.jpg",
     "title": "Leading Virtually Vulnerability And Presence When Working From Home Pmi Certificate",
     "organization": "PMI",
@@ -4142,7 +4155,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 319,
+    "id": 320,
     "image": "managing-project-stakeholders-pmi-certificate.jpg",
     "title": "Managing Project Stakeholders Pmi Certificate",
     "organization": "PMI",
@@ -4155,7 +4168,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 320,
+    "id": 321,
     "image": "practice-exam-for-pmi-agile-certified-practitioner-pmi-acp.jpg",
     "title": "Practice Exam For Pmi Agile Certified Practitioner Pmi Acp",
     "organization": "PMI",
@@ -4167,7 +4180,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 321,
+    "id": 322,
     "image": "scrum-the-basics-pmi-certificate.jpg",
     "title": "Scrum The Basics Pmi Certificate",
     "organization": "PMI",
@@ -4176,19 +4189,6 @@ export const allCertificates = [
     ],
     "category": "projectManagement",
     "link": "#certificate-395",
-    "type": "course"
-  },
-  {
-    "id": 322,
-    "image": "Systems Engineering.jpg",
-    "title": "Systems Engineering",
-    "organization": "MathWorks",
-    "tags": [
-      "Systems Engineering",
-      "MATLAB"
-    ],
-    "category": "other",
-    "link": "https://www.coursera.org/account/accomplishments/verify/KTTI0FSG4GY1",
     "type": "course"
   },
   {
@@ -4355,19 +4355,6 @@ export const allCertificates = [
   },
   {
     "id": 336,
-    "image": "berklee.jpg",
-    "title": "Berklee",
-    "organization": "Professional Training",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-27",
-    "type": "course"
-  },
-  {
-    "id": 337,
     "image": "blockforbiss.jpg",
     "title": "Blockforbiss",
     "organization": "Professional Training",
@@ -4380,7 +4367,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 338,
+    "id": 337,
     "image": "characteristics-of-a-great-scrum-master.jpg",
     "title": "Characteristics Of A Great Scrum Master",
     "organization": "Professional Training",
@@ -4392,7 +4379,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 339,
+    "id": 338,
     "image": "cloud-native.jpg",
     "title": "Cloud Native",
     "organization": "Professional Training",
@@ -4404,7 +4391,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 340,
+    "id": 339,
     "image": "containerization-and-virtualization-concepts.jpg",
     "title": "Containerization And Virtualization Concepts",
     "organization": "Professional Training",
@@ -4416,7 +4403,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 341,
+    "id": 340,
     "image": "controlling-chatgpt-with-custom-instructions-or-api-system-messages.jpg",
     "title": "Controlling Chatgpt With Custom Instructions Or Api System Messages",
     "organization": "Professional Training",
@@ -4428,9 +4415,9 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 342,
+    "id": 341,
     "image": "conversational.jpg",
-    "title": "Conversational",
+    "title": "Conversational English Skills",
     "organization": "Professional Training",
     "tags": [
       "Technology",
@@ -4441,7 +4428,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 343,
+    "id": 342,
     "image": "creating-psychological-safety-for-diverse-teams.jpg",
     "title": "Creating Psychological Safety For Diverse Teams",
     "organization": "Professional Training",
@@ -4454,7 +4441,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 344,
+    "id": 343,
     "image": "criptoapps.jpg",
     "title": "Criptoapps",
     "organization": "Professional Training",
@@ -4467,7 +4454,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 345,
+    "id": 344,
     "image": "criptocourse.jpg",
     "title": "Criptocourse",
     "organization": "Professional Training",
@@ -4480,7 +4467,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 346,
+    "id": 345,
     "image": "criptomastery.jpg",
     "title": "Criptomastery",
     "organization": "Professional Training",
@@ -4493,7 +4480,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 347,
+    "id": 346,
     "image": "criptosecrets.jpg",
     "title": "Criptosecrets",
     "organization": "Professional Training",
@@ -4506,7 +4493,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 348,
+    "id": 347,
     "image": "crowd.jpg",
     "title": "Crowd",
     "organization": "Professional Training",
@@ -4519,7 +4506,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 349,
+    "id": 348,
     "image": "customer.jpg",
     "title": "Customer",
     "organization": "Professional Training",
@@ -4532,7 +4519,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 350,
+    "id": 349,
     "image": "cybersecurity-careers-become-a-penetration-tester.jpg",
     "title": "Cybersecurity Careers Become A Penetration Tester",
     "organization": "Professional Training",
@@ -4544,7 +4531,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 351,
+    "id": 350,
     "image": "transact.jpg",
     "title": "DAT201x: Querying with Transact-SQL",
     "organization": "Professional Training",
@@ -4557,7 +4544,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 352,
+    "id": 351,
     "image": "r.jpg",
     "title": "DAT204x: Introduction to R Programming",
     "organization": "Professional Training",
@@ -4570,7 +4557,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 353,
+    "id": 352,
     "image": "data-camp-data-manipulation-with-pandas.jpg",
     "title": "Data Camp Data Manipulation With Pandas",
     "organization": "Professional Training",
@@ -4582,7 +4569,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 354,
+    "id": 353,
     "image": "data-camp-understanding-cloud-computing.jpg",
     "title": "Data Camp Understanding Cloud Computing",
     "organization": "Professional Training",
@@ -4595,7 +4582,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 355,
+    "id": 354,
     "image": "data-science.jpg",
     "title": "Data Science Math Skills",
     "organization": "Professional Training",
@@ -4607,7 +4594,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 356,
+    "id": 355,
     "image": "defending-against-ai-generated-attacks-course.jpg",
     "title": "Defending Against Ai Generated Attacks Course",
     "organization": "Professional Training",
@@ -4619,7 +4606,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 357,
+    "id": 356,
     "image": "design-thinking-for-innovation-stakeholder-engagement-course.jpg",
     "title": "Design Thinking For Innovation Stakeholder Engagement Course",
     "organization": "Professional Training",
@@ -4632,7 +4619,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 358,
+    "id": 357,
     "image": "digital-transformation.jpg",
     "title": "Digital Transformation",
     "organization": "Professional Training",
@@ -4645,7 +4632,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 359,
+    "id": 358,
     "image": "discovring-ethical-ai.jpg",
     "title": "Discovring Ethical Ai",
     "organization": "Professional Training",
@@ -4657,7 +4644,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 360,
+    "id": 359,
     "image": "effective-team-communication-course.jpg",
     "title": "Effective Team Communication Course",
     "organization": "Professional Training",
@@ -4670,7 +4657,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 361,
+    "id": 360,
     "image": "english-certificate.jpg",
     "title": "English Certificate",
     "organization": "Professional Training",
@@ -4683,7 +4670,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 362,
+    "id": 361,
     "image": "englishdot6.jpg",
     "title": "Englishdot6",
     "organization": "Professional Training",
@@ -4696,7 +4683,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 363,
+    "id": 362,
     "image": "ethics-in-the-age-of-generative-ai.jpg",
     "title": "Ethics In The Age Of Generative Ai",
     "organization": "Professional Training",
@@ -4708,7 +4695,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 364,
+    "id": 363,
     "image": "excel-basics-course.jpg",
     "title": "Excel Basics Course",
     "organization": "Professional Training",
@@ -4721,7 +4708,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 365,
+    "id": 364,
     "image": "exploring-aiops.jpg",
     "title": "Exploring Aiops",
     "organization": "Professional Training",
@@ -4733,7 +4720,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 366,
+    "id": 365,
     "image": "frenchlanguage.jpg",
     "title": "Frenchlanguage",
     "organization": "Professional Training",
@@ -4746,7 +4733,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 367,
+    "id": 366,
     "image": "generative-ai-the-evolution-of-thoughtful-online-search.jpg",
     "title": "Generative Ai The Evolution Of Thoughtful Online Search",
     "organization": "Professional Training",
@@ -4758,7 +4745,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 368,
+    "id": 367,
     "image": "get-more-by-saying-less-in-negotiations.jpg",
     "title": "Get More By Saying Less In Negotiations",
     "organization": "Professional Training",
@@ -4771,7 +4758,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 369,
+    "id": 368,
     "image": "getting-started-off-platform-for-data-science-course.jpg",
     "title": "Getting Started Off Platform For Data Science Course",
     "organization": "Professional Training",
@@ -4783,7 +4770,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 370,
+    "id": 369,
     "image": "getting-started-with-natural-language-processing-course.jpg",
     "title": "Getting Started With Natural Language Processing Course",
     "organization": "Professional Training",
@@ -4796,20 +4783,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 371,
-    "image": "guitar.jpg",
-    "title": "Guitar",
-    "organization": "Professional Training",
-    "tags": [
-      "Technology",
-      "Professional Development"
-    ],
-    "category": "other",
-    "link": "#certificate-139",
-    "type": "course"
-  },
-  {
-    "id": 372,
+    "id": 370,
     "image": "hiring.jpg",
     "title": "Hiring",
     "organization": "Professional Training",
@@ -4822,7 +4796,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 373,
+    "id": 371,
     "image": "how-to-prepare-for-your-negotiations.jpg",
     "title": "How To Prepare For Your Negotiations",
     "organization": "Professional Training",
@@ -4835,9 +4809,9 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 374,
+    "id": 372,
     "image": "ielts.jpg",
-    "title": "Ielts",
+    "title": "IELTSx: IELTS Academic Test Preparation",
     "organization": "Professional Training",
     "tags": [
       "Technology",
@@ -4848,7 +4822,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 375,
+    "id": 373,
     "image": "improving-insights-with-open-ais-advanced-data-analysis.jpg",
     "title": "Improving Insights With Open Ais Advanced Data Analysis",
     "organization": "Professional Training",
@@ -4861,7 +4835,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 376,
+    "id": 374,
     "image": "Inclusive-Tech-Conducting-Humane-Code-Reviews.jpg",
     "title": "Inclusive Tech Conducting Humane Code Reviews",
     "organization": "Professional Training",
@@ -4874,7 +4848,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 377,
+    "id": 375,
     "image": "server.jpg",
     "title": "INF201.12x: Introduction to Windows Server",
     "organization": "Professional Training",
@@ -4887,7 +4861,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 378,
+    "id": 376,
     "image": "intermediate-python.jpg",
     "title": "Intermediate Python",
     "organization": "Professional Training",
@@ -4899,7 +4873,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 379,
+    "id": 377,
     "image": "intermediate-python-for-developers.jpg",
     "title": "Intermediate Python For Developers",
     "organization": "Professional Training",
@@ -4911,7 +4885,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 380,
+    "id": 378,
     "image": "intro-to-ai-coding-with-cursor-course.jpg",
     "title": "Intro To Ai Coding With Cursor Course",
     "organization": "Professional Training",
@@ -4923,7 +4897,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 381,
+    "id": 379,
     "image": "intro-to-ai-strategy-course.jpg",
     "title": "Intro To Ai Strategy Course",
     "organization": "Professional Training",
@@ -4935,7 +4909,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 382,
+    "id": 380,
     "image": "intro-to-chatgpt-course.jpg",
     "title": "Intro To Chatgpt Course",
     "organization": "Professional Training",
@@ -4948,7 +4922,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 383,
+    "id": 381,
     "image": "intro-to-chatgpt-course-updated.jpg",
     "title": "Intro To Chatgpt Course Updated",
     "organization": "Professional Training",
@@ -4961,7 +4935,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 384,
+    "id": 382,
     "image": "intro-to-cloud-computing-course.jpg",
     "title": "Intro To Cloud Computing Course",
     "organization": "Professional Training",
@@ -4973,7 +4947,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 385,
+    "id": 383,
     "image": "intro-to-generative-ai-course.jpg",
     "title": "Intro To Generative Ai Course",
     "organization": "Professional Training",
@@ -4985,7 +4959,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 386,
+    "id": 384,
     "image": "intro-to-github-copilot-course.jpg",
     "title": "Intro To Github Copilot Course",
     "organization": "Professional Training",
@@ -4998,7 +4972,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 387,
+    "id": 385,
     "image": "intro-to-hugging-face-course.jpg",
     "title": "Intro To Hugging Face Course",
     "organization": "Professional Training",
@@ -5011,7 +4985,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 388,
+    "id": 386,
     "image": "intro-to-llms-course.jpg",
     "title": "Intro To Llms Course",
     "organization": "Professional Training",
@@ -5024,7 +4998,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 389,
+    "id": 387,
     "image": "intro-to-midjourney-course.jpg",
     "title": "Intro To Midjourney Course",
     "organization": "Professional Training",
@@ -5037,7 +5011,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 390,
+    "id": 388,
     "image": "intro-to-vibe-coding-course.jpg",
     "title": "Intro To Vibe Coding Course",
     "organization": "Professional Training",
@@ -5050,7 +5024,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 391,
+    "id": 389,
     "image": "introduction-to-ai-agents.jpg",
     "title": "Introduction To Ai Agents",
     "organization": "Professional Training",
@@ -5062,7 +5036,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 392,
+    "id": 390,
     "image": "introduction-to-claude-artifacts-course.jpg",
     "title": "Introduction To Claude Artifacts Course",
     "organization": "Professional Training",
@@ -5075,7 +5049,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 393,
+    "id": 391,
     "image": "introduction-to-claude-projects-course.jpg",
     "title": "Introduction To Claude Projects Course",
     "organization": "Professional Training",
@@ -5088,7 +5062,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 394,
+    "id": 392,
     "image": "introduction-to-data-visualization-with-seaborn.jpg",
     "title": "Introduction To Data Visualization With Seaborn",
     "organization": "Professional Training",
@@ -5100,7 +5074,7 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 395,
+    "id": 393,
     "image": "Introduction to Ethical Hacking Course.jpg",
     "title": "Introduction To Ethical Hacking Course",
     "organization": "Professional Training",
@@ -5113,7 +5087,20 @@ export const allCertificates = [
     "type": "course"
   },
   {
-    "id": 396,
+    "id": 394,
+    "image": "guitar.jpg",
+    "title": "Introduction to Guitar",
+    "organization": "Professional Training",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-139",
+    "type": "course"
+  },
+  {
+    "id": 395,
     "image": "Introduction to Kubernetes.jpg",
     "title": "Introduction To Kubernetes",
     "organization": "Professional Training",
@@ -5122,6 +5109,19 @@ export const allCertificates = [
     ],
     "category": "cloudDevOps",
     "link": "#certificate-173",
+    "type": "course"
+  },
+  {
+    "id": 396,
+    "image": "berklee.jpg",
+    "title": "Introduction to Music Production",
+    "organization": "Professional Training",
+    "tags": [
+      "Technology",
+      "Professional Development"
+    ],
+    "category": "other",
+    "link": "#certificate-27",
     "type": "course"
   },
   {
@@ -5353,7 +5353,7 @@ export const allCertificates = [
   {
     "id": 415,
     "image": "openvino.jpg",
-    "title": "Openvino",
+    "title": "OpenVINO Fundamental Course in the Intel IoT Edge Scholarship",
     "organization": "Professional Training",
     "tags": [
       "Technology",

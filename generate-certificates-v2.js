@@ -77,6 +77,44 @@ const detectTitle = (filename) => {
   if (name === 'berkeley') return 'College Writing 2.1x: Principles of Written English';
   if (name === 'berkeley2') return 'College Writing 2.2x: Principles of Written English';
   
+  // Cisco
+  if (name === 'cisco1') return 'Interconnecting Cisco Networking Devices Part 1 (ICND1)';
+  if (name === 'cisco2') return 'Interconnecting Cisco Networking Devices Part 2 (ICND2)';
+  
+  // AWS
+  if (name === 'awsconcepts') return 'AWS Concepts';
+  if (name === 'awsudacity') return 'AWS Fundamental Course in the AWS Machine Learning Scholarship';
+  
+  // Nutanix
+  if (name === 'nutanixfoundations') return 'Nutanix Hybrid Cloud Foundation Course';
+  if (name === 'nutanix-certified-associate') return 'Nutanix Certified Associate';
+  
+  // Politecnico di Milano
+  if (name === 'politecnico-milano-platform-thinking-whats-beyond-uber') return "Platform Thinking: what's beyond Uber?";
+  
+  // Packt
+  if (name === 'packt-blockchain-basics-and-smart-contract-foundations') return 'Blockchain Basics and Smart Contract Foundations';
+  
+  // Intel
+  if (name === 'openvino') return 'OpenVINO Fundamental Course in the Intel IoT Edge Scholarship';
+  
+  // Coursera
+  if (name === 'guitar') return 'Introduction to Guitar';
+  if (name === 'berklee') return 'Introduction to Music Production';
+  if (name === 'typescript-in-react-get-started') return 'Typescript in React: Get Started';
+  if (name === 'create-your-first-web-app-with-python-and-flask') return 'Create Your First Web App with Python and Flask';
+  if (name === 'systems engineering') return 'Systems Engineering';
+  
+  // IEEE
+  if (name === 'ieee1') return 'CloudIntro.x: Introduction to Cloud Computing';
+  if (name === 'ieee2') return 'RTSIx: Introduction to Real-Time Systems';
+  
+  // Tsinghua University
+  if (name === 'conversational') return 'Conversational English Skills';
+  
+  // University of Queensland
+  if (name === 'ielts') return 'IELTSx: IELTS Academic Test Preparation';
+  
   // Codecademy Skill Paths
   if (name === 'learn-c-skill-path') return 'Learn C Skill Path';
   if (name === 'codefoundationscodecademy') return 'Code Foundations Skill Path';
@@ -357,14 +395,18 @@ const certificatesUnsorted = filenames.map((filename, index) => {
   };
 });
 
-// Sort by organization priority, then by title
+// Sort by organization priority, then by organization name, then by title
 const certificates = certificatesUnsorted
   .sort((a, b) => {
     // First sort by priority (lower number = higher priority)
     if (a.priority !== b.priority) {
       return a.priority - b.priority;
     }
-    // Then sort alphabetically by title
+    // Then sort by organization name to group certificates from same org
+    if (a.organization !== b.organization) {
+      return a.organization.localeCompare(b.organization);
+    }
+    // Finally sort alphabetically by title within the same organization
     return a.title.localeCompare(b.title);
   })
   .map((cert, index) => ({
