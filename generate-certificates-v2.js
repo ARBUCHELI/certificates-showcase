@@ -46,15 +46,77 @@ const filenames = fs.readdirSync(imagesDir).filter(f => f.endsWith('.jpg'));
 
 console.log(`Found ${filenames.length} certificate images`);
 
-// Helper to parse title from filename (fallback)
-const parseTitle = (filename) => {
+// Comprehensive title detection based on filename patterns
+const detectTitle = (filename) => {
+  const name = filename.toLowerCase().replace('.jpg', '').replace('.png', '');
+  
+  // HackerRank Certificates
+  if (name === 'css-hackerrank') return 'CSS Skill Assessment';
+  if (name === 'javascript-hackerrank') return 'JavaScript Skill Assessment';
+  if (name === 'react-hackerrank') return 'React Skill Assessment';
+  
+  // IBM
+  if (name === 'node-and-express-essentials' || name === 'node-and-express-essentials-ibm-certificate') return 'Node and Express Essentials';
+  if (name === 'developing-back-end-apps-with-nodejs-and-express') return 'Developing Back-End Apps with Node.js and Express';
+  if (name === 'ibm-javascript-programming-essentials') return 'JavaScript Programming Essentials';
+  
+  // MIT
+  if (name === 'mit') return '6.00.1x: Introduction to Computer Science and Programming Using Python';
+  
+  // Linux Foundation
+  if (name === 'linux') return 'LFS101x.2: Introduction to Linux';
+  
+  // Microsoft
+  if (name === 'c') return 'DEV210x: Introduction to C++';
+  if (name === 'machine-learning-microsoft') return 'DAT203x: Data Science and Machine Learning Essentials';
+  if (name === 'r') return 'DAT204x: Introduction to R Programming';
+  if (name === 'transact') return 'DAT201x: Querying with Transact-SQL';
+  if (name === 'server') return 'INF201.12x: Introduction to Windows Server';
+  
+  // Codecademy Skill Paths
+  if (name === 'learn-c-skill-path') return 'Learn C Skill Path';
+  if (name === 'codefoundationscodecademy') return 'Code Foundations Skill Path';
+  if (name === 'front-end-engineer') return 'Front-End Engineer Career Path';
+  if (name === 'front-end-app-with-react') return 'Create a Front-End App with React Skill Path';
+  if (name === 'react-redux-skillpath') return 'Create an Advanced Web App with React and Redux Skill Path';
+  if (name === 'build-a-website-with-github') return 'Build a Website with HTML, CSS, and Github Pages Skill Path';
+  if (name === 'build-websites-for-your-business') return 'Build Websites for your Business Skill Path';
+  if (name === 'learn-php-skill-path') return 'Learn PHP Skill Path';
+  if (name === 'pass-the-technical-interview-with-javascript-skill-path') return 'Pass the Technical Interview with JavaScript Skill Path';
+  if (name === 'create-a-back-end-app-with-javascript-skill-path') return 'Create a Back-End App with JavaScript Skill Path';
+  if (name === 'design-databases-with-postgresql-skill-path') return 'Design Databases With PostgreSQL Skill Path';
+  
+  // freeCodeCamp Certifications
+  if (name === 'freecodecamp-front-end-libraries-certification') return 'Front End Development Libraries Developer Certification';
+  if (name === 'javascript-algorithms-and-data-structures') return 'JavaScript Algorithms and Data Structures Developer Certification';
+  if (name === 'responsivefreecodecamp') return 'Responsive Web Design Developer Certification';
+  
+  // University Certificates
+  if (name === 'harvard-educators') return 'CS50 For Educators';
+  if (name === 'harvard') return 'CS50 Understanding Technology';
+  if (name === 'harvey') return 'My CS: Computer Science for Beginners';
+  if (name === 'scratch') return 'CS002x: Programming in Scratch';
+  if (name === 'toronto') return 'Learn to Program: The Fundamentals';
+  if (name === 'columbia') return 'DS103x: Enabling Technologies for Data Science and Analytics: The Internet of Things';
+  if (name === 'data-science') return 'Data Science Math Skills';
+  if (name === 'michigan') return 'Internet History, Technology, and Security';
+  if (name === 'washington') return 'Computer Networks';
+  if (name === 'maryland') return 'Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship';
+  if (name === 'virginia') return 'Fundamentals of Project Planning and Management';
+  if (name === 'rochester') return 'Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics';
+  
+  // Default: parse from filename
   return filename
     .replace('.jpg', '')
+    .replace('.png', '')
     .replace(/-/g, ' ')
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 };
+
+// Legacy function for compatibility
+const parseTitle = detectTitle;
 
 const detectOrganization = (filename) => {
   const name = filename.toLowerCase();
