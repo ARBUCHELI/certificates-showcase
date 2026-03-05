@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="myScript.js"></script>
+    <style>    
+      nav {
+        margin: 0 auto;
+      } 
+      .topnav {
+        overflow: hidden;
+        background-color: #034f84; 
+        text-align: center;
+        padding: 1em 3em 1em 3em; 
+        border-radius: 5px; 
+        border: 1px #6b5b95 solid 
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: white; 
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px; 
+        border-radius: 5px;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: #034f84;
+      }
+      .topnav a.active {
+        background-color: #6b5b95;
+        color: white;
+      }
+      @media only screen and (min-width: 1285px) and (max-width: 1670px) {
+        .topnav {
+          padding: 1em 2.5em 1em 2.5em; 
+        }
+        .topnav a {
+          font-size: 16px; 
+        }
+      }
+      @media only screen and (min-width: 1200px) and (max-width: 1285px) {
+        .topnav {
+          padding: 1em 0.8em 1em 0.8em; 
+        }
+        .topnav a {
+          font-size: 14px; 
+        }
+        div.gallery {
+            width: 32%;
+        }
+      }
+      @media only screen and (min-width: 1175px) and (max-width: 1200px) {
+        .topnav {
+          padding: 1em 4.2em 1em 4.2em; 
+          .topnav a {
+            font-size: 14.4px; 
+          }
+        }
+      }
+      @media only screen and (min-width: 1149px) and (max-width: 1175px) {
+        .topnav {
+          padding: 1em 4em 1em 4em; 
+        }
+        .topnav a {
+          font-size: 14px; 
+        }
+      }
+      @media only screen and (min-width: 1105px) and (max-width: 1149px) {
+        .topnav {
+          padding: 1em 4em 1em 4em; 
+        }
+        .topnav a {
+          font-size: 13px; 
+        }
+      }
+      @media only screen and (min-width: 1050px) and (max-width: 1105px) {
+        .topnav {
+          padding: 1em 2.5em 1em 2.5em; 
+        }
+        .topnav a {
+          font-size: 13px; 
+        }
+      }
+      @media only screen and (min-width: 950px) and (max-width: 1050px) {
+        html {
+          padding: 0 5% 0 5%;
+        }   
+        .topnav {
+          padding: 1em 2.8em 1em 2.8em; 
+        }
+        .topnav a {
+          font-size: 15px; 
+        }
+        div.gallery {
+            width: 32%;
+        }
+      }
+      @media only screen and (min-width: 870px) and (max-width: 950px) {
+        html {
+          padding: 0 5% 0 5%;
+        }
+        .topnav {
+          padding: 1em 3.2em 1em 3.2em; 
+        }
+        .topnav a {
+          font-size: 12px; 
+        }
+      }
+      @media only screen and (min-width: 800px) and (max-width: 870px) {
+        .topnav {
+          padding: 1em 0.1em 1em 0.1em; 
+        }
+        .topnav a {
+          font-size: 5px; 
+        }
+      }
+      @media screen and (max-width: 870px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px 1px 16px;
+        }
+      }
+      @media screen and (max-width: 854px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 1em 1em 1em; 
+        }
+        .topnav a {
+          font-size: 12px; 
+        }
+      }
+      @media screen and (max-width: 821px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 2.5em 1em 2.5em; 
+        }
+        .topnav a {
+          font-size: 10px; 
+        }
+      }
+      @media screen and (max-width: 769px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 15.9em 1em 15.9em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 541px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 10.8em 1em 10.8em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 75%;
+        }
+      }
+      @media screen and (max-width: 431px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 10em 1em 10em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 63%;
+        }
+      }
+      @media screen and (max-width: 415px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 9.5em 1em 9.5em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 85%;
+        }
+      }
+      @media screen and (max-width: 413px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 9.5em 1em 9.5em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 85%;
+        }
+      }
+      @media screen and (max-width: 394px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 391px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 8.5em 1em 8.5em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 88%;
+        }
+      }
+      @media screen and (max-width: 376px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 9.5em 1em 9.5em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 90%;
+        }
+      }
+      @media screen and (max-width: 361px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 9em 1em 9em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        div.gallery {
+            width: 93%;
+        }
+      }
+      @media screen and (max-width: 345px) {
+        html {
+          padding: 0 5% 0 5%;
+        }     
+        .topnav {
+          padding: 1em 7.8em 1em 7.8em; 
+          text-align: center;
+        }
+        .topnav a {
+          float: none;
+          display: block;
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 281px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./customizations.html">Customizations</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./certificates.html">Certificates</a>
+        <a href="./education.html" class="active">Education</a>
+        <a href="./curriculum.html">Resume</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Bachelor's Degree</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Electronics Engineer<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.youtube.com/watch?v=GX1kfHUGp-k" target="blank">Pontifical Xavierian University - Founded in 1623</a>
+                </h3>
+                <img
+                  src="./images-education/javeriana.svg.png"
+                  alt="Photo of certificate"
+                  class="university-logo-colombia uni-logo-hidden"
+                />
+                <img
+                  src="./images-education/diploma.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Specialization - Industrial Mater's Degree</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Specialist in Project Management of Telecommunications Engineering<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.youtube.com/watch?v=muIv2Koppu4" target="blank">Saint Thomas Aquinas University - Founded in 1580</a>
+                </h3>
+                <img
+                  src="./images-education/santo-tomas.png"
+                  alt="Photo of certificate"
+                  class="university-logo-colombia uni-logo-hidden-saint-thomas"
+                />
+                <img
+                  src="./images-education/especializacion.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Master's Degree</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Master in Management of Business and Financial Institutions<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.youtube.com/watch?v=XPKybGveEq4" target="blank">Lobachevsky State University Of Nizhny Novgorod UNN- Established in 1916</a>
+                </h3>
+                <img
+                  src="./images-education/lobachevsky.png"
+                  alt="Photo of certificate"
+                  class="university-logo uni-logo-hidden-lobachevsky"
+                />
+                <img
+                  src="./images-education/russian-master.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Nanodegree - Front End Developer</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Front End Developer<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=19167921312_c_individuals&utm_term=143524480319&utm_keyword=udacity%20front%20end_e&gclid=EAIaIQobChMI8vCinIKdgAMVBaCGCh03FgKwEAAYASAAEgIRfvD_BwE" target="blank">Udacity - Bertelsmann</a>
+                </h3>
+                <img
+                  src="./images-education/udacity-logo.png"
+                  alt="Photo of certificate"
+                  class="diploma-image uni-logo-hidden-udacity"
+                />
+                <img
+                  src="./images-education/front-end-developer-nanodegree.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+                <h3>
+                  <a class="university" 
+                   href="https://graduation.udacity.com/confirm/e/6df43132-c38c-11ed-a594-4bdd575da368" target="blank">Verified Certificate</a>
+                </h3>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Nanodegree - Artificial Intelligence</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Edge AI For IoT Developers<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.youtube.com/watch?v=GQxOC_Mx0ww" target="blank">Udacity - Intel</a>
+                </h3>
+                <img
+                  src="./images-education/udacity-logo.png"
+                  alt="Photo of certificate"
+                  class="diploma-image uni-logo-hidden-udacity"
+                />
+                <img
+                  src="./images-education/edgeainanodegree.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+                <h3>
+                  <a class="university" 
+                   href="https://graduation.udacity.com/api/graduation/certificate/GDA3RGZK/download" target="blank">Verified Certificate</a>
+                </h3>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container college">
+            <h2 style="color: #034f84; font-size: 22px">Nanodegree - Cloud Computing</h2>
+            <section id="projects" class="projectcard" style="background-color: #deeaee; padding: 0; border: none;">
+              <div class="certificate-card-nutanix certificate-card" style="background-color: #deeaee; margin: 0;">
+                <h2 style="color: #667292; font-size: 18px">Hybrid Cloud Engineer<h2>
+                <h3>
+                  <a class="university" style="font-size: 18px"
+                  href="https://www.youtube.com/watch?v=PGd36HhKDuI" target="blank">Udacity - Nutanix</a>
+                </h3>
+                <img
+                  src="./images-education/udacity-logo.png"
+                  alt="Photo of certificate"
+                  class="diploma-image uni-logo-hidden-udacity"
+                />
+                <img
+                  src="./images-education/nutanixnanodegree.jpg"
+                  alt="Photo of certificate"
+                  class="diploma-image"
+                />
+                <h3>
+                  <a class="university" 
+                  href="https://graduation.udacity.com/api/graduation/certificate/RMPKKDA6/download" target="blank">Verified Certificate</a>
+                </h3>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="skills-home" style="background-color: #d6d4e0; border-radius: 10px;">
+        <div id="skills-container" style="color: #484848; padding-left: 0.8em">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+    <footer style="color: #484848; font-weight: bolder; font-size: 13px;">BUCHELI © WEB DEVELOPMENT <span id="footer-year"></span></footer>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

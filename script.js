@@ -86,29 +86,6 @@ function initializeNavbar() {
         
         lastScroll = currentScroll;
     });
-
-    // Navbar links active state based on scroll
-    const navLinks = document.querySelectorAll('.nav-link');
-    const sections = document.querySelectorAll('.certificate-section');
-    
-    window.addEventListener('scroll', () => {
-        let current = '';
-        
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (window.pageYOffset >= sectionTop - 200) {
-                current = section.getAttribute('data-category');
-            }
-        });
-        
-        navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('data-filter') === current) {
-                link.classList.add('active');
-            }
-        });
-    });
 }
 
 // ==================== SEARCH FUNCTIONALITY ====================
@@ -187,11 +164,15 @@ function initializeFilters() {
             chips.forEach(c => c.classList.remove('active'));
             chip.classList.add('active');
             
-            // Filter sections
+            // Filter sections and grids
             if (category === 'all') {
                 sections.forEach(section => {
                     section.classList.remove('hidden');
                     animateSection(section);
+                });
+                // Show all dynamic grids
+                document.querySelectorAll('[data-filter-category]').forEach(grid => {
+                    grid.parentElement.style.display = '';
                 });
             } else {
                 sections.forEach(section => {
@@ -201,6 +182,14 @@ function initializeFilters() {
                         animateSection(section);
                     } else {
                         section.classList.add('hidden');
+                    }
+                });
+                // Filter dynamic grids
+                document.querySelectorAll('[data-filter-category]').forEach(grid => {
+                    if (grid.getAttribute('data-filter-category') === category) {
+                        grid.parentElement.style.display = '';
+                    } else {
+                        grid.parentElement.style.display = 'none';
                     }
                 });
             }
@@ -226,49 +215,26 @@ function initializeFilters() {
             navLinks.forEach(l => l.classList.remove('active'));
             link.classList.add('active');
             
-            // Map filter to categories
-            const categoryMap = {
-                'all': 'all',
-                'web': 'web-development',
-                'ai': ['ai-ml', 'generative-ai'],
-                'cloud': ['cloud', 'devops'],
-                'scholarships': 'scholarships'
-            };
-            
-            const targetCategories = Array.isArray(categoryMap[filter]) 
-                ? categoryMap[filter] 
-                : [categoryMap[filter]];
-            
             // Filter sections
             if (filter === 'all') {
                 sections.forEach(section => {
-                    section.classList.remove('hidden');
+                    section.style.display = '';
                     animateSection(section);
                 });
             } else {
                 sections.forEach(section => {
-                    const sectionCategory = section.getAttribute('data-category');
-                    if (targetCategories.includes(sectionCategory)) {
-                        section.classList.remove('hidden');
+                    if (section.getAttribute('data-category') === filter) {
+                        section.style.display = '';
                         animateSection(section);
-                        // Smooth scroll to first visible section
-                        if (!section.classList.contains('hidden')) {
-                            setTimeout(() => {
-                                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                            }, 100);
-                        }
                     } else {
-                        section.classList.add('hidden');
+                        section.style.display = 'none';
                     }
                 });
             }
             
             // Update chips to match
             chips.forEach(chip => {
-                const chipCategory = chip.getAttribute('data-category');
-                if (filter === 'all' && chipCategory === 'all') {
-                    chip.classList.add('active');
-                } else if (targetCategories.includes(chipCategory)) {
+                if (chip.getAttribute('data-category') === filter) {
                     chip.classList.add('active');
                 } else {
                     chip.classList.remove('active');

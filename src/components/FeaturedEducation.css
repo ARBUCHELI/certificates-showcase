@@ -83,6 +83,11 @@
   opacity: 0.9;
 }
 
+.institution-logo[alt*="Pontifical Xavierian University"] {
+  filter: brightness(0) invert(1);
+  /* Makes dark Pontifical logo white for better visibility on dark background */
+}
+
 .diploma-image {
   width: 100%;
   border-radius: 12px;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Certificate Showcase - Andrés R. Bucheli</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -12,17 +13,28 @@
     <header class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="glitch" data-text="Certificate Showcase">Certificate Showcase</h1>
-            <p class="hero-subtitle">Continuous Learning Journey in Technology</p>
+            <h1 class="glitch" data-text="Professional Certifications Portfolio">Professional Certifications Portfolio</h1>
+            <div class="hero-avatar">
+                <img src="./images/atari-avatar.png" alt="Andrés R. Bucheli">
+            </div>
+            <div class="hero-subtitle-row">
+                <div class="hero-logo hero-logo-large">
+                    <img src="./images/company-logo-6.png" alt="Bucheli Software Development logo left">
+                </div>
+                <p class="hero-subtitle">My Continuous Learning Journey in Technology</p>
+                <div class="hero-logo hero-logo-large">
+                    <img src="./images/company-logo-6.png" alt="Bucheli Software Development logo right">
+                </div>
+            </div>
             <div class="stats-container">
                 <div class="stat-card">
                     <i class="fas fa-certificate"></i>
-                    <div class="stat-number" data-count="200">0</div>
+                    <div class="stat-number" data-count="495">0</div>
                     <div class="stat-label">Certificates</div>
                 </div>
                 <div class="stat-card">
                     <i class="fas fa-graduation-cap"></i>
-                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-number" data-count="10">0</div>
                     <div class="stat-label">Platforms</div>
                 </div>
                 <div class="stat-card">
@@ -40,17 +52,20 @@
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <div class="nav-brand">AR Bucheli</div>
+            <div class="nav-brand">Andrés R. Bucheli</div>
             <div class="search-container">
                 <i class="fas fa-search"></i>
                 <input type="text" id="searchInput" placeholder="Search certificates..." class="search-input">
             </div>
             <div class="nav-links">
                 <a href="#all" class="nav-link active" data-filter="all">All</a>
-                <a href="#" class="nav-link" data-filter="web">Web Dev</a>
-                <a href="#" class="nav-link" data-filter="ai">AI/ML</a>
-                <a href="#" class="nav-link" data-filter="cloud">Cloud</a>
-                <a href="#" class="nav-link" data-filter="scholarships">Scholarships</a>
+                <a href="#" class="nav-link" data-filter="hackerrank-skill-assessment-certificates">HackerRank</a>
+                <a href="#" class="nav-link" data-filter="software-engineering-programming-web-development-and-blockchain-development">Web Dev</a>
+                <a href="#" class="nav-link" data-filter="ai-applications-development-ai-agent-development-and-generative-artificial-intelligence">Gen AI</a>
+                <a href="#" class="nav-link" data-filter="data-science-artificial-intelligence-computer-vision-and-machine-learning">AI/ML</a>
+                <a href="#" class="nav-link" data-filter="cloud-computing">Cloud</a>
+                <a href="#" class="nav-link" data-filter="cloud-native-and-devops">DevOps</a>
+                <a href="#" class="nav-link" data-filter="cybersecurity">Security</a>
             </div>
         </div>
     </nav>
@@ -80,36 +95,128 @@
             <!-- Filter Chips -->
             <div class="filter-chips">
                 <button class="chip active" data-category="all">
-                    <i class="fas fa-layer-group"></i> All Categories
+                    <i class="fas fa-layer-group"></i> All
                 </button>
-                <button class="chip" data-category="hackerrank">
+                <button class="chip" data-category="hackerrank-skill-assessment-certificates">
                     <i class="fas fa-code"></i> HackerRank
                 </button>
-                <button class="chip" data-category="web-development">
-                    <i class="fas fa-laptop-code"></i> Web Development
+                <button class="chip" data-category="big-tech-badges">
+                    <i class="fas fa-award"></i> Big Tech
                 </button>
-                <button class="chip" data-category="ai-ml">
-                    <i class="fas fa-brain"></i> AI & Machine Learning
-                </button>
-                <button class="chip" data-category="generative-ai">
-                    <i class="fas fa-robot"></i> Generative AI
-                </button>
-                <button class="chip" data-category="cloud">
-                    <i class="fas fa-cloud"></i> Cloud Computing
-                </button>
-                <button class="chip" data-category="devops">
-                    <i class="fas fa-infinity"></i> DevOps
-                </button>
-                <button class="chip" data-category="programming">
+                <button class="chip" data-category="programming-and-core-computer-science">
                     <i class="fas fa-terminal"></i> Programming
                 </button>
+                <button class="chip" data-category="computer-science-teaching-certificates">
+                    <i class="fas fa-chalkboard-teacher"></i> Teaching
+                </button>
+                <button class="chip" data-category="software-engineering-programming-web-development-and-blockchain-development">
+                    <i class="fas fa-laptop-code"></i> Web Dev
+                </button>
+                <button class="chip" data-category="mobile-development">
+                    <i class="fas fa-mobile-alt"></i> Mobile
+                </button>
+                <button class="chip" data-category="data-science-artificial-intelligence-computer-vision-and-machine-learning">
+                    <i class="fas fa-brain"></i> AI/ML
+                </button>
+                <button class="chip" data-category="ai-applications-development-ai-agent-development-and-generative-artificial-intelligence">
+                    <i class="fas fa-robot"></i> Gen AI
+                </button>
+                <button class="chip" data-category="cloud-computing">
+                    <i class="fas fa-cloud"></i> Cloud
+                </button>
+                <button class="chip" data-category="cloud-native-and-devops">
+                    <i class="fas fa-infinity"></i> DevOps
+                </button>
                 <button class="chip" data-category="cybersecurity">
-                    <i class="fas fa-shield-alt"></i> Cybersecurity
+                    <i class="fas fa-shield-alt"></i> Security
+                </button>
+                <button class="chip" data-category="computer-networking">
+                    <i class="fas fa-network-wired"></i> Networking
+                </button>
+                <button class="chip" data-category="technology-and-business">
+                    <i class="fas fa-briefcase"></i> Tech Business
+                </button>
+                <button class="chip" data-category="blockchain-and-crypto">
+                    <i class="fas fa-link"></i> Blockchain
+                </button>
+                <button class="chip" data-category="electronic-engineering">
+                    <i class="fas fa-microchip"></i> Electronics
+                </button>
+                <button class="chip" data-category="agile-software-development-project-management-entrepreneurship-and-business">
+                    <i class="fas fa-tasks"></i> Agile/PM
+                </button>
+                <button class="chip" data-category="foreign-languages">
+                    <i class="fas fa-language"></i> Languages
+                </button>
+                <button class="chip" data-category="music">
+                    <i class="fas fa-music"></i> Music
+                </button>
+                <button class="chip" data-category="udacity">
+                    <i class="fas fa-graduation-cap"></i> Scholarships
                 </button>
             </div>
 
+            <!-- Udacity Nanodegrees -->
+            <section class="certificate-section" data-category="nanodegrees">
+                <div class="section-header">
+                    <h2 class="category-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        Udacity Nanodegrees
+                    </h2>
+                    <span class="cert-count">3 Nanodegrees</span>
+                </div>
+
+                <!-- Front-End Developer Nanodegree -->
+                <div class="featured-cert">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">NANODEGREE</div>
+                        <h3>Front-End Web Developer</h3>
+                        <p class="featured-org">Udacity - Bertelsmann Scholarship</p>
+                        <p class="featured-desc">Comprehensive nanodegree program covering HTML, CSS, JavaScript, React, and modern front-end development practices. Completed through competitive Bertelsmann scholarship.</p>
+                        <a href="https://graduation.udacity.com/confirm/e/6df43132-c38c-11ed-a594-4bdd575da368" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certificate
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-education/front-end-developer-nanodegree.jpg" alt="Front-End Developer Nanodegree">
+                    </div>
+                </div>
+
+                <!-- Edge AI Nanodegree -->
+                <div class="featured-cert ai-themed">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">NANODEGREE</div>
+                        <h3>Edge AI for IoT Developers</h3>
+                        <p class="featured-org">Udacity - Intel Scholarship</p>
+                        <p class="featured-desc">Advanced nanodegree focusing on deploying AI models at the edge using Intel OpenVINO toolkit. Covers computer vision, model optimization, and IoT integration.</p>
+                        <a href="https://graduation.udacity.com/api/graduation/certificate/GDA3RGZK/download" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certificate
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-education/edgeainanodegree.jpg" alt="Edge AI Nanodegree">
+                    </div>
+                </div>
+
+                <!-- Hybrid Cloud Engineer Nanodegree -->
+                <div class="featured-cert">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">NANODEGREE</div>
+                        <h3>Hybrid Cloud Engineer</h3>
+                        <p class="featured-org">Udacity - Nutanix Scholarship</p>
+                        <p class="featured-desc">Specialized nanodegree in hybrid cloud infrastructure, covering private cloud, public cloud integration, and enterprise cloud management with Nutanix technologies.</p>
+                        <a href="https://graduation.udacity.com/api/graduation/certificate/RMPKKDA6/download" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certificate
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-education/nutanixnanodegree.jpg" alt="Hybrid Cloud Engineer Nanodegree">
+                    </div>
+                </div>
+            </section>
+
             <!-- HackerRank Certificates -->
-            <section class="certificate-section" data-category="hackerrank">
+            <section class="certificate-section" data-category="hackerrank-skill-assessment-certificates">
                 <div class="section-header">
                     <h2 class="category-title">
                         <i class="fas fa-trophy"></i>
@@ -136,6 +243,7 @@
                             <div class="cert-tags">
                                 <span class="tag">CSS</span>
                                 <span class="tag">Web Design</span>
+                                <span class="tag">Web Development</span>
                             </div>
                         </div>
                     </div>
@@ -157,7 +265,7 @@
                             <p class="cert-org">HackerRank</p>
                             <div class="cert-tags">
                                 <span class="tag">JavaScript</span>
-                                <span class="tag">Programming</span>
+                                <span class="tag">Web Development</span>
                             </div>
                         </div>
                     </div>
@@ -180,6 +288,7 @@
                             <div class="cert-tags">
                                 <span class="tag">React</span>
                                 <span class="tag">Frontend</span>
+                                <span class="tag">Web Development</span>
                             </div>
                         </div>
                     </div>
@@ -299,6 +408,21 @@
                     </div>
                 </div>
 
+                <div class="featured-cert ai-themed">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">SPECIALIZATION</div>
+                        <h3>Generative AI for Software Developers Specialization</h3>
+                        <p class="featured-org">IBM</p>
+                        <p class="featured-desc">Specialization program covering generative AI architectures, development workflows, and practical applications tailored for software developers.</p>
+                        <a href="https://www.credly.com/badges/b8afbc54-2c52-4af7-8eb7-6f70386635b7/public_url" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Specialization
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="./images-certificates/generative-ai-for-software-developers-specializatio.png" alt="Generative AI for Software Developers Specialization">
+                    </div>
+                </div>
+
                 <div class="certificates-grid">
                     <div class="certificate-card" data-aos="fade-up">
                         <div class="cert-badge"><i class="fas fa-brain"></i></div>
@@ -369,7 +493,7 @@
                         <i class="fas fa-graduation-cap"></i>
                         Technology Scholarships
                     </h2>
-                    <span class="cert-count">8 Scholarships</span>
+                    <span class="cert-count">11 Scholarships</span>
                 </div>
                 <p class="section-description">
                     Throughout my career, I have been awarded scholarships from leading technology companies, allowing me to collaborate with engineers worldwide and work with cutting-edge technologies.
@@ -404,14 +528,80 @@
 
                     <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="300">
                         <div class="scholarship-logo">
+                            <img src="./scholarships/nutanix.jpg" alt="Nutanix">
+                        </div>
+                        <h3>Hybrid Cloud Engineer</h3>
+                        <p class="scholarship-org">Nutanix & Udacity</p>
+                        <p class="scholarship-period">2020 - 2021</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="scholarship-logo">
                             <img src="./scholarships/bertelsmann.jpg" alt="Bertelsmann">
+                        </div>
+                        <h3>Technology Scholarship</h3>
+                        <p class="scholarship-org">Bertelsmann & Udacity</p>
+                        <p class="scholarship-period">2021</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/suse.jpg" alt="SUSE">
+                        </div>
+                        <h3>SUSE Scholarship</h3>
+                        <p class="scholarship-org">SUSE & Udacity</p>
+                        <p class="scholarship-period">2021</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/Bertelsmann_2023.jpg" alt="Bertelsmann">
+                        </div>
+                        <h3>Next Gen Tech Booster</h3>
+                        <p class="scholarship-org">Bertelsmann & Udacity</p>
+                        <p class="scholarship-period">2022 - 2023</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/Bmann_Challenge-Completed.png" alt="Bertelsmann">
+                        </div>
+                        <h3>Tech Booster 2023 Challenge</h3>
+                        <p class="scholarship-org">Bertelsmann</p>
+                        <p class="scholarship-period">2023</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/Bmann_ND-Recipient.png" alt="Bertelsmann">
+                        </div>
+                        <h3>Nanodegree Recipient 2023</h3>
+                        <p class="scholarship-org">Bertelsmann</p>
+                        <p class="scholarship-period">2023</p>
+                    </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="900">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/nextgen-badge.jpeg" alt="Bertelsmann">
                         </div>
                         <h3>Next Gen Tech Booster</h3>
                         <p class="scholarship-org">Bertelsmann & Udacity</p>
                         <p class="scholarship-period">2023 - 2024</p>
                     </div>
+
+                    <div class="scholarship-card" data-aos="zoom-in" data-aos-delay="1000">
+                        <div class="scholarship-logo">
+                            <img src="./scholarships/nextgen-certification_badge_1.webp" alt="Bertelsmann">
+                        </div>
+                        <h3>Tech Booster 2024 Challenge</h3>
+                        <p class="scholarship-org">Bertelsmann</p>
+                        <p class="scholarship-period">2024</p>
+                    </div>
                 </div>
             </section>
+
+            <!-- Dynamic Certificates Container -->
+            <div id="certificates-container"></div>
         </div>
     </main>
 
@@ -426,16 +616,16 @@
                 <div class="footer-section">
                     <h3>Connect</h3>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/andresregaladobucheli/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ARBUCHELI" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/andresfrbuch" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h3>Quick Stats</h3>
-                    <p>200+ Certificates</p>
-                    <p>15+ Platforms</p>
-                    <p>8 Scholarships</p>
+                    <p>495+ Certificates</p>
+                    <p>10+ Platforms</p>
+                    <p>8+ Scholarships</p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -445,5 +635,216 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Function to generate smart tags based on title and category
+        function generateTags(title, category) {
+            const tags = [];
+            const titleLower = title.toLowerCase();
+            
+            // Technology-specific tags
+            if (titleLower.includes('react')) tags.push('React');
+            if (titleLower.includes('javascript') || titleLower.includes('js')) tags.push('JavaScript');
+            if (titleLower.includes('typescript')) tags.push('TypeScript');
+            if (titleLower.includes('python')) tags.push('Python');
+            if (titleLower.includes('node')) tags.push('Node.js');
+            if (titleLower.includes('html')) tags.push('HTML');
+            if (titleLower.includes('css')) tags.push('CSS');
+            if (titleLower.includes('sql')) tags.push('SQL');
+            if (titleLower.includes('docker')) tags.push('Docker');
+            if (titleLower.includes('kubernetes')) tags.push('Kubernetes');
+            if (titleLower.includes('aws')) tags.push('AWS');
+            if (titleLower.includes('azure')) tags.push('Azure');
+            if (titleLower.includes('cloud')) tags.push('Cloud');
+            if (/\bai\b/.test(titleLower) || titleLower.includes('artificial intelligence')) tags.push('AI');
+            if (titleLower.includes('machine learning') || titleLower.includes('ml')) tags.push('ML');
+            if (titleLower.includes('chatgpt') || titleLower.includes('gpt')) tags.push('ChatGPT');
+            if (titleLower.includes('openai')) tags.push('OpenAI');
+            if (titleLower.includes('prompt')) tags.push('Prompting');
+            if (titleLower.includes('generative')) tags.push('Gen AI');
+            if (titleLower.includes('data science')) tags.push('Data Science');
+            if (titleLower.includes('cybersecurity') || titleLower.includes('security')) tags.push('Security');
+            if (titleLower.includes('devops')) tags.push('DevOps');
+            if (titleLower.includes('agile') || titleLower.includes('scrum')) tags.push('Agile');
+            if (titleLower.includes('blockchain')) tags.push('Blockchain');
+            
+            // Category-based tags (fallback)
+            if (tags.length === 0) {
+                if (category.includes('WEB DEVELOPMENT')) tags.push('Web Dev');
+                if (category.includes('PROGRAMMING')) tags.push('Programming');
+                if (category.includes('TEACHING')) tags.push('Teaching');
+                if (category.includes('AI') || category.includes('ARTIFICIAL INTELLIGENCE')) tags.push('AI');
+                if (category.includes('CLOUD')) tags.push('Cloud');
+                if (category.includes('DATA SCIENCE')) tags.push('Data');
+                if (category.includes('CYBERSECURITY')) tags.push('Security');
+                if (category.includes('DEVOPS')) tags.push('DevOps');
+                if (category.includes('MOBILE')) tags.push('Mobile');
+                if (category.includes('NETWORKING')) tags.push('Networking');
+                if (category.includes('LANGUAGES')) tags.push('Language');
+                if (category.includes('MUSIC')) tags.push('Music');
+                if (category.includes('BUSINESS')) tags.push('Business');
+                if (category.includes('AGILE')) tags.push('Agile');
+            }
+            
+            // Remove AI and ML tags for Web Dev & Programming section
+            if (category.includes('SOFTWARE ENGINEERING, PROGRAMMING, WEB DEVELOPMENT, AND BLOCKCHAIN DEVELOPMENT')) {
+                ['AI', 'ML'].forEach(t => {
+                    const idx = tags.indexOf(t);
+                    if (idx !== -1) {
+                        tags.splice(idx, 1);
+                    }
+                });
+            }
+
+            // Blockchain & Crypto: remove AI tag, ensure Blockchain
+            if (category.includes('BLOCKCHAIN AND CRYPTO')) {
+                const aiIdx = tags.indexOf('AI');
+                if (aiIdx !== -1) tags.splice(aiIdx, 1);
+                if (!tags.includes('Blockchain')) tags.push('Blockchain');
+            }
+
+            // Electronic Engineering: replace generic Certificate with Electronic Engineering
+            if (category.includes('ELECTRONIC ENGINEERING')) {
+                const certIdx = tags.indexOf('Certificate');
+                if (certIdx !== -1) tags.splice(certIdx, 1);
+                if (!tags.includes('Electronic Engineering')) tags.push('Electronic Engineering');
+            }
+
+            // Udacity section: force Scholarship tag only
+            if (category.includes('UDACITY')) {
+                tags.length = 0;
+                tags.push('Scholarship');
+            }
+            
+            // Ensure at least one tag
+            if (tags.length === 0) tags.push('Certificate');
+            
+            // Return unique tags, max 3
+            return [...new Set(tags)].slice(0, 3);
+        }
+        
+        function createFeaturedCard(cert, category) {
+            const tags = generateTags(cert.title, category);
+            let gradientClass = '';
+            let description = 'Comprehensive certification demonstrating advanced expertise and practical skills.';
+            
+            if (category.includes('AI')) gradientClass = 'ai-themed';
+            
+            if (cert.subcategory.includes('Skill Path')) {
+                description = 'Structured learning path covering multiple technologies and practical projects to build job-ready skills.';
+            } else if (cert.subcategory.includes('Skill Track')) {
+                description = 'Focused skill track combining multiple courses to master specific technologies and frameworks.';
+            } else if (cert.subcategory.includes('Professional Certification')) {
+                description = 'Professional certification demonstrating comprehensive expertise and industry-recognized competency.';
+            } else if (cert.subcategory.includes('Specialization')) {
+                description = 'Advanced specialization program covering in-depth knowledge and practical applications.';
+            } else if (cert.subcategory.includes('Career Path')) {
+                description = 'Complete career path program designed to prepare for professional roles in the industry.';
+            } else if (cert.subcategory.includes('Developer Certification')) {
+                description = 'Developer certification validating end-to-end web development skills through real-world projects.';
+            }
+            
+            return `
+                <div class="featured-cert ${gradientClass}">
+                    <div class="featured-cert-content">
+                        <div class="featured-badge">${cert.subcategory || 'FEATURED'}</div>
+                        <h3>${cert.title}</h3>
+                        <p class="featured-org">${cert.organization}</p>
+                        <p class="featured-desc">${description}</p>
+                        <a href="${cert.link}" target="_blank" class="btn-primary">
+                            <i class="fas fa-certificate"></i> View Certification
+                        </a>
+                    </div>
+                    <div class="featured-cert-image">
+                        <img src="${cert.image}" alt="${cert.title}">
+                    </div>
+                </div>
+            `;
+        }
+        
+        fetch('./certificates_data.json')
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById('certificates-container');
+                Object.keys(data).forEach(category => {
+                    const certs = data[category];
+                    const featured = certs.filter(c => c.subcategory && 
+                        (c.subcategory.includes('Specialization') || 
+                         c.subcategory.includes('Professional Certification') ||
+                         c.subcategory.includes('Career Path') ||
+                         c.subcategory.includes('Skill Path') ||
+                         c.subcategory.includes('Skill Track') ||
+                         c.subcategory.includes('Developer Certification')));
+                    const regular = certs.filter(c => !featured.includes(c));
+                    
+                    const section = document.createElement('section');
+                    section.className = 'certificate-section';
+                    const categorySlug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                    section.setAttribute('data-category', categorySlug);
+                    
+                    let html = `
+                        <div class="section-header">
+                            <h2 class="category-title"><i class="fas fa-folder"></i> ${category}</h2>
+                            <span class="cert-count">${certs.length} Certificate${certs.length !== 1 ? 's' : ''}</span>
+                        </div>
+                    `;
+                    
+                    // Add featured cards
+                    featured.forEach(cert => {
+                        html += createFeaturedCard(cert, category);
+                    });
+                    
+                    // Add regular certificates
+                    if (regular.length > 0) {
+                        html += `<div class="certificates-grid">`;
+                        regular.forEach((cert, idx) => {
+                            const tags = generateTags(cert.title, category);
+                            html += `
+                                <div class="certificate-card" data-aos="fade-up" data-aos-delay="${Math.min(idx * 50, 500)}">
+                                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                                    <div class="cert-image">
+                                        <img src="${cert.image}" alt="${cert.title}">
+                                        <div class="cert-overlay">
+                                            <a href="${cert.link}" target="_blank" class="cert-link">
+                                                <i class="fas fa-external-link-alt"></i> View Certificate
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cert-content">
+                                        <h3 class="cert-title">${cert.title}</h3>
+                                        <p class="cert-org">${cert.organization}</p>
+                                        <div class="cert-tags">${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+                                    </div>
+                                </div>
+                            `;
+                        });
+                        html += `</div>`;
+                    }
+                    
+                    section.innerHTML = html;
+                    container.appendChild(section);
+                });
+                container.querySelectorAll('[data-aos]').forEach(el => el.classList.add('aos-animate'));
+                
+                // Re-initialize filters after dynamic content loads
+                const chips = document.querySelectorAll('.chip');
+                const sections = document.querySelectorAll('.certificate-section');
+                
+                chips.forEach(chip => {
+                    chip.addEventListener('click', () => {
+                        const category = chip.getAttribute('data-category');
+                        chips.forEach(c => c.classList.remove('active'));
+                        chip.classList.add('active');
+                        
+                        if (category === 'all') {
+                            sections.forEach(s => s.style.display = '');
+                        } else {
+                            sections.forEach(s => {
+                                s.style.display = s.getAttribute('data-category') === category ? '' : 'none';
+                            });
+                        }
+                    });
+                });
+            });
+    </script>
 </body>
 </html>
