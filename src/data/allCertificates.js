@@ -6242,6 +6242,20 @@ export const allCertificates = [
     "link": "#certificate-449",
     "type": "certificate",
     "featured": false
+  },
+  {
+    "id": 450,
+    "image": "specialization-ai-foundations-for-everyone.jpg",
+    "title": "AI Foundations for Everyone Specialization",
+    "organization": "IBM",
+    "tags": [
+      "AI",
+      "Specialization"
+    ],
+    "category": "aiMachineLearning",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/N2CPDN4O3C4W",
+    "type": "specialization",
+    "featured": true
   }
 ];
 
