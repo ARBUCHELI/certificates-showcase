@@ -88,7 +88,7 @@
     },
     {
       "image": "./images-certificates/ai-foundations-for-everyone-specialization.1.png",
-      "link": "https://www.credly.com/earner/earned/share/184175b5-a855-4435-a45e-77c89ab815a6",
+      "link": "https://www.credly.com/badges/184175b5-a855-4435-a45e-77c89ab815a6/public_url",
       "organization": "IBM",
       "title": "AI Foundations for Everyone Specialization",
       "category": "BIG TECH BADGES"
@@ -2183,6 +2183,13 @@
     {
       "image": "./images-certificates/specialization-ai-foundations-for-everyone.jpg",
       "link": "https://www.coursera.org/account/accomplishments/specialization/N2CPDN4O3C4W",
+      "organization": "IBM",
+      "title": "AI Foundations for Everyone Specialization",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/ibm-foundations-for-everyone-specialization.jpg",
+      "link": "https://www.credly.com/badges/184175b5-a855-4435-a45e-77c89ab815a6/public_url",
       "organization": "IBM",
       "title": "AI Foundations for Everyone Specialization",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
