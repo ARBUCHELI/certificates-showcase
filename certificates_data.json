@@ -2689,6 +2689,20 @@
       "organization": "IBM",
       "title": "Chatbot Building Essentials with IBM watsonx Assistant (V2)",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/ibm-python-for-data-science-ai-and-development.jpg",
+      "link": "https://coursera.org/share/107e9bd6bead15dd4a168c8b95cb1c38",
+      "organization": "IBM",
+      "title": "Python for Data Science, AI & Development",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/credly-python-for-data-science-and-ai.jpg",
+      "link": "https://www.credly.com/badges/b67958a4-470c-48bc-98c2-4db9282425bf/public_url",
+      "organization": "IBM",
+      "title": "Python for Data Science and AI",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
