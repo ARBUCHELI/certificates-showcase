@@ -92,6 +92,13 @@
       "organization": "IBM",
       "title": "AI Foundations for Everyone Specialization",
       "category": "BIG TECH BADGES"
+    },
+    {
+      "image": "./images-certificates/python-for-data-science-and-ai.png",
+      "link": "https://www.credly.com/badges/b67958a4-470c-48bc-98c2-4db9282425bf/public_url",
+      "organization": "IBM",
+      "title": "Python for Data Science and AI",
+      "category": "BIG TECH BADGES"
     }
   ],
   "PROGRAMMING AND CORE COMPUTER SCIENCE": [
