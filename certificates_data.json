@@ -99,6 +99,13 @@
       "organization": "IBM",
       "title": "Python for Data Science and AI",
       "category": "BIG TECH BADGES"
+    },
+    {
+      "image": "./images-certificates/google-ai-fundamentals.png",
+      "link": "https://www.credly.com/badges/323d527f-09f1-4243-91f6-13c24333dc1f/public_url",
+      "organization": "GOOGLE",
+      "title": "Google AI Fundamentals",
+      "category": "BIG TECH BADGES"
     }
   ],
   "PROGRAMMING AND CORE COMPUTER SCIENCE": [
