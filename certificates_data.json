@@ -2767,11 +2767,18 @@
       "title": "AI Fundamentals",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
-     {
+    {
       "image": "./images-certificates/credly-google-ai-for-brainstorming-and-planning.jpg",
       "link": "https://www.credly.com/badges/5fa83002-e5dc-4ca2-8dc4-daaab9d2d063/public_url",
       "organization": "GOOGLE",
       "title": "Google AI for Brainstorming and Planning",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/google-ai-for-brainstorming-and-planning.jpg",
+      "link": "https://coursera.org/share/d1a879b942f79b2eb23052b547778a44",
+      "organization": "GOOGLE",
+      "title": "AI for Brainstorming and Planning",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
