@@ -2808,6 +2808,13 @@
       "organization": "GOOGLE",
       "title": "AI for Writing and Communicating",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/duke-university-introduction-to-retrieval-augmented-generation-rag.jpg",
+      "link": "https://coursera.org/share/be9416525cd6d4920feffe3ab074cd41",
+      "organization": "DUKE UNIVERSITY",
+      "title": "Introduction to Retrieval Augmented Generation (RAG)",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
