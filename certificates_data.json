@@ -2822,6 +2822,13 @@
       "organization": "DUKE UNIVERSITY",
       "title": "Introduction to Retrieval Augmented Generation (RAG)",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/google-ai-for-data-analysis.jpg",
+      "link": "https://coursera.org/share/cb5f5540072709ac685e75c5738dd51e",
+      "organization": "GOOGLE",
+      "title": "AI for Data Analysis",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
