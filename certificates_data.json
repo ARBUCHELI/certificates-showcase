@@ -120,6 +120,13 @@
       "organization": "GOOGLE",
       "title": "Google AI for Research and Insights",
       "category": "BIG TECH BADGES"
+    },
+    {
+      "image": "./images-certificates/google-ai-for-app-building.png",
+      "link": "https://www.credly.com/badges/080a7dc4-78e9-40d5-8296-42b4c23342a6/public_url",
+      "organization": "GOOGLE",
+      "title": "Google AI for App Building",
+      "category": "BIG TECH BADGES"
     }
   ],
   "PROGRAMMING AND CORE COMPUTER SCIENCE": [
