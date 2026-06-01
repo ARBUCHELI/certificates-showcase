@@ -2707,7 +2707,7 @@
     {
       "image": "./images-certificates/google-dialogflow-cx-bot-building-basics.jpg",
       "link": "https://coursera.org/share/72a2a15d06c19084e52ebeaef95914cb",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Dialogflow CX: Bot Building Basics",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
@@ -2875,7 +2875,7 @@
     {
       "image": "./images-certificates/gen-ai-beyond-the-chatbot.jpg",
       "link": "https://coursera.org/share/d37c1b5bec2ffca908f987bb91d0fc2f",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gen AI: Beyond the Chatbot",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
@@ -2896,29 +2896,36 @@
     {
       "image": "./images-certificates/google-cloud-training-gen-ai-unlock-foundational-concepts.jpg",
       "link": "https://www.coursera.org/account/accomplishments/verify/NG7YAS4XD8EG",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gen AI: Unlock Foundational Concepts",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
     {
       "image": "./images-certificates/gen-ai-navigate-the-landscape.jpg",
       "link": "https://coursera.org/share/67b3d40966a72c2fe0973f323fbdbce7",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gen AI: Navigate the Landscape",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
     {
       "image": "./images-certificates/gen-ai-apps-transform-your-work.jpg",
       "link": "https://coursera.org/share/e427ee6c0b0060e457f8af1dc7d212d7",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gen AI Apps: Transform Your Work",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
     {
       "image": "./images-certificates/gen-ai-agents-transform-your-organization.jpg",
       "link": "https://coursera.org/share/945096c71a8b5b2213edffb3db8c7509",
-      "organization": "GOOGLE CLOUD",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gen AI Agents: Transform Your Organization",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/google-generative-ai-leader-professional-certificate.jpg",
+      "link": "https://coursera.org/share/1ea2eecd3925305cb899d2327c2dca60",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
+      "title": "Generative AI Leader Professional Certificate",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
