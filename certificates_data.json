@@ -2948,6 +2948,13 @@
       "organization": "DATACAMP",
       "title": "AI Agent Fundamentals",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/google-cloud-gemini-for-end-to-end-sdlc.jpg",
+      "link": "https://coursera.org/share/b75b43bc5f13dd3e259ba182d1a36baf",
+      "organization": "GOOGLE CLOUD TRAINING ONLIN",
+      "title": "Gemini for end-to-end SDLC",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
