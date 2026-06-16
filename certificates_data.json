@@ -148,6 +148,13 @@
       "organization": "MONGODB",
       "title": "AI and Innovation: How MongoDB Enables a Resilient AI Strategy",
       "category": "BIG TECH BADGES"
+    },
+    {
+      "image": "./images-certificates/building-rag-apps-using-mongodb.png",
+      "link": "https://www.credly.com/badges/f40f666f-3c43-4c01-aca0-3695fbcabb25/public_url",
+      "organization": "MONGODB",
+      "title": "Building RAG Apps Using MongoDB",
+      "category": "BIG TECH BADGES"
     }
   ],
   "PROGRAMMING AND CORE COMPUTER SCIENCE": [
