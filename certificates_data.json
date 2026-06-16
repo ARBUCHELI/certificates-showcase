@@ -3004,6 +3004,13 @@
       "organization": "MONGODB",
       "title": "AI and Innovation: How MongoDB Enables a Resilient AI Strategy",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/building-rag-apps-using-mongodb.jpg",
+      "link": "https://www.credly.com/badges/f40f666f-3c43-4c01-aca0-3695fbcabb25/public_url",
+      "organization": "MONGODB",
+      "title": "Building RAG Apps Using MongoDB",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
