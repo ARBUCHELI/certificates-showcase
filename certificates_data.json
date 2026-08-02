@@ -3032,6 +3032,13 @@
       "organization": "MONGODB",
       "title": "Memory for AI Applications with MongoDB",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/developing-llm-applications-with-langchain.jpg",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/2de4f4a032103da04a72a5fee6414a9f1739b269?raw=1",
+      "organization": "DATACAMP",
+      "title": "Developing LLM Applications with LangChain",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
