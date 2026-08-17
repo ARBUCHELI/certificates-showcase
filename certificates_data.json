@@ -3053,6 +3053,13 @@
       "organization": "DATACAMP",
       "title": "Understanding the EU AI Act",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/genai-basics-how-llms-work.jpg",
+      "link": "https://coursera.org/share/ef369eac0cba2806f9ff9ec350327fb4",
+      "organization": "UNIVERSITY OF DUKE",
+      "title": "GenAI Basics - How LLMs Work",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
