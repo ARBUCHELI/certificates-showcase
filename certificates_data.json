@@ -3060,6 +3060,13 @@
       "organization": "UNIVERSITY OF DUKE",
       "title": "GenAI Basics - How LLMs Work",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/local-llms-with-llamafile.jpg",
+      "link": "https://coursera.org/share/04b529b7ce2cd8d047c6026612947c5d",
+      "organization": "UNIVERSITY OF DUKE",
+      "title": "Local LLMs with llamafile",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
