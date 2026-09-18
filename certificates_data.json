@@ -2987,7 +2987,7 @@
     {
       "image": "./images-certificates/google-cloud-gemini-for-end-to-end-sdlc.jpg",
       "link": "https://coursera.org/share/b75b43bc5f13dd3e259ba182d1a36baf",
-      "organization": "GOOGLE CLOUD TRAINING ONLIN",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Gemini for end-to-end SDLC",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     },
@@ -3171,6 +3171,13 @@
       "link": "https://www.datacamp.com/statement-of-accomplishment/track/e1495eeab8cdbc5b1c9fc27eccd908725de50413?raw=1",
       "organization": "DATACAMP",
       "title": "Develop Agents with Agent Development Kit (ADK)",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/liftoff-with-google-antigravity-build-a-video-game-with-ai.jpg",
+      "link": "https://coursera.org/share/dc253603dcfb55c5e025d925bc75f718",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
+      "title": "Liftoff with Google Antigravity: Build a Video Game with AI",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
