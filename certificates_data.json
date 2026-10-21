@@ -3249,7 +3249,14 @@
       "organization": "DATACAMP",
       "title": "Google: Build and Deploy Agents in Production",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
-    }
+    },
+    {
+      "image": "./images-certificates/google-cloud-training-build-and-deploy-agents-in-production.jpg",
+      "link": "https://coursera.org/share/96d088498213e5f7a8bcbb33a867ba0b",
+      "organization": "GOOGLE CLOUD TRAINING ONLINE",
+      "title": "Build and Deploy Agents in Production",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
   ],
   "CLOUD COMPUTING": [
     {
