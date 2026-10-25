@@ -2002,6 +2002,14 @@
   ],
   "DATA SCIENCE, ARTIFICIAL INTELLIGENCE, COMPUTER VISION, AND MACHINE LEARNING": [
     {
+      "image": "./images-certificates/datacamp-python-programming-fundamentals.jpg",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/track/5aa2bc1a4bd80d25537d7121c22b6be4fa4f12b8?raw=1",
+      "organization": "DATACAMP",
+      "title": "Python Programming Fundamentals",
+      "category": "DATA SCIENCE, ARTIFICIAL INTELLIGENCE, COMPUTER VISION, AND MACHINE LEARNING",
+      "subcategory": "Skill Track"
+    },
+    {
       "image": "./images-certificates/python-data-fundamentals.jpg",
       "link": "https://www.datacamp.com/statement-of-accomplishment/track/e3380b552ea345caba9a4ae5ea2efbe11a35db7b?raw=1",
       "organization": "DATACAMP",
