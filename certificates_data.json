@@ -3278,6 +3278,14 @@
       "organization": "GOOGLE CLOUD TRAINING ONLINE",
       "title": "Deploy Your First Agent",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/datacamp-deploy-production-ready-agents.jpg",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/track/15270eaa8af1f02ca5a9f0e52f70d966c9afc7ad?raw=1",
+      "organization": "DATACAMP",
+      "title": "Deploy Production-Ready Agents",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE",
+      "subcategory": "Skill Track"
     }
   ],
   "CLOUD COMPUTING": [
