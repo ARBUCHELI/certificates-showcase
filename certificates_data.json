@@ -3307,6 +3307,13 @@
       "organization": "AMAZON WEB SERVICES",
       "title": "Getting Started with AWS Generative AI for Developers",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/datacamp-introduction-to-amazon-bedrock.jpg",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/3d596e59cbe0ac3c27d1b34fda63ab990d21c2de?raw=1",
+      "organization": "DATACAMP",
+      "title": "Introduction to Amazon Bedrock",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
