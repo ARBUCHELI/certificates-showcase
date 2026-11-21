@@ -3364,6 +3364,13 @@
       "organization": "AMAZON WEB SERVICES",
       "title": "ML Engineer - Data Transformation and Feature Engineering",
       "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
+    },
+    {
+      "image": "./images-certificates/datacamp-retrieval-augmented-generation-rag-with-langchain.jpg",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/f049a48b638f8341cd0e72816c431eb89e105dbb?raw=1",
+      "organization": "DATACAMP",
+      "title": "Retrieval Augmented Generation (RAG) with LangChain",
+      "category": "AI APPLICATIONS DEVELOPMENT, AI AGENT DEVELOPMENT, AND GENERATIVE ARTIFICIAL INTELLIGENCE"
     }
   ],
   "CLOUD COMPUTING": [
